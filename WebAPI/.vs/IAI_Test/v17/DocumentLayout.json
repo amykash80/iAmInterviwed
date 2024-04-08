@@ -1,0 +1,679 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\lenovo\\Documents\\GitHub\\IAI_Test\\WebAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2659C848-5DE2-4197-AF4E-F6A5CC1F2A33}|IAI.BusinessService\\IAI.BusinessService.csproj|c:\\users\\lenovo\\documents\\github\\iai_test\\webapi\\iai.businessservice\\implementation\\emailhelperservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2659C848-5DE2-4197-AF4E-F6A5CC1F2A33}|IAI.BusinessService\\IAI.BusinessService.csproj|solutionrelative:iai.businessservice\\implementation\\emailhelperservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2659C848-5DE2-4197-AF4E-F6A5CC1F2A33}|IAI.BusinessService\\IAI.BusinessService.csproj|c:\\users\\lenovo\\documents\\github\\iai_test\\webapi\\iai.businessservice\\interface\\iemailhelperservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2659C848-5DE2-4197-AF4E-F6A5CC1F2A33}|IAI.BusinessService\\IAI.BusinessService.csproj|solutionrelative:iai.businessservice\\interface\\iemailhelperservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69C482E5-E949-4404-B182-F03CB56C587C}|IAI.Models\\IAI.Models.csproj|c:\\users\\lenovo\\documents\\github\\iai_test\\webapi\\iai.models\\models\\account\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69C482E5-E949-4404-B182-F03CB56C587C}|IAI.Models\\IAI.Models.csproj|solutionrelative:iai.models\\models\\account\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C197E53-0325-42A7-BBBF-9FCF634D2A61}|IAI.WebAPI\\IAI.WebAPI.csproj|c:\\users\\lenovo\\documents\\github\\iai_test\\webapi\\iai.webapi\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C197E53-0325-42A7-BBBF-9FCF634D2A61}|IAI.WebAPI\\IAI.WebAPI.csproj|solutionrelative:iai.webapi\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69C482E5-E949-4404-B182-F03CB56C587C}|IAI.Models\\IAI.Models.csproj|c:\\users\\lenovo\\documents\\github\\iai_test\\webapi\\iai.models\\models\\jwttokens\\usertokens.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69C482E5-E949-4404-B182-F03CB56C587C}|IAI.Models\\IAI.Models.csproj|solutionrelative:iai.models\\models\\jwttokens\\usertokens.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69C482E5-E949-4404-B182-F03CB56C587C}|IAI.Models\\IAI.Models.csproj|c:\\users\\lenovo\\documents\\github\\iai_test\\webapi\\iai.models\\models\\jwttokens\\jwtsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69C482E5-E949-4404-B182-F03CB56C587C}|IAI.Models\\IAI.Models.csproj|solutionrelative:iai.models\\models\\jwttokens\\jwtsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C197E53-0325-42A7-BBBF-9FCF634D2A61}|IAI.WebAPI\\IAI.WebAPI.csproj|c:\\users\\lenovo\\documents\\github\\iai_test\\webapi\\iai.webapi\\extensions\\addjwttokenservicesextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C197E53-0325-42A7-BBBF-9FCF634D2A61}|IAI.WebAPI\\IAI.WebAPI.csproj|solutionrelative:iai.webapi\\extensions\\addjwttokenservicesextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C197E53-0325-42A7-BBBF-9FCF634D2A61}|IAI.WebAPI\\IAI.WebAPI.csproj|c:\\users\\lenovo\\documents\\github\\iai_test\\webapi\\iai.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C197E53-0325-42A7-BBBF-9FCF634D2A61}|IAI.WebAPI\\IAI.WebAPI.csproj|solutionrelative:iai.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C197E53-0325-42A7-BBBF-9FCF634D2A61}|IAI.WebAPI\\IAI.WebAPI.csproj|c:\\users\\lenovo\\documents\\github\\iai_test\\webapi\\iai.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8C197E53-0325-42A7-BBBF-9FCF634D2A61}|IAI.WebAPI\\IAI.WebAPI.csproj|solutionrelative:iai.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2659C848-5DE2-4197-AF4E-F6A5CC1F2A33}|IAI.BusinessService\\IAI.BusinessService.csproj|c:\\users\\lenovo\\documents\\github\\iai_test\\webapi\\iai.businessservice\\implementation\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2659C848-5DE2-4197-AF4E-F6A5CC1F2A33}|IAI.BusinessService\\IAI.BusinessService.csproj|solutionrelative:iai.businessservice\\implementation\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69C482E5-E949-4404-B182-F03CB56C587C}|IAI.Models\\IAI.Models.csproj|c:\\users\\lenovo\\documents\\github\\iai_test\\webapi\\iai.models\\entities\\zoomaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69C482E5-E949-4404-B182-F03CB56C587C}|IAI.Models\\IAI.Models.csproj|solutionrelative:iai.models\\entities\\zoomaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2659C848-5DE2-4197-AF4E-F6A5CC1F2A33}|IAI.BusinessService\\IAI.BusinessService.csproj|c:\\users\\lenovo\\documents\\github\\iai_test\\webapi\\iai.businessservice\\jwthelpers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2659C848-5DE2-4197-AF4E-F6A5CC1F2A33}|IAI.BusinessService\\IAI.BusinessService.csproj|solutionrelative:iai.businessservice\\jwthelpers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69C482E5-E949-4404-B182-F03CB56C587C}|IAI.Models\\IAI.Models.csproj|c:\\users\\lenovo\\documents\\github\\iai_test\\webapi\\iai.models\\models\\usermastermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69C482E5-E949-4404-B182-F03CB56C587C}|IAI.Models\\IAI.Models.csproj|solutionrelative:iai.models\\models\\usermastermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2659C848-5DE2-4197-AF4E-F6A5CC1F2A33}|IAI.BusinessService\\IAI.BusinessService.csproj|c:\\users\\lenovo\\documents\\github\\iai_test\\webapi\\iai.businessservice\\implementation\\encryptdecryptservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2659C848-5DE2-4197-AF4E-F6A5CC1F2A33}|IAI.BusinessService\\IAI.BusinessService.csproj|solutionrelative:iai.businessservice\\implementation\\encryptdecryptservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69C482E5-E949-4404-B182-F03CB56C587C}|IAI.Models\\IAI.Models.csproj|c:\\users\\lenovo\\documents\\github\\iai_test\\webapi\\iai.models\\models\\userdetailsmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69C482E5-E949-4404-B182-F03CB56C587C}|IAI.Models\\IAI.Models.csproj|solutionrelative:iai.models\\models\\userdetailsmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69C482E5-E949-4404-B182-F03CB56C587C}|IAI.Models\\IAI.Models.csproj|c:\\users\\lenovo\\documents\\github\\iai_test\\webapi\\iai.models\\entities\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69C482E5-E949-4404-B182-F03CB56C587C}|IAI.Models\\IAI.Models.csproj|solutionrelative:iai.models\\entities\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69C482E5-E949-4404-B182-F03CB56C587C}|IAI.Models\\IAI.Models.csproj|c:\\users\\lenovo\\documents\\github\\iai_test\\webapi\\iai.models\\entities\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69C482E5-E949-4404-B182-F03CB56C587C}|IAI.Models\\IAI.Models.csproj|solutionrelative:iai.models\\entities\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A18F01F-B18F-421B-A034-96DD3AD35373}|IAI.Repositories\\IAI.Repositories.csproj|c:\\users\\lenovo\\documents\\github\\iai_test\\webapi\\iai.repositories\\implementation\\accountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A18F01F-B18F-421B-A034-96DD3AD35373}|IAI.Repositories\\IAI.Repositories.csproj|solutionrelative:iai.repositories\\implementation\\accountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2659C848-5DE2-4197-AF4E-F6A5CC1F2A33}|IAI.BusinessService\\IAI.BusinessService.csproj|c:\\users\\lenovo\\documents\\github\\iai_test\\webapi\\iai.businessservice\\implementation\\fileuploadservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2659C848-5DE2-4197-AF4E-F6A5CC1F2A33}|IAI.BusinessService\\IAI.BusinessService.csproj|solutionrelative:iai.businessservice\\implementation\\fileuploadservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69C482E5-E949-4404-B182-F03CB56C587C}|IAI.Models\\IAI.Models.csproj|c:\\users\\lenovo\\documents\\github\\iai_test\\webapi\\iai.models\\models\\iaibasemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69C482E5-E949-4404-B182-F03CB56C587C}|IAI.Models\\IAI.Models.csproj|solutionrelative:iai.models\\models\\iaibasemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69C482E5-E949-4404-B182-F03CB56C587C}|IAI.Models\\IAI.Models.csproj|c:\\users\\lenovo\\documents\\github\\iai_test\\webapi\\iai.models\\models\\rolemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69C482E5-E949-4404-B182-F03CB56C587C}|IAI.Models\\IAI.Models.csproj|solutionrelative:iai.models\\models\\rolemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69C482E5-E949-4404-B182-F03CB56C587C}|IAI.Models\\IAI.Models.csproj|c:\\users\\lenovo\\documents\\github\\iai_test\\webapi\\iai.models\\models\\primaryskillmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69C482E5-E949-4404-B182-F03CB56C587C}|IAI.Models\\IAI.Models.csproj|solutionrelative:iai.models\\models\\primaryskillmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69C482E5-E949-4404-B182-F03CB56C587C}|IAI.Models\\IAI.Models.csproj|c:\\users\\lenovo\\documents\\github\\iai_test\\webapi\\iai.models\\models\\authenticationmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69C482E5-E949-4404-B182-F03CB56C587C}|IAI.Models\\IAI.Models.csproj|solutionrelative:iai.models\\models\\authenticationmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69C482E5-E949-4404-B182-F03CB56C587C}|IAI.Models\\IAI.Models.csproj|c:\\users\\lenovo\\documents\\github\\iai_test\\webapi\\iai.models\\entities\\companyrequirement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69C482E5-E949-4404-B182-F03CB56C587C}|IAI.Models\\IAI.Models.csproj|solutionrelative:iai.models\\entities\\companyrequirement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69C482E5-E949-4404-B182-F03CB56C587C}|IAI.Models\\IAI.Models.csproj|c:\\users\\lenovo\\documents\\github\\iai_test\\webapi\\iai.models\\entities\\companyconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69C482E5-E949-4404-B182-F03CB56C587C}|IAI.Models\\IAI.Models.csproj|solutionrelative:iai.models\\entities\\companyconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2659C848-5DE2-4197-AF4E-F6A5CC1F2A33}|IAI.BusinessService\\IAI.BusinessService.csproj|c:\\users\\lenovo\\documents\\github\\iai_test\\webapi\\iai.businessservice\\interface\\iencryptdecryptservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2659C848-5DE2-4197-AF4E-F6A5CC1F2A33}|IAI.BusinessService\\IAI.BusinessService.csproj|solutionrelative:iai.businessservice\\interface\\iencryptdecryptservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2659C848-5DE2-4197-AF4E-F6A5CC1F2A33}|IAI.BusinessService\\IAI.BusinessService.csproj|c:\\users\\lenovo\\documents\\github\\iai_test\\webapi\\iai.businessservice\\interface\\iprimaryskillservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2659C848-5DE2-4197-AF4E-F6A5CC1F2A33}|IAI.BusinessService\\IAI.BusinessService.csproj|solutionrelative:iai.businessservice\\interface\\iprimaryskillservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2659C848-5DE2-4197-AF4E-F6A5CC1F2A33}|IAI.BusinessService\\IAI.BusinessService.csproj|c:\\users\\lenovo\\documents\\github\\iai_test\\webapi\\iai.businessservice\\interface\\irolemappingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2659C848-5DE2-4197-AF4E-F6A5CC1F2A33}|IAI.BusinessService\\IAI.BusinessService.csproj|solutionrelative:iai.businessservice\\interface\\irolemappingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A18F01F-B18F-421B-A034-96DD3AD35373}|IAI.Repositories\\IAI.Repositories.csproj|c:\\users\\lenovo\\documents\\github\\iai_test\\webapi\\iai.repositories\\implementation\\masterdatarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A18F01F-B18F-421B-A034-96DD3AD35373}|IAI.Repositories\\IAI.Repositories.csproj|solutionrelative:iai.repositories\\implementation\\masterdatarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A18F01F-B18F-421B-A034-96DD3AD35373}|IAI.Repositories\\IAI.Repositories.csproj|c:\\users\\lenovo\\documents\\github\\iai_test\\webapi\\iai.repositories\\interface\\icandidaterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A18F01F-B18F-421B-A034-96DD3AD35373}|IAI.Repositories\\IAI.Repositories.csproj|solutionrelative:iai.repositories\\interface\\icandidaterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A18F01F-B18F-421B-A034-96DD3AD35373}|IAI.Repositories\\IAI.Repositories.csproj|c:\\users\\lenovo\\documents\\github\\iai_test\\webapi\\iai.repositories\\interface\\irolemappingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A18F01F-B18F-421B-A034-96DD3AD35373}|IAI.Repositories\\IAI.Repositories.csproj|solutionrelative:iai.repositories\\interface\\irolemappingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C197E53-0325-42A7-BBBF-9FCF634D2A61}|IAI.WebAPI\\IAI.WebAPI.csproj|c:\\users\\lenovo\\documents\\github\\iai_test\\webapi\\iai.webapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8C197E53-0325-42A7-BBBF-9FCF634D2A61}|IAI.WebAPI\\IAI.WebAPI.csproj|solutionrelative:iai.webapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A18F01F-B18F-421B-A034-96DD3AD35373}|IAI.Repositories\\IAI.Repositories.csproj|c:\\users\\lenovo\\documents\\github\\iai_test\\webapi\\iai.repositories\\interface\\iprimaryskillrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A18F01F-B18F-421B-A034-96DD3AD35373}|IAI.Repositories\\IAI.Repositories.csproj|solutionrelative:iai.repositories\\interface\\iprimaryskillrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C197E53-0325-42A7-BBBF-9FCF634D2A61}|IAI.WebAPI\\IAI.WebAPI.csproj|c:\\users\\lenovo\\documents\\github\\iai_test\\webapi\\iai.webapi\\controllers\\encryptdecryptcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C197E53-0325-42A7-BBBF-9FCF634D2A61}|IAI.WebAPI\\IAI.WebAPI.csproj|solutionrelative:iai.webapi\\controllers\\encryptdecryptcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A18F01F-B18F-421B-A034-96DD3AD35373}|IAI.Repositories\\IAI.Repositories.csproj|c:\\users\\lenovo\\documents\\github\\iai_test\\webapi\\iai.repositories\\interface\\iaccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A18F01F-B18F-421B-A034-96DD3AD35373}|IAI.Repositories\\IAI.Repositories.csproj|solutionrelative:iai.repositories\\interface\\iaccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A18F01F-B18F-421B-A034-96DD3AD35373}|IAI.Repositories\\IAI.Repositories.csproj|c:\\users\\lenovo\\documents\\github\\iai_test\\webapi\\iai.repositories\\iaidbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A18F01F-B18F-421B-A034-96DD3AD35373}|IAI.Repositories\\IAI.Repositories.csproj|solutionrelative:iai.repositories\\iaidbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69C482E5-E949-4404-B182-F03CB56C587C}|IAI.Models\\IAI.Models.csproj|c:\\users\\lenovo\\documents\\github\\iai_test\\webapi\\iai.models\\entities\\interview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69C482E5-E949-4404-B182-F03CB56C587C}|IAI.Models\\IAI.Models.csproj|solutionrelative:iai.models\\entities\\interview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8C197E53-0325-42A7-BBBF-9FCF634D2A61}|IAI.WebAPI\\IAI.WebAPI.csproj|c:\\users\\lenovo\\documents\\github\\iai_test\\webapi\\iai.webapi\\controllers\\candidate\\candidatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C197E53-0325-42A7-BBBF-9FCF634D2A61}|IAI.WebAPI\\IAI.WebAPI.csproj|solutionrelative:iai.webapi\\controllers\\candidate\\candidatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A18F01F-B18F-421B-A034-96DD3AD35373}|IAI.Repositories\\IAI.Repositories.csproj|c:\\users\\lenovo\\documents\\github\\iai_test\\webapi\\iai.repositories\\implementation\\candidate\\candidatedashboardrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A18F01F-B18F-421B-A034-96DD3AD35373}|IAI.Repositories\\IAI.Repositories.csproj|solutionrelative:iai.repositories\\implementation\\candidate\\candidatedashboardrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69C482E5-E949-4404-B182-F03CB56C587C}|IAI.Models\\IAI.Models.csproj|c:\\users\\lenovo\\documents\\github\\iai_test\\webapi\\iai.models\\models\\candidate\\responses\\candidatedashboardmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69C482E5-E949-4404-B182-F03CB56C587C}|IAI.Models\\IAI.Models.csproj|solutionrelative:iai.models\\models\\candidate\\responses\\candidatedashboardmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2659C848-5DE2-4197-AF4E-F6A5CC1F2A33}|IAI.BusinessService\\IAI.BusinessService.csproj|c:\\users\\lenovo\\documents\\github\\iai_test\\webapi\\iai.businessservice\\implementation\\candidate\\candidateprofileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2659C848-5DE2-4197-AF4E-F6A5CC1F2A33}|IAI.BusinessService\\IAI.BusinessService.csproj|solutionrelative:iai.businessservice\\implementation\\candidate\\candidateprofileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoginModel.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Documents\\GitHub\\IAI_Test\\WebAPI\\IAI.Models\\Models\\Account\\LoginModel.cs",
+              "RelativeDocumentMoniker": "IAI.Models\\Models\\Account\\LoginModel.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Documents\\GitHub\\IAI_Test\\WebAPI\\IAI.Models\\Models\\Account\\LoginModel.cs",
+              "RelativeToolTip": "IAI.Models\\Models\\Account\\LoginModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T05:09:32.632Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmailHelperService.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Documents\\GitHub\\IAI_Test\\WebAPI\\IAI.BusinessService\\Implementation\\EmailHelperService.cs",
+              "RelativeDocumentMoniker": "IAI.BusinessService\\Implementation\\EmailHelperService.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Documents\\GitHub\\IAI_Test\\WebAPI\\IAI.BusinessService\\Implementation\\EmailHelperService.cs",
+              "RelativeToolTip": "IAI.BusinessService\\Implementation\\EmailHelperService.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAIwBgAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-26T09:05:02.277Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Documents\\GitHub\\IAI_Test\\WebAPI\\IAI.WebAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "IAI.WebAPI\\appsettings.json",
+              "ToolTip": "C:\\Users\\lenovo\\Documents\\GitHub\\IAI_Test\\WebAPI\\IAI.WebAPI\\appsettings.json",
+              "RelativeToolTip": "IAI.WebAPI\\appsettings.json",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACAAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-03-26T09:03:12.238Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Documents\\GitHub\\IAI_Test\\WebAPI\\IAI.WebAPI\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "IAI.WebAPI\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Documents\\GitHub\\IAI_Test\\WebAPI\\IAI.WebAPI\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "IAI.WebAPI\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAvwB0AAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-26T17:34:42.781Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AccountService.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Documents\\GitHub\\IAI_Test\\WebAPI\\IAI.BusinessService\\Implementation\\AccountService.cs",
+              "RelativeDocumentMoniker": "IAI.BusinessService\\Implementation\\AccountService.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Documents\\GitHub\\IAI_Test\\WebAPI\\IAI.BusinessService\\Implementation\\AccountService.cs",
+              "RelativeToolTip": "IAI.BusinessService\\Implementation\\AccountService.cs",
+              "ViewState": "AQIAADQAAAAAAAAAAAAEwEsAAABNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T06:44:11.437Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Documents\\GitHub\\IAI_Test\\WebAPI\\IAI.WebAPI\\Program.cs",
+              "RelativeDocumentMoniker": "IAI.WebAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Documents\\GitHub\\IAI_Test\\WebAPI\\IAI.WebAPI\\Program.cs",
+              "RelativeToolTip": "IAI.WebAPI\\Program.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABAAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-26T06:24:59.458Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IEmailHelperService.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Documents\\GitHub\\IAI_Test\\WebAPI\\IAI.BusinessService\\Interface\\IEmailHelperService.cs",
+              "RelativeDocumentMoniker": "IAI.BusinessService\\Interface\\IEmailHelperService.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Documents\\GitHub\\IAI_Test\\WebAPI\\IAI.BusinessService\\Interface\\IEmailHelperService.cs",
+              "RelativeToolTip": "IAI.BusinessService\\Interface\\IEmailHelperService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-26T09:04:24.709Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserTokens.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Documents\\GitHub\\IAI_Test\\WebAPI\\IAI.Models\\Models\\JWTTokens\\UserTokens.cs",
+              "RelativeDocumentMoniker": "IAI.Models\\Models\\JWTTokens\\UserTokens.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Documents\\GitHub\\IAI_Test\\WebAPI\\IAI.Models\\Models\\JWTTokens\\UserTokens.cs",
+              "RelativeToolTip": "IAI.Models\\Models\\JWTTokens\\UserTokens.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T05:08:05.146Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AddJWTTokenServicesExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Documents\\GitHub\\IAI_Test\\WebAPI\\IAI.WebAPI\\Extensions\\AddJWTTokenServicesExtensions.cs",
+              "RelativeDocumentMoniker": "IAI.WebAPI\\Extensions\\AddJWTTokenServicesExtensions.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Documents\\GitHub\\IAI_Test\\WebAPI\\IAI.WebAPI\\Extensions\\AddJWTTokenServicesExtensions.cs",
+              "RelativeToolTip": "IAI.WebAPI\\Extensions\\AddJWTTokenServicesExtensions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T04:09:28.07Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "JwtSettings.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Documents\\GitHub\\IAI_Test\\WebAPI\\IAI.Models\\Models\\JWTTokens\\JwtSettings.cs",
+              "RelativeDocumentMoniker": "IAI.Models\\Models\\JWTTokens\\JwtSettings.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Documents\\GitHub\\IAI_Test\\WebAPI\\IAI.Models\\Models\\JWTTokens\\JwtSettings.cs",
+              "RelativeToolTip": "IAI.Models\\Models\\JWTTokens\\JwtSettings.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAzwAMAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T04:08:51.228Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ZoomAccount.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Documents\\GitHub\\IAI_Test\\WebAPI\\IAI.Models\\Entities\\ZoomAccount.cs",
+              "RelativeDocumentMoniker": "IAI.Models\\Entities\\ZoomAccount.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Documents\\GitHub\\IAI_Test\\WebAPI\\IAI.Models\\Entities\\ZoomAccount.cs",
+              "RelativeToolTip": "IAI.Models\\Entities\\ZoomAccount.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADgvw4AAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T04:10:29.461Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "JwtHelpers.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Documents\\GitHub\\IAI_Test\\WebAPI\\IAI.BusinessService\\JwtHelpers.cs",
+              "RelativeDocumentMoniker": "IAI.BusinessService\\JwtHelpers.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Documents\\GitHub\\IAI_Test\\WebAPI\\IAI.BusinessService\\JwtHelpers.cs",
+              "RelativeToolTip": "IAI.BusinessService\\JwtHelpers.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAYwC4AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T04:10:51.645Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UserMasterModel.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Documents\\GitHub\\IAI_Test\\WebAPI\\IAI.Models\\Models\\UserMasterModel.cs",
+              "RelativeDocumentMoniker": "IAI.Models\\Models\\UserMasterModel.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Documents\\GitHub\\IAI_Test\\WebAPI\\IAI.Models\\Models\\UserMasterModel.cs",
+              "RelativeToolTip": "IAI.Models\\Models\\UserMasterModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T04:22:34.181Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "EncryptDecryptService.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Documents\\GitHub\\IAI_Test\\WebAPI\\IAI.BusinessService\\Implementation\\EncryptDecryptService.cs",
+              "RelativeDocumentMoniker": "IAI.BusinessService\\Implementation\\EncryptDecryptService.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Documents\\GitHub\\IAI_Test\\WebAPI\\IAI.BusinessService\\Implementation\\EncryptDecryptService.cs",
+              "RelativeToolTip": "IAI.BusinessService\\Implementation\\EncryptDecryptService.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAAACUAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T06:51:55.564Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UserDetailsModel.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Documents\\GitHub\\IAI_Test\\WebAPI\\IAI.Models\\Models\\UserDetailsModel.cs",
+              "RelativeDocumentMoniker": "IAI.Models\\Models\\UserDetailsModel.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Documents\\GitHub\\IAI_Test\\WebAPI\\IAI.Models\\Models\\UserDetailsModel.cs",
+              "RelativeToolTip": "IAI.Models\\Models\\UserDetailsModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwBAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T08:49:47.701Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "RoleModel.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Documents\\GitHub\\IAI_Test\\WebAPI\\IAI.Models\\Models\\RoleModel.cs",
+              "RelativeDocumentMoniker": "IAI.Models\\Models\\RoleModel.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Documents\\GitHub\\IAI_Test\\WebAPI\\IAI.Models\\Models\\RoleModel.cs",
+              "RelativeToolTip": "IAI.Models\\Models\\RoleModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T08:49:43.746Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "FileUploadService.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Documents\\GitHub\\IAI_Test\\WebAPI\\IAI.BusinessService\\Implementation\\FileUploadService.cs",
+              "RelativeDocumentMoniker": "IAI.BusinessService\\Implementation\\FileUploadService.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Documents\\GitHub\\IAI_Test\\WebAPI\\IAI.BusinessService\\Implementation\\FileUploadService.cs",
+              "RelativeToolTip": "IAI.BusinessService\\Implementation\\FileUploadService.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAYwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T08:56:20.317Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "PrimarySkillModel.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Documents\\GitHub\\IAI_Test\\WebAPI\\IAI.Models\\Models\\PrimarySkillModel.cs",
+              "RelativeDocumentMoniker": "IAI.Models\\Models\\PrimarySkillModel.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Documents\\GitHub\\IAI_Test\\WebAPI\\IAI.Models\\Models\\PrimarySkillModel.cs",
+              "RelativeToolTip": "IAI.Models\\Models\\PrimarySkillModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T08:49:42.171Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IAIBaseModel.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Documents\\GitHub\\IAI_Test\\WebAPI\\IAI.Models\\Models\\IAIBaseModel.cs",
+              "RelativeDocumentMoniker": "IAI.Models\\Models\\IAIBaseModel.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Documents\\GitHub\\IAI_Test\\WebAPI\\IAI.Models\\Models\\IAIBaseModel.cs",
+              "RelativeToolTip": "IAI.Models\\Models\\IAIBaseModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T08:49:41.091Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "CompanyRequirement.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Documents\\GitHub\\IAI_Test\\WebAPI\\IAI.Models\\Entities\\CompanyRequirement.cs",
+              "RelativeDocumentMoniker": "IAI.Models\\Entities\\CompanyRequirement.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Documents\\GitHub\\IAI_Test\\WebAPI\\IAI.Models\\Entities\\CompanyRequirement.cs",
+              "RelativeToolTip": "IAI.Models\\Entities\\CompanyRequirement.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T08:49:29.547Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Role.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Documents\\GitHub\\IAI_Test\\WebAPI\\IAI.Models\\Entities\\Role.cs",
+              "RelativeDocumentMoniker": "IAI.Models\\Entities\\Role.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Documents\\GitHub\\IAI_Test\\WebAPI\\IAI.Models\\Entities\\Role.cs",
+              "RelativeToolTip": "IAI.Models\\Entities\\Role.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T09:50:36.774Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UserRole.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Documents\\GitHub\\IAI_Test\\WebAPI\\IAI.Models\\Entities\\UserRole.cs",
+              "RelativeDocumentMoniker": "IAI.Models\\Entities\\UserRole.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Documents\\GitHub\\IAI_Test\\WebAPI\\IAI.Models\\Entities\\UserRole.cs",
+              "RelativeToolTip": "IAI.Models\\Entities\\UserRole.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T09:50:47.956Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AccountRepository.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Documents\\GitHub\\IAI_Test\\WebAPI\\IAI.Repositories\\Implementation\\AccountRepository.cs",
+              "RelativeDocumentMoniker": "IAI.Repositories\\Implementation\\AccountRepository.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Documents\\GitHub\\IAI_Test\\WebAPI\\IAI.Repositories\\Implementation\\AccountRepository.cs",
+              "RelativeToolTip": "IAI.Repositories\\Implementation\\AccountRepository.cs",
+              "ViewState": "AQIAAEkBAAAAAAAAAAAuwFUBAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-26T06:24:59.215Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "CompanyConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Documents\\GitHub\\IAI_Test\\WebAPI\\IAI.Models\\Entities\\CompanyConfiguration.cs",
+              "RelativeDocumentMoniker": "IAI.Models\\Entities\\CompanyConfiguration.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Documents\\GitHub\\IAI_Test\\WebAPI\\IAI.Models\\Entities\\CompanyConfiguration.cs",
+              "RelativeToolTip": "IAI.Models\\Entities\\CompanyConfiguration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T08:49:21.005Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "AuthenticationModel.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Documents\\GitHub\\IAI_Test\\WebAPI\\IAI.Models\\Models\\AuthenticationModel.cs",
+              "RelativeDocumentMoniker": "IAI.Models\\Models\\AuthenticationModel.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Documents\\GitHub\\IAI_Test\\WebAPI\\IAI.Models\\Models\\AuthenticationModel.cs",
+              "RelativeToolTip": "IAI.Models\\Models\\AuthenticationModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T06:38:38.486Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "IEncryptDecryptService.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Documents\\GitHub\\IAI_Test\\WebAPI\\IAI.BusinessService\\Interface\\IEncryptDecryptService.cs",
+              "RelativeDocumentMoniker": "IAI.BusinessService\\Interface\\IEncryptDecryptService.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Documents\\GitHub\\IAI_Test\\WebAPI\\IAI.BusinessService\\Interface\\IEncryptDecryptService.cs",
+              "RelativeToolTip": "IAI.BusinessService\\Interface\\IEncryptDecryptService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T06:50:23.685Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "IPrimarySkillService.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Documents\\GitHub\\IAI_Test\\WebAPI\\IAI.BusinessService\\Interface\\IPrimarySkillService.cs",
+              "RelativeDocumentMoniker": "IAI.BusinessService\\Interface\\IPrimarySkillService.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Documents\\GitHub\\IAI_Test\\WebAPI\\IAI.BusinessService\\Interface\\IPrimarySkillService.cs",
+              "RelativeToolTip": "IAI.BusinessService\\Interface\\IPrimarySkillService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T06:50:19.989Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "IRoleMappingService.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Documents\\GitHub\\IAI_Test\\WebAPI\\IAI.BusinessService\\Interface\\IRoleMappingService.cs",
+              "RelativeDocumentMoniker": "IAI.BusinessService\\Interface\\IRoleMappingService.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Documents\\GitHub\\IAI_Test\\WebAPI\\IAI.BusinessService\\Interface\\IRoleMappingService.cs",
+              "RelativeToolTip": "IAI.BusinessService\\Interface\\IRoleMappingService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T06:50:15.087Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "MasterDataRepository.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Documents\\GitHub\\IAI_Test\\WebAPI\\IAI.Repositories\\Implementation\\MasterDataRepository.cs",
+              "RelativeDocumentMoniker": "IAI.Repositories\\Implementation\\MasterDataRepository.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Documents\\GitHub\\IAI_Test\\WebAPI\\IAI.Repositories\\Implementation\\MasterDataRepository.cs",
+              "RelativeToolTip": "IAI.Repositories\\Implementation\\MasterDataRepository.cs",
+              "ViewState": "AQIAAFcAAAAAAAAAAAAIwGYAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T06:49:06.554Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Documents\\GitHub\\IAI_Test\\WebAPI\\IAI.WebAPI\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "IAI.WebAPI\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\lenovo\\Documents\\GitHub\\IAI_Test\\WebAPI\\IAI.WebAPI\\appsettings.Development.json",
+              "RelativeToolTip": "IAI.WebAPI\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-03-26T09:03:10.066Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "IRoleMappingRepository.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Documents\\GitHub\\IAI_Test\\WebAPI\\IAI.Repositories\\Interface\\IRoleMappingRepository.cs",
+              "RelativeDocumentMoniker": "IAI.Repositories\\Interface\\IRoleMappingRepository.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Documents\\GitHub\\IAI_Test\\WebAPI\\IAI.Repositories\\Interface\\IRoleMappingRepository.cs",
+              "RelativeToolTip": "IAI.Repositories\\Interface\\IRoleMappingRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-26T17:37:57.204Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ICandidateRepository.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Documents\\GitHub\\IAI_Test\\WebAPI\\IAI.Repositories\\Interface\\ICandidateRepository.cs",
+              "RelativeDocumentMoniker": "IAI.Repositories\\Interface\\ICandidateRepository.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Documents\\GitHub\\IAI_Test\\WebAPI\\IAI.Repositories\\Interface\\ICandidateRepository.cs",
+              "RelativeToolTip": "IAI.Repositories\\Interface\\ICandidateRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-26T17:37:25.493Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "IPrimarySkillRepository.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Documents\\GitHub\\IAI_Test\\WebAPI\\IAI.Repositories\\Interface\\IPrimarySkillRepository.cs",
+              "RelativeDocumentMoniker": "IAI.Repositories\\Interface\\IPrimarySkillRepository.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Documents\\GitHub\\IAI_Test\\WebAPI\\IAI.Repositories\\Interface\\IPrimarySkillRepository.cs",
+              "RelativeToolTip": "IAI.Repositories\\Interface\\IPrimarySkillRepository.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAAAAwAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-26T17:36:59.71Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "EncryptDecryptController.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Documents\\GitHub\\IAI_Test\\WebAPI\\IAI.WebAPI\\Controllers\\EncryptDecryptController.cs",
+              "RelativeDocumentMoniker": "IAI.WebAPI\\Controllers\\EncryptDecryptController.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Documents\\GitHub\\IAI_Test\\WebAPI\\IAI.WebAPI\\Controllers\\EncryptDecryptController.cs",
+              "RelativeToolTip": "IAI.WebAPI\\Controllers\\EncryptDecryptController.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-26T17:35:58.636Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "IAccountRepository.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Documents\\GitHub\\IAI_Test\\WebAPI\\IAI.Repositories\\Interface\\IAccountRepository.cs",
+              "RelativeDocumentMoniker": "IAI.Repositories\\Interface\\IAccountRepository.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Documents\\GitHub\\IAI_Test\\WebAPI\\IAI.Repositories\\Interface\\IAccountRepository.cs",
+              "RelativeToolTip": "IAI.Repositories\\Interface\\IAccountRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-26T17:37:31.046Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "IAIDBContext.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Documents\\GitHub\\IAI_Test\\WebAPI\\IAI.Repositories\\IAIDBContext.cs",
+              "RelativeDocumentMoniker": "IAI.Repositories\\IAIDBContext.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Documents\\GitHub\\IAI_Test\\WebAPI\\IAI.Repositories\\IAIDBContext.cs",
+              "RelativeToolTip": "IAI.Repositories\\IAIDBContext.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAACAAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-26T06:24:59.441Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Interview.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Documents\\GitHub\\IAI_Test\\WebAPI\\IAI.Models\\Entities\\Interview.cs",
+              "RelativeDocumentMoniker": "IAI.Models\\Entities\\Interview.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Documents\\GitHub\\IAI_Test\\WebAPI\\IAI.Models\\Entities\\Interview.cs",
+              "RelativeToolTip": "IAI.Models\\Entities\\Interview.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAzwBMAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-26T06:24:59.446Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "CandidateController.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Documents\\GitHub\\IAI_Test\\WebAPI\\IAI.WebAPI\\Controllers\\Candidate\\CandidateController.cs",
+              "RelativeDocumentMoniker": "IAI.WebAPI\\Controllers\\Candidate\\CandidateController.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Documents\\GitHub\\IAI_Test\\WebAPI\\IAI.WebAPI\\Controllers\\Candidate\\CandidateController.cs",
+              "RelativeToolTip": "IAI.WebAPI\\Controllers\\Candidate\\CandidateController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-26T06:24:59.451Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "CandidateDashboardRepository.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Documents\\GitHub\\IAI_Test\\WebAPI\\IAI.Repositories\\Implementation\\Candidate\\CandidateDashboardRepository.cs",
+              "RelativeDocumentMoniker": "IAI.Repositories\\Implementation\\Candidate\\CandidateDashboardRepository.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Documents\\GitHub\\IAI_Test\\WebAPI\\IAI.Repositories\\Implementation\\Candidate\\CandidateDashboardRepository.cs",
+              "RelativeToolTip": "IAI.Repositories\\Implementation\\Candidate\\CandidateDashboardRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-26T06:24:59.455Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "CandidateProfileService.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Documents\\GitHub\\IAI_Test\\WebAPI\\IAI.BusinessService\\Implementation\\Candidate\\CandidateProfileService.cs",
+              "RelativeDocumentMoniker": "IAI.BusinessService\\Implementation\\Candidate\\CandidateProfileService.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Documents\\GitHub\\IAI_Test\\WebAPI\\IAI.BusinessService\\Implementation\\Candidate\\CandidateProfileService.cs",
+              "RelativeToolTip": "IAI.BusinessService\\Implementation\\Candidate\\CandidateProfileService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-26T06:24:59.462Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "CandidateDashboardModel.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Documents\\GitHub\\IAI_Test\\WebAPI\\IAI.Models\\Models\\Candidate\\Responses\\CandidateDashboardModel.cs",
+              "RelativeDocumentMoniker": "IAI.Models\\Models\\Candidate\\Responses\\CandidateDashboardModel.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Documents\\GitHub\\IAI_Test\\WebAPI\\IAI.Models\\Models\\Candidate\\Responses\\CandidateDashboardModel.cs",
+              "RelativeToolTip": "IAI.Models\\Models\\Candidate\\Responses\\CandidateDashboardModel.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAxwDIAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-26T06:24:59.465Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

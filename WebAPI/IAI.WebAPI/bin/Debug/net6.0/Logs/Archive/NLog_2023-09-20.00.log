@@ -1,0 +1,924 @@
+2023-09-19 10:54:42.8084 - INFO: User profile is available. Using 'C:\Users\Dell\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 10:54:43.4675 - INFO: Now listening on: https://localhost:7254 ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 10:54:43.4675 - INFO: Now listening on: http://localhost:5254 ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 10:54:43.4695 - INFO: Application started. Press Ctrl+C to shut down. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 10:54:43.4695 - INFO: Hosting environment: Development ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 10:54:43.4695 - INFO: Content root path: D:\Antern\IAmInterviewed\IAmInterviewed\Code\IAI\WebAPI\IAI.WebAPI\ ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 10:54:44.6127 - INFO: Request starting HTTP/2 GET https://localhost:7254/swagger/index.html - - ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 10:54:45.8654 - INFO: Request finished HTTP/2 GET https://localhost:7254/swagger/index.html - - - 200 - text/html;charset=utf-8 1255.1149ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 10:54:45.9388 - INFO: Request starting HTTP/2 GET https://localhost:7254/_framework/aspnetcore-browser-refresh.js - - ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 10:54:45.9388 - INFO: Request finished HTTP/2 GET https://localhost:7254/_framework/aspnetcore-browser-refresh.js - - - 200 11990 application/javascript;+charset=utf-8 7.9970ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 10:54:45.9889 - INFO: Request starting HTTP/2 GET https://localhost:7254/_vs/browserLink - - ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 10:54:46.1019 - INFO: Request finished HTTP/2 GET https://localhost:7254/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 112.9995ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 10:54:46.2482 - INFO: Request starting HTTP/2 GET https://localhost:7254/swagger/v1/swagger.json - - ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 10:54:46.4895 - INFO: Request finished HTTP/2 GET https://localhost:7254/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 241.2611ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 10:55:08.7140 - INFO: Request starting HTTP/2 OPTIONS https://localhost:7254/api/Account/token - - ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 10:55:08.7247 - INFO: CORS policy execution successful. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 10:55:08.7247 - INFO: Request finished HTTP/2 OPTIONS https://localhost:7254/api/Account/token - - - 204 - - 17.9592ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 10:55:08.7337 - INFO: Request starting HTTP/2 POST https://localhost:7254/api/Account/token application/json 66 ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 10:55:08.7337 - INFO: CORS policy execution successful. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 10:55:09.2803 - INFO: Executing endpoint 'IAI.WebAPI.Controllers.AccountController.GetToken (IAI.WebAPI)' ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 10:55:09.3281 - INFO: Route matched with {action = "GetToken", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetToken(IAI.Models.Models.Account.LoginModel) on controller IAI.WebAPI.Controllers.AccountController (IAI.WebAPI). ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 10:55:11.5893 - WARN: No store type was specified for the decimal property 'CurrentPay' on entity type 'CandidateProfile'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 10:55:11.5893 - WARN: No store type was specified for the decimal property 'ExpectedPay' on entity type 'CandidateProfile'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 10:55:11.5893 - WARN: No store type was specified for the decimal property 'TotalRating' on entity type 'InterviewRating'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 10:55:15.8604 - INFO: Executed DbCommand (432ms) [Parameters=[@__ToLower_0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[CreatedBy], [u].[CreatedDate], [u].[DeletedBy], [u].[DeletedDate], [u].[FailedPasswordAttemptCount], [u].[IsActive], [u].[IsLockedOut], [u].[IsPasswordChanged], [u].[IsVerified], [u].[LastActivityDate], [u].[LastLockoutDate], [u].[LastLoginDate], [u].[LastPasswordChangedDate], [u].[LoweredUserName], [u].[ModifiedBy], [u].[ModifiedDate], [u].[Password], [u].[PasswordFormat], [u].[PasswordResetRequestActive], [u].[PasswordSalt], [u].[UniqueId], [u].[UserName], [u].[VerificationCode]
+FROM [UserMaster] AS [u]
+WHERE LOWER([u].[UserName]) = @__ToLower_0 AND [u].[IsActive] = CAST(1 AS bit) AND [u].[IsVerified] = CAST(1 AS bit) ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 10:55:16.3544 - INFO: Executed DbCommand (220ms) [Parameters=[@__userId_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[UserRoleId], [u].[CreatedBy], [u].[CreatedDate], [u].[DeletedBy], [u].[DeletedDate], [u].[IsActive], [u].[ModifiedBy], [u].[ModifiedDate], [u].[RoleId], [u].[UserId], [r].[RoleId], [r].[CreatedBy], [r].[CreatedDate], [r].[DeletedBy], [r].[DeletedDate], [r].[Description], [r].[IsActive], [r].[ModifiedBy], [r].[ModifiedDate], [r].[RoleName]
+FROM [UserRole] AS [u]
+INNER JOIN [Role] AS [r] ON [u].[RoleId] = [r].[RoleId]
+WHERE [u].[UserId] = @__userId_0 AND [u].[IsActive] = CAST(1 AS bit) ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 10:55:16.8276 - INFO: Executing OkObjectResult, writing value of type 'IAI.Models.Models.JWTTokens.UserTokens'. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 10:55:16.8783 - INFO: Executed action IAI.WebAPI.Controllers.AccountController.GetToken (IAI.WebAPI) in 7545.6825ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 10:55:16.8783 - INFO: Executed endpoint 'IAI.WebAPI.Controllers.AccountController.GetToken (IAI.WebAPI)' ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 10:55:16.9013 - INFO: Request finished HTTP/2 POST https://localhost:7254/api/Account/token application/json 66 - 200 - application/json;+charset=utf-8 8167.5745ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 10:55:16.9264 - INFO: Request starting HTTP/2 OPTIONS https://localhost:7254/api/Account/UserDetails - - ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 10:55:16.9264 - INFO: CORS policy execution successful. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 10:55:16.9264 - INFO: Request finished HTTP/2 OPTIONS https://localhost:7254/api/Account/UserDetails - - - 204 - - 6.5233ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 10:55:16.9264 - INFO: Request starting HTTP/2 GET https://localhost:7254/api/Account/UserDetails - - ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 10:55:16.9264 - INFO: CORS policy execution successful. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 10:55:17.0315 - INFO: Executing endpoint 'IAI.WebAPI.Controllers.AccountController.GetUserDetails (IAI.WebAPI)' ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 10:55:17.0315 - INFO: Route matched with {action = "GetUserDetails", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserDetails() on controller IAI.WebAPI.Controllers.AccountController (IAI.WebAPI). ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 10:55:17.3067 - INFO: Executed DbCommand (212ms) [Parameters=[@__userId_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[CreatedBy], [u].[CreatedDate], [u].[DeletedBy], [u].[DeletedDate], [u].[FailedPasswordAttemptCount], [u].[IsActive], [u].[IsLockedOut], [u].[IsPasswordChanged], [u].[IsVerified], [u].[LastActivityDate], [u].[LastLockoutDate], [u].[LastLoginDate], [u].[LastPasswordChangedDate], [u].[LoweredUserName], [u].[ModifiedBy], [u].[ModifiedDate], [u].[Password], [u].[PasswordFormat], [u].[PasswordResetRequestActive], [u].[PasswordSalt], [u].[UniqueId], [u].[UserName], [u].[VerificationCode]
+FROM [UserMaster] AS [u]
+WHERE [u].[UserId] = @__userId_0 AND [u].[IsActive] = CAST(1 AS bit) ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 10:55:17.5227 - INFO: Executed DbCommand (209ms) [Parameters=[@__userId_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[UserRoleId], [u].[CreatedBy], [u].[CreatedDate], [u].[DeletedBy], [u].[DeletedDate], [u].[IsActive], [u].[ModifiedBy], [u].[ModifiedDate], [u].[RoleId], [u].[UserId], [r].[RoleId], [r].[CreatedBy], [r].[CreatedDate], [r].[DeletedBy], [r].[DeletedDate], [r].[Description], [r].[IsActive], [r].[ModifiedBy], [r].[ModifiedDate], [r].[RoleName]
+FROM [UserRole] AS [u]
+INNER JOIN [Role] AS [r] ON [u].[RoleId] = [r].[RoleId]
+WHERE [u].[UserId] = @__userId_0 AND [u].[IsActive] = CAST(1 AS bit) ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 10:55:17.7461 - INFO: Executed DbCommand (214ms) [Parameters=[@__userId_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [i].[InterviewerId], [i].[Address], [i].[CityId], [i].[CreatedBy], [i].[CreatedDate], [i].[DeletedBy], [i].[DeletedDate], [i].[EmailId], [i].[ExperienceId], [i].[IsActive], [i].[MobileNumber], [i].[ModifiedBy], [i].[ModifiedDate], [i].[Name], [i].[UserId]
+FROM [InterviewerProfile] AS [i]
+WHERE [i].[UserId] = @__userId_0 ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 10:55:18.0220 - INFO: Executed DbCommand (210ms) [Parameters=[@__userId_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[RoleId]
+FROM [UserRole] AS [u]
+WHERE [u].[UserId] = @__userId_0 ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 10:55:18.2652 - INFO: Executed DbCommand (223ms) [Parameters=[@__roleId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT [r].[RoleScreenId], [r].[CreatedBy], [r].[CreatedDate], [r].[DeletedBy], [r].[DeletedDate], [r].[IsActive], [r].[ModifiedBy], [r].[ModifiedDate], [r].[RoleId], [r].[ScreenId], [r0].[RoleId], [r0].[CreatedBy], [r0].[CreatedDate], [r0].[DeletedBy], [r0].[DeletedDate], [r0].[Description], [r0].[IsActive], [r0].[ModifiedBy], [r0].[ModifiedDate], [r0].[RoleName], [s].[ScreenId], [s].[CreatedBy], [s].[CreatedDate], [s].[DeletedBy], [s].[DeletedDate], [s].[Description], [s].[Icon], [s].[IsActive], [s].[MenuLevel], [s].[ModifiedBy], [s].[ModifiedDate], [s].[ParentId], [s].[RoutePath], [s].[ScreenName]
+FROM [RoleScreenMapping] AS [r]
+INNER JOIN [Role] AS [r0] ON [r].[RoleId] = [r0].[RoleId]
+INNER JOIN [Screen] AS [s] ON [r].[ScreenId] = [s].[ScreenId]
+WHERE [r].[RoleId] = @__roleId_0 ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 10:55:18.5529 - INFO: Executed DbCommand (215ms) [Parameters=[@__roleId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT [r].[RoleId], [r0].[RoleName], [r].[ScreenId], [s].[ScreenName], [s].[Description] AS [DisplayName], [s].[RoutePath], [s].[Icon], [s].[MenuLevel], [s].[ParentId]
+FROM [RoleScreenMapping] AS [r]
+INNER JOIN [Role] AS [r0] ON [r].[RoleId] = [r0].[RoleId]
+INNER JOIN [Screen] AS [s] ON [r].[ScreenId] = [s].[ScreenId]
+WHERE [r].[RoleId] = @__roleId_0 ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 10:55:18.5529 - INFO: Executing OkObjectResult, writing value of type 'IAI.Models.Models.Responses.BaseResponse`1[[IAI.Models.Models.UserDetailsModel, IAI.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 10:55:18.5891 - INFO: Executed action IAI.WebAPI.Controllers.AccountController.GetUserDetails (IAI.WebAPI) in 1555.1645ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 10:55:18.5891 - INFO: Executed endpoint 'IAI.WebAPI.Controllers.AccountController.GetUserDetails (IAI.WebAPI)' ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 10:55:18.5891 - INFO: Request finished HTTP/2 GET https://localhost:7254/api/Account/UserDetails - - - 200 - application/json;+charset=utf-8 1655.7181ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 10:55:18.6654 - INFO: Request starting HTTP/2 OPTIONS https://localhost:7254/api/Interviewer/InterviewerDashboard - - ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 10:55:18.6654 - INFO: CORS policy execution successful. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 10:55:18.6654 - INFO: Request finished HTTP/2 OPTIONS https://localhost:7254/api/Interviewer/InterviewerDashboard - - - 204 - - 0.5327ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 10:55:18.6654 - INFO: Request starting HTTP/2 POST https://localhost:7254/api/Interviewer/InterviewerDashboard application/json 214 ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 10:55:18.6654 - INFO: CORS policy execution successful. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 10:55:18.6740 - INFO: Executing endpoint 'IAI.WebAPI.Controllers.Interviewer.InterviewerController.LoadInterviews (IAI.WebAPI)' ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 10:55:18.6740 - INFO: Route matched with {action = "LoadInterviews", controller = "Interviewer"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LoadInterviews(IAI.Models.Models.Interviewer.Requests.InterviewerDashboardRequestParameters) on controller IAI.WebAPI.Controllers.Interviewer.InterviewerController (IAI.WebAPI). ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 10:55:19.6055 - INFO: Executed DbCommand (794ms) [Parameters=[@__inputParms_InterviewerId_0='?' (DbType = Guid), @__p_1='?' (DbType = DateTimeOffset), @__p_2='?' (DbType = DateTimeOffset)], CommandType='Text', CommandTimeout='30']
+SELECT [i].[InterviewId], [i].[CandidateId], [i].[CreatedBy], [i].[CreatedDate], [i].[DeletedBy], [i].[DeletedDate], [i].[InterviewDate], [i].[InterviewTypeId], [i].[InterviewerId], [i].[IsActive], [i].[IsBlocked], [i].[IsConfirmedByInterviewer], [i].[IsPaymentConfirmed], [i].[IsRated], [i].[IsValid], [i].[ModifiedBy], [i].[ModifiedDate], [i].[PrimarySkillId], [i].[StatusId], [i].[TimeSlotId], [c].[CandidateId], [c].[AdditionalSkills], [c].[Address], [c].[CityId], [c].[CreatedBy], [c].[CreatedDate], [c].[CurrentPay], [c].[DeletedBy], [c].[DeletedDate], [c].[DesignationId], [c].[EmailId], [c].[ExpectedPay], [c].[ExperienceId], [c].[GapInEducation], [c].[GapInExperience], [c].[IsActive], [c].[MobileNumber], [c].[ModifiedBy], [c].[ModifiedDate], [c].[Name], [c].[NoticePeriodId], [c].[PrimarySkillId], [c].[PromoCode], [c].[ReadyToChange], [c].[RestrictEmployerToViewProfile], [c].[UserId], [t].[TimeSlotId], [t].[CreatedBy], [t].[CreatedDate], [t].[DeletedBy], [t].[DeletedDate], [t].[IsActive], [t].[ModifiedBy], [t].[ModifiedDate], [t].[TimeSlotName], [p].[PrimarySkillId], [p].[CreatedBy], [p].[CreatedDate], [p].[DeletedBy], [p].[DeletedDate], [p].[Description], [p].[IsActive], [p].[ModifiedBy], [p].[ModifiedDate], [p].[PrimarySkillName], [s].[StatusId], [s].[CreatedBy], [s].[CreatedDate], [s].[DeletedBy], [s].[DeletedDate], [s].[Description], [s].[IsActive], [s].[ModifiedBy], [s].[ModifiedDate], [s].[StatusName], [i0].[InterviewTypeId], [i0].[CreatedBy], [i0].[CreatedDate], [i0].[DeletedBy], [i0].[DeletedDate], [i0].[InterviewTypeName], [i0].[IsActive], [i0].[ModifiedBy], [i0].[ModifiedDate]
+FROM [Interview] AS [i]
+INNER JOIN [CandidateProfile] AS [c] ON [i].[CandidateId] = [c].[CandidateId]
+INNER JOIN [TimeSlot] AS [t] ON [i].[TimeSlotId] = [t].[TimeSlotId]
+INNER JOIN [PrimarySkill] AS [p] ON [i].[PrimarySkillId] = [p].[PrimarySkillId]
+INNER JOIN [Status] AS [s] ON [i].[StatusId] = [s].[StatusId]
+INNER JOIN [InterviewType] AS [i0] ON [i].[InterviewTypeId] = [i0].[InterviewTypeId]
+WHERE [i].[InterviewerId] = @__inputParms_InterviewerId_0 AND [i].[InterviewDate] >= @__p_1 AND [i].[InterviewDate] < @__p_2 AND [i].[IsActive] = CAST(1 AS bit) ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 10:55:19.8739 - INFO: Executed DbCommand (212ms) [Parameters=[@__inputParms_InterviewerId_0='?' (DbType = Guid), @__p_1='?' (DbType = DateTimeOffset), @__p_2='?' (DbType = DateTimeOffset)], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Interview] AS [i]
+WHERE [i].[InterviewerId] = @__inputParms_InterviewerId_0 AND [i].[InterviewDate] >= @__p_1 AND [i].[InterviewDate] < @__p_2 AND [i].[IsActive] = CAST(1 AS bit) ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 10:55:20.1787 - INFO: Executed DbCommand (238ms) [Parameters=[@__inputParms_InterviewerId_0='?' (DbType = Guid), @__p_1='?' (DbType = DateTimeOffset), @__p_2='?' (DbType = DateTimeOffset), @__p_3='?' (DbType = Int32), @__p_4='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT [t].[InterviewId], [t].[InterviewDate], [t0].[TimeSlotName], [c].[Name] AS [CandidateName], [i0].[InterviewTypeName], [p].[PrimarySkillName], CASE
+    WHEN [t].[IsConfirmedByInterviewer] = CAST(0 AS bit) THEN N'False'
+    ELSE N'True'
+END AS [IsConfirmedByInterviewer], [s].[StatusName], CASE
+    WHEN [t].[IsRated] = CAST(0 AS bit) THEN N'False'
+    ELSE N'True'
+END AS [IsRated], CASE
+    WHEN [i1].[IsRatingAcceptedByUser] = CAST(0 AS bit) THEN N'False'
+    WHEN [i1].[IsRatingAcceptedByUser] = CAST(1 AS bit) THEN N'True'
+    ELSE NULL
+END AS [IsRatingAcceptedByUser], CASE
+    WHEN [t].[IsRated] = CAST(1 AS bit) THEN COALESCE(CONVERT(varchar(100), [i1].[TotalRating]), N'') + N' / 5'
+    ELSE N'Pending'
+END AS [Rating], [z].[JoinUrl] AS [MeetingURL]
+FROM (
+    SELECT [i].[InterviewId], [i].[CandidateId], [i].[InterviewDate], [i].[InterviewTypeId], [i].[IsConfirmedByInterviewer], [i].[IsRated], [i].[PrimarySkillId], [i].[StatusId], [i].[TimeSlotId]
+    FROM [Interview] AS [i]
+    WHERE [i].[InterviewerId] = @__inputParms_InterviewerId_0 AND [i].[InterviewDate] >= @__p_1 AND [i].[InterviewDate] < @__p_2 AND [i].[IsActive] = CAST(1 AS bit)
+    ORDER BY [i].[InterviewDate]
+    OFFSET @__p_3 ROWS FETCH NEXT @__p_4 ROWS ONLY
+) AS [t]
+INNER JOIN [TimeSlot] AS [t0] ON [t].[TimeSlotId] = [t0].[TimeSlotId]
+INNER JOIN [CandidateProfile] AS [c] ON [t].[CandidateId] = [c].[CandidateId]
+INNER JOIN [InterviewType] AS [i0] ON [t].[InterviewTypeId] = [i0].[InterviewTypeId]
+INNER JOIN [PrimarySkill] AS [p] ON [t].[PrimarySkillId] = [p].[PrimarySkillId]
+INNER JOIN [Status] AS [s] ON [t].[StatusId] = [s].[StatusId]
+LEFT JOIN [InterviewRating] AS [i1] ON [t].[InterviewId] = [i1].[InterviewId]
+LEFT JOIN [ZoomSchedules] AS [z] ON [t].[InterviewId] = [z].[InterviewId]
+ORDER BY [t].[InterviewDate] ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 10:55:20.1787 - INFO: Executing OkObjectResult, writing value of type 'IAI.Models.Models.Responses.PagedListModel`1[[IAI.Models.Models.Interviewer.Responses.InterviewerDashboardModel, IAI.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 10:55:20.1979 - INFO: Executed action IAI.WebAPI.Controllers.Interviewer.InterviewerController.LoadInterviews (IAI.WebAPI) in 1519.7688ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 10:55:20.1979 - INFO: Executed endpoint 'IAI.WebAPI.Controllers.Interviewer.InterviewerController.LoadInterviews (IAI.WebAPI)' ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 10:55:20.1979 - INFO: Request finished HTTP/2 POST https://localhost:7254/api/Interviewer/InterviewerDashboard application/json 214 - 200 - application/json;+charset=utf-8 1530.4622ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:01:54.0003 - INFO: Request starting HTTP/2 OPTIONS https://localhost:7254/api/Account/UserDetails - - ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:01:54.0003 - INFO: CORS policy execution successful. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:01:54.0003 - INFO: Request finished HTTP/2 OPTIONS https://localhost:7254/api/Account/UserDetails - - - 204 - - 0.4801ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:01:54.0003 - INFO: Request starting HTTP/2 GET https://localhost:7254/api/Account/UserDetails - - ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:01:54.0003 - INFO: CORS policy execution successful. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:01:54.0281 - INFO: Executing endpoint 'IAI.WebAPI.Controllers.AccountController.GetUserDetails (IAI.WebAPI)' ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:01:54.0281 - INFO: Route matched with {action = "GetUserDetails", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserDetails() on controller IAI.WebAPI.Controllers.AccountController (IAI.WebAPI). ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:01:55.2950 - INFO: Executed DbCommand (250ms) [Parameters=[@__userId_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[CreatedBy], [u].[CreatedDate], [u].[DeletedBy], [u].[DeletedDate], [u].[FailedPasswordAttemptCount], [u].[IsActive], [u].[IsLockedOut], [u].[IsPasswordChanged], [u].[IsVerified], [u].[LastActivityDate], [u].[LastLockoutDate], [u].[LastLoginDate], [u].[LastPasswordChangedDate], [u].[LoweredUserName], [u].[ModifiedBy], [u].[ModifiedDate], [u].[Password], [u].[PasswordFormat], [u].[PasswordResetRequestActive], [u].[PasswordSalt], [u].[UniqueId], [u].[UserName], [u].[VerificationCode]
+FROM [UserMaster] AS [u]
+WHERE [u].[UserId] = @__userId_0 AND [u].[IsActive] = CAST(1 AS bit) ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:01:55.5387 - INFO: Executed DbCommand (243ms) [Parameters=[@__userId_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[UserRoleId], [u].[CreatedBy], [u].[CreatedDate], [u].[DeletedBy], [u].[DeletedDate], [u].[IsActive], [u].[ModifiedBy], [u].[ModifiedDate], [u].[RoleId], [u].[UserId], [r].[RoleId], [r].[CreatedBy], [r].[CreatedDate], [r].[DeletedBy], [r].[DeletedDate], [r].[Description], [r].[IsActive], [r].[ModifiedBy], [r].[ModifiedDate], [r].[RoleName]
+FROM [UserRole] AS [u]
+INNER JOIN [Role] AS [r] ON [u].[RoleId] = [r].[RoleId]
+WHERE [u].[UserId] = @__userId_0 AND [u].[IsActive] = CAST(1 AS bit) ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:01:55.7838 - INFO: Executed DbCommand (244ms) [Parameters=[@__userId_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [i].[InterviewerId], [i].[Address], [i].[CityId], [i].[CreatedBy], [i].[CreatedDate], [i].[DeletedBy], [i].[DeletedDate], [i].[EmailId], [i].[ExperienceId], [i].[IsActive], [i].[MobileNumber], [i].[ModifiedBy], [i].[ModifiedDate], [i].[Name], [i].[UserId]
+FROM [InterviewerProfile] AS [i]
+WHERE [i].[UserId] = @__userId_0 ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:01:56.0276 - INFO: Executed DbCommand (243ms) [Parameters=[@__userId_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[RoleId]
+FROM [UserRole] AS [u]
+WHERE [u].[UserId] = @__userId_0 ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:01:56.2724 - INFO: Executed DbCommand (244ms) [Parameters=[@__roleId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT [r].[RoleScreenId], [r].[CreatedBy], [r].[CreatedDate], [r].[DeletedBy], [r].[DeletedDate], [r].[IsActive], [r].[ModifiedBy], [r].[ModifiedDate], [r].[RoleId], [r].[ScreenId], [r0].[RoleId], [r0].[CreatedBy], [r0].[CreatedDate], [r0].[DeletedBy], [r0].[DeletedDate], [r0].[Description], [r0].[IsActive], [r0].[ModifiedBy], [r0].[ModifiedDate], [r0].[RoleName], [s].[ScreenId], [s].[CreatedBy], [s].[CreatedDate], [s].[DeletedBy], [s].[DeletedDate], [s].[Description], [s].[Icon], [s].[IsActive], [s].[MenuLevel], [s].[ModifiedBy], [s].[ModifiedDate], [s].[ParentId], [s].[RoutePath], [s].[ScreenName]
+FROM [RoleScreenMapping] AS [r]
+INNER JOIN [Role] AS [r0] ON [r].[RoleId] = [r0].[RoleId]
+INNER JOIN [Screen] AS [s] ON [r].[ScreenId] = [s].[ScreenId]
+WHERE [r].[RoleId] = @__roleId_0 ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:01:56.5186 - INFO: Executed DbCommand (244ms) [Parameters=[@__roleId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT [r].[RoleId], [r0].[RoleName], [r].[ScreenId], [s].[ScreenName], [s].[Description] AS [DisplayName], [s].[RoutePath], [s].[Icon], [s].[MenuLevel], [s].[ParentId]
+FROM [RoleScreenMapping] AS [r]
+INNER JOIN [Role] AS [r0] ON [r].[RoleId] = [r0].[RoleId]
+INNER JOIN [Screen] AS [s] ON [r].[ScreenId] = [s].[ScreenId]
+WHERE [r].[RoleId] = @__roleId_0 ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:01:56.5186 - INFO: Executing OkObjectResult, writing value of type 'IAI.Models.Models.Responses.BaseResponse`1[[IAI.Models.Models.UserDetailsModel, IAI.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:01:56.5186 - INFO: Executed action IAI.WebAPI.Controllers.AccountController.GetUserDetails (IAI.WebAPI) in 2491.6751ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:01:56.5186 - INFO: Executed endpoint 'IAI.WebAPI.Controllers.AccountController.GetUserDetails (IAI.WebAPI)' ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:01:56.5186 - INFO: Request finished HTTP/2 GET https://localhost:7254/api/Account/UserDetails - - - 200 - application/json;+charset=utf-8 2507.7625ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:01:56.5594 - INFO: Request starting HTTP/2 OPTIONS https://localhost:7254/api/Interviewer/InterviewerDashboard - - ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:01:56.5594 - INFO: CORS policy execution successful. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:01:56.5594 - INFO: Request finished HTTP/2 OPTIONS https://localhost:7254/api/Interviewer/InterviewerDashboard - - - 204 - - 0.2313ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:01:56.5617 - INFO: Request starting HTTP/2 POST https://localhost:7254/api/Interviewer/InterviewerDashboard application/json 214 ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:01:56.5617 - INFO: CORS policy execution successful. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:01:56.5617 - INFO: Executing endpoint 'IAI.WebAPI.Controllers.Interviewer.InterviewerController.LoadInterviews (IAI.WebAPI)' ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:01:56.5617 - INFO: Route matched with {action = "LoadInterviews", controller = "Interviewer"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LoadInterviews(IAI.Models.Models.Interviewer.Requests.InterviewerDashboardRequestParameters) on controller IAI.WebAPI.Controllers.Interviewer.InterviewerController (IAI.WebAPI). ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:01:56.8226 - INFO: Executed DbCommand (246ms) [Parameters=[@__inputParms_InterviewerId_0='?' (DbType = Guid), @__p_1='?' (DbType = DateTimeOffset), @__p_2='?' (DbType = DateTimeOffset)], CommandType='Text', CommandTimeout='30']
+SELECT [i].[InterviewId], [i].[CandidateId], [i].[CreatedBy], [i].[CreatedDate], [i].[DeletedBy], [i].[DeletedDate], [i].[InterviewDate], [i].[InterviewTypeId], [i].[InterviewerId], [i].[IsActive], [i].[IsBlocked], [i].[IsConfirmedByInterviewer], [i].[IsPaymentConfirmed], [i].[IsRated], [i].[IsValid], [i].[ModifiedBy], [i].[ModifiedDate], [i].[PrimarySkillId], [i].[StatusId], [i].[TimeSlotId], [c].[CandidateId], [c].[AdditionalSkills], [c].[Address], [c].[CityId], [c].[CreatedBy], [c].[CreatedDate], [c].[CurrentPay], [c].[DeletedBy], [c].[DeletedDate], [c].[DesignationId], [c].[EmailId], [c].[ExpectedPay], [c].[ExperienceId], [c].[GapInEducation], [c].[GapInExperience], [c].[IsActive], [c].[MobileNumber], [c].[ModifiedBy], [c].[ModifiedDate], [c].[Name], [c].[NoticePeriodId], [c].[PrimarySkillId], [c].[PromoCode], [c].[ReadyToChange], [c].[RestrictEmployerToViewProfile], [c].[UserId], [t].[TimeSlotId], [t].[CreatedBy], [t].[CreatedDate], [t].[DeletedBy], [t].[DeletedDate], [t].[IsActive], [t].[ModifiedBy], [t].[ModifiedDate], [t].[TimeSlotName], [p].[PrimarySkillId], [p].[CreatedBy], [p].[CreatedDate], [p].[DeletedBy], [p].[DeletedDate], [p].[Description], [p].[IsActive], [p].[ModifiedBy], [p].[ModifiedDate], [p].[PrimarySkillName], [s].[StatusId], [s].[CreatedBy], [s].[CreatedDate], [s].[DeletedBy], [s].[DeletedDate], [s].[Description], [s].[IsActive], [s].[ModifiedBy], [s].[ModifiedDate], [s].[StatusName], [i0].[InterviewTypeId], [i0].[CreatedBy], [i0].[CreatedDate], [i0].[DeletedBy], [i0].[DeletedDate], [i0].[InterviewTypeName], [i0].[IsActive], [i0].[ModifiedBy], [i0].[ModifiedDate]
+FROM [Interview] AS [i]
+INNER JOIN [CandidateProfile] AS [c] ON [i].[CandidateId] = [c].[CandidateId]
+INNER JOIN [TimeSlot] AS [t] ON [i].[TimeSlotId] = [t].[TimeSlotId]
+INNER JOIN [PrimarySkill] AS [p] ON [i].[PrimarySkillId] = [p].[PrimarySkillId]
+INNER JOIN [Status] AS [s] ON [i].[StatusId] = [s].[StatusId]
+INNER JOIN [InterviewType] AS [i0] ON [i].[InterviewTypeId] = [i0].[InterviewTypeId]
+WHERE [i].[InterviewerId] = @__inputParms_InterviewerId_0 AND [i].[InterviewDate] >= @__p_1 AND [i].[InterviewDate] < @__p_2 AND [i].[IsActive] = CAST(1 AS bit) ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:01:57.0672 - INFO: Executed DbCommand (242ms) [Parameters=[@__inputParms_InterviewerId_0='?' (DbType = Guid), @__p_1='?' (DbType = DateTimeOffset), @__p_2='?' (DbType = DateTimeOffset)], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Interview] AS [i]
+WHERE [i].[InterviewerId] = @__inputParms_InterviewerId_0 AND [i].[InterviewDate] >= @__p_1 AND [i].[InterviewDate] < @__p_2 AND [i].[IsActive] = CAST(1 AS bit) ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:01:57.3172 - INFO: Executed DbCommand (248ms) [Parameters=[@__inputParms_InterviewerId_0='?' (DbType = Guid), @__p_1='?' (DbType = DateTimeOffset), @__p_2='?' (DbType = DateTimeOffset), @__p_3='?' (DbType = Int32), @__p_4='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT [t].[InterviewId], [t].[InterviewDate], [t0].[TimeSlotName], [c].[Name] AS [CandidateName], [i0].[InterviewTypeName], [p].[PrimarySkillName], CASE
+    WHEN [t].[IsConfirmedByInterviewer] = CAST(0 AS bit) THEN N'False'
+    ELSE N'True'
+END AS [IsConfirmedByInterviewer], [s].[StatusName], CASE
+    WHEN [t].[IsRated] = CAST(0 AS bit) THEN N'False'
+    ELSE N'True'
+END AS [IsRated], CASE
+    WHEN [i1].[IsRatingAcceptedByUser] = CAST(0 AS bit) THEN N'False'
+    WHEN [i1].[IsRatingAcceptedByUser] = CAST(1 AS bit) THEN N'True'
+    ELSE NULL
+END AS [IsRatingAcceptedByUser], CASE
+    WHEN [t].[IsRated] = CAST(1 AS bit) THEN COALESCE(CONVERT(varchar(100), [i1].[TotalRating]), N'') + N' / 5'
+    ELSE N'Pending'
+END AS [Rating], [z].[JoinUrl] AS [MeetingURL]
+FROM (
+    SELECT [i].[InterviewId], [i].[CandidateId], [i].[InterviewDate], [i].[InterviewTypeId], [i].[IsConfirmedByInterviewer], [i].[IsRated], [i].[PrimarySkillId], [i].[StatusId], [i].[TimeSlotId]
+    FROM [Interview] AS [i]
+    WHERE [i].[InterviewerId] = @__inputParms_InterviewerId_0 AND [i].[InterviewDate] >= @__p_1 AND [i].[InterviewDate] < @__p_2 AND [i].[IsActive] = CAST(1 AS bit)
+    ORDER BY [i].[InterviewDate]
+    OFFSET @__p_3 ROWS FETCH NEXT @__p_4 ROWS ONLY
+) AS [t]
+INNER JOIN [TimeSlot] AS [t0] ON [t].[TimeSlotId] = [t0].[TimeSlotId]
+INNER JOIN [CandidateProfile] AS [c] ON [t].[CandidateId] = [c].[CandidateId]
+INNER JOIN [InterviewType] AS [i0] ON [t].[InterviewTypeId] = [i0].[InterviewTypeId]
+INNER JOIN [PrimarySkill] AS [p] ON [t].[PrimarySkillId] = [p].[PrimarySkillId]
+INNER JOIN [Status] AS [s] ON [t].[StatusId] = [s].[StatusId]
+LEFT JOIN [InterviewRating] AS [i1] ON [t].[InterviewId] = [i1].[InterviewId]
+LEFT JOIN [ZoomSchedules] AS [z] ON [t].[InterviewId] = [z].[InterviewId]
+ORDER BY [t].[InterviewDate] ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:01:57.3172 - INFO: Executing OkObjectResult, writing value of type 'IAI.Models.Models.Responses.PagedListModel`1[[IAI.Models.Models.Interviewer.Responses.InterviewerDashboardModel, IAI.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:01:57.3172 - INFO: Executed action IAI.WebAPI.Controllers.Interviewer.InterviewerController.LoadInterviews (IAI.WebAPI) in 755.1356ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:01:57.3172 - INFO: Executed endpoint 'IAI.WebAPI.Controllers.Interviewer.InterviewerController.LoadInterviews (IAI.WebAPI)' ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:01:57.3172 - INFO: Request finished HTTP/2 POST https://localhost:7254/api/Interviewer/InterviewerDashboard application/json 214 - 200 - application/json;+charset=utf-8 755.9287ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:02:08.1885 - INFO: Request starting HTTP/2 OPTIONS https://localhost:7254/api/Account/UserDetails - - ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:02:08.1885 - INFO: CORS policy execution successful. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:02:08.1885 - INFO: Request finished HTTP/2 OPTIONS https://localhost:7254/api/Account/UserDetails - - - 204 - - 0.5666ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:02:08.1885 - INFO: Request starting HTTP/2 GET https://localhost:7254/api/Account/UserDetails - - ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:02:08.1885 - INFO: CORS policy execution successful. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:02:08.1885 - INFO: Executing endpoint 'IAI.WebAPI.Controllers.AccountController.GetUserDetails (IAI.WebAPI)' ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:02:08.1885 - INFO: Route matched with {action = "GetUserDetails", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserDetails() on controller IAI.WebAPI.Controllers.AccountController (IAI.WebAPI). ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:02:08.5171 - INFO: Executed DbCommand (323ms) [Parameters=[@__userId_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[CreatedBy], [u].[CreatedDate], [u].[DeletedBy], [u].[DeletedDate], [u].[FailedPasswordAttemptCount], [u].[IsActive], [u].[IsLockedOut], [u].[IsPasswordChanged], [u].[IsVerified], [u].[LastActivityDate], [u].[LastLockoutDate], [u].[LastLoginDate], [u].[LastPasswordChangedDate], [u].[LoweredUserName], [u].[ModifiedBy], [u].[ModifiedDate], [u].[Password], [u].[PasswordFormat], [u].[PasswordResetRequestActive], [u].[PasswordSalt], [u].[UniqueId], [u].[UserName], [u].[VerificationCode]
+FROM [UserMaster] AS [u]
+WHERE [u].[UserId] = @__userId_0 AND [u].[IsActive] = CAST(1 AS bit) ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:02:08.8737 - INFO: Executed DbCommand (356ms) [Parameters=[@__userId_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[UserRoleId], [u].[CreatedBy], [u].[CreatedDate], [u].[DeletedBy], [u].[DeletedDate], [u].[IsActive], [u].[ModifiedBy], [u].[ModifiedDate], [u].[RoleId], [u].[UserId], [r].[RoleId], [r].[CreatedBy], [r].[CreatedDate], [r].[DeletedBy], [r].[DeletedDate], [r].[Description], [r].[IsActive], [r].[ModifiedBy], [r].[ModifiedDate], [r].[RoleName]
+FROM [UserRole] AS [u]
+INNER JOIN [Role] AS [r] ON [u].[RoleId] = [r].[RoleId]
+WHERE [u].[UserId] = @__userId_0 AND [u].[IsActive] = CAST(1 AS bit) ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:02:09.1456 - INFO: Executed DbCommand (270ms) [Parameters=[@__userId_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [i].[InterviewerId], [i].[Address], [i].[CityId], [i].[CreatedBy], [i].[CreatedDate], [i].[DeletedBy], [i].[DeletedDate], [i].[EmailId], [i].[ExperienceId], [i].[IsActive], [i].[MobileNumber], [i].[ModifiedBy], [i].[ModifiedDate], [i].[Name], [i].[UserId]
+FROM [InterviewerProfile] AS [i]
+WHERE [i].[UserId] = @__userId_0 ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:02:09.4606 - INFO: Executed DbCommand (314ms) [Parameters=[@__userId_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[RoleId]
+FROM [UserRole] AS [u]
+WHERE [u].[UserId] = @__userId_0 ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:02:09.7291 - INFO: Executed DbCommand (268ms) [Parameters=[@__roleId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT [r].[RoleScreenId], [r].[CreatedBy], [r].[CreatedDate], [r].[DeletedBy], [r].[DeletedDate], [r].[IsActive], [r].[ModifiedBy], [r].[ModifiedDate], [r].[RoleId], [r].[ScreenId], [r0].[RoleId], [r0].[CreatedBy], [r0].[CreatedDate], [r0].[DeletedBy], [r0].[DeletedDate], [r0].[Description], [r0].[IsActive], [r0].[ModifiedBy], [r0].[ModifiedDate], [r0].[RoleName], [s].[ScreenId], [s].[CreatedBy], [s].[CreatedDate], [s].[DeletedBy], [s].[DeletedDate], [s].[Description], [s].[Icon], [s].[IsActive], [s].[MenuLevel], [s].[ModifiedBy], [s].[ModifiedDate], [s].[ParentId], [s].[RoutePath], [s].[ScreenName]
+FROM [RoleScreenMapping] AS [r]
+INNER JOIN [Role] AS [r0] ON [r].[RoleId] = [r0].[RoleId]
+INNER JOIN [Screen] AS [s] ON [r].[ScreenId] = [s].[ScreenId]
+WHERE [r].[RoleId] = @__roleId_0 ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:02:10.0839 - INFO: Executed DbCommand (354ms) [Parameters=[@__roleId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT [r].[RoleId], [r0].[RoleName], [r].[ScreenId], [s].[ScreenName], [s].[Description] AS [DisplayName], [s].[RoutePath], [s].[Icon], [s].[MenuLevel], [s].[ParentId]
+FROM [RoleScreenMapping] AS [r]
+INNER JOIN [Role] AS [r0] ON [r].[RoleId] = [r0].[RoleId]
+INNER JOIN [Screen] AS [s] ON [r].[ScreenId] = [s].[ScreenId]
+WHERE [r].[RoleId] = @__roleId_0 ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:02:10.0839 - INFO: Executing OkObjectResult, writing value of type 'IAI.Models.Models.Responses.BaseResponse`1[[IAI.Models.Models.UserDetailsModel, IAI.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:02:10.0839 - INFO: Executed action IAI.WebAPI.Controllers.AccountController.GetUserDetails (IAI.WebAPI) in 1891.4489ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:02:10.0839 - INFO: Executed endpoint 'IAI.WebAPI.Controllers.AccountController.GetUserDetails (IAI.WebAPI)' ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:02:10.0839 - INFO: Request finished HTTP/2 GET https://localhost:7254/api/Account/UserDetails - - - 200 - application/json;+charset=utf-8 1892.1865ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:02:10.1528 - INFO: Request starting HTTP/2 OPTIONS https://localhost:7254/api/Interviewer/InterviewerDashboard - - ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:02:10.1528 - INFO: CORS policy execution successful. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:02:10.1528 - INFO: Request finished HTTP/2 OPTIONS https://localhost:7254/api/Interviewer/InterviewerDashboard - - - 204 - - 0.3094ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:02:10.1528 - INFO: Request starting HTTP/2 POST https://localhost:7254/api/Interviewer/InterviewerDashboard application/json 214 ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:02:10.1528 - INFO: CORS policy execution successful. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:02:10.1528 - INFO: Executing endpoint 'IAI.WebAPI.Controllers.Interviewer.InterviewerController.LoadInterviews (IAI.WebAPI)' ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:02:10.1559 - INFO: Route matched with {action = "LoadInterviews", controller = "Interviewer"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LoadInterviews(IAI.Models.Models.Interviewer.Requests.InterviewerDashboardRequestParameters) on controller IAI.WebAPI.Controllers.Interviewer.InterviewerController (IAI.WebAPI). ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:02:10.4918 - INFO: Executed DbCommand (313ms) [Parameters=[@__inputParms_InterviewerId_0='?' (DbType = Guid), @__p_1='?' (DbType = DateTimeOffset), @__p_2='?' (DbType = DateTimeOffset)], CommandType='Text', CommandTimeout='30']
+SELECT [i].[InterviewId], [i].[CandidateId], [i].[CreatedBy], [i].[CreatedDate], [i].[DeletedBy], [i].[DeletedDate], [i].[InterviewDate], [i].[InterviewTypeId], [i].[InterviewerId], [i].[IsActive], [i].[IsBlocked], [i].[IsConfirmedByInterviewer], [i].[IsPaymentConfirmed], [i].[IsRated], [i].[IsValid], [i].[ModifiedBy], [i].[ModifiedDate], [i].[PrimarySkillId], [i].[StatusId], [i].[TimeSlotId], [c].[CandidateId], [c].[AdditionalSkills], [c].[Address], [c].[CityId], [c].[CreatedBy], [c].[CreatedDate], [c].[CurrentPay], [c].[DeletedBy], [c].[DeletedDate], [c].[DesignationId], [c].[EmailId], [c].[ExpectedPay], [c].[ExperienceId], [c].[GapInEducation], [c].[GapInExperience], [c].[IsActive], [c].[MobileNumber], [c].[ModifiedBy], [c].[ModifiedDate], [c].[Name], [c].[NoticePeriodId], [c].[PrimarySkillId], [c].[PromoCode], [c].[ReadyToChange], [c].[RestrictEmployerToViewProfile], [c].[UserId], [t].[TimeSlotId], [t].[CreatedBy], [t].[CreatedDate], [t].[DeletedBy], [t].[DeletedDate], [t].[IsActive], [t].[ModifiedBy], [t].[ModifiedDate], [t].[TimeSlotName], [p].[PrimarySkillId], [p].[CreatedBy], [p].[CreatedDate], [p].[DeletedBy], [p].[DeletedDate], [p].[Description], [p].[IsActive], [p].[ModifiedBy], [p].[ModifiedDate], [p].[PrimarySkillName], [s].[StatusId], [s].[CreatedBy], [s].[CreatedDate], [s].[DeletedBy], [s].[DeletedDate], [s].[Description], [s].[IsActive], [s].[ModifiedBy], [s].[ModifiedDate], [s].[StatusName], [i0].[InterviewTypeId], [i0].[CreatedBy], [i0].[CreatedDate], [i0].[DeletedBy], [i0].[DeletedDate], [i0].[InterviewTypeName], [i0].[IsActive], [i0].[ModifiedBy], [i0].[ModifiedDate]
+FROM [Interview] AS [i]
+INNER JOIN [CandidateProfile] AS [c] ON [i].[CandidateId] = [c].[CandidateId]
+INNER JOIN [TimeSlot] AS [t] ON [i].[TimeSlotId] = [t].[TimeSlotId]
+INNER JOIN [PrimarySkill] AS [p] ON [i].[PrimarySkillId] = [p].[PrimarySkillId]
+INNER JOIN [Status] AS [s] ON [i].[StatusId] = [s].[StatusId]
+INNER JOIN [InterviewType] AS [i0] ON [i].[InterviewTypeId] = [i0].[InterviewTypeId]
+WHERE [i].[InterviewerId] = @__inputParms_InterviewerId_0 AND [i].[InterviewDate] >= @__p_1 AND [i].[InterviewDate] < @__p_2 AND [i].[IsActive] = CAST(1 AS bit) ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:02:10.7529 - INFO: Executed DbCommand (257ms) [Parameters=[@__inputParms_InterviewerId_0='?' (DbType = Guid), @__p_1='?' (DbType = DateTimeOffset), @__p_2='?' (DbType = DateTimeOffset)], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Interview] AS [i]
+WHERE [i].[InterviewerId] = @__inputParms_InterviewerId_0 AND [i].[InterviewDate] >= @__p_1 AND [i].[InterviewDate] < @__p_2 AND [i].[IsActive] = CAST(1 AS bit) ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:02:11.1081 - INFO: Executed DbCommand (352ms) [Parameters=[@__inputParms_InterviewerId_0='?' (DbType = Guid), @__p_1='?' (DbType = DateTimeOffset), @__p_2='?' (DbType = DateTimeOffset), @__p_3='?' (DbType = Int32), @__p_4='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT [t].[InterviewId], [t].[InterviewDate], [t0].[TimeSlotName], [c].[Name] AS [CandidateName], [i0].[InterviewTypeName], [p].[PrimarySkillName], CASE
+    WHEN [t].[IsConfirmedByInterviewer] = CAST(0 AS bit) THEN N'False'
+    ELSE N'True'
+END AS [IsConfirmedByInterviewer], [s].[StatusName], CASE
+    WHEN [t].[IsRated] = CAST(0 AS bit) THEN N'False'
+    ELSE N'True'
+END AS [IsRated], CASE
+    WHEN [i1].[IsRatingAcceptedByUser] = CAST(0 AS bit) THEN N'False'
+    WHEN [i1].[IsRatingAcceptedByUser] = CAST(1 AS bit) THEN N'True'
+    ELSE NULL
+END AS [IsRatingAcceptedByUser], CASE
+    WHEN [t].[IsRated] = CAST(1 AS bit) THEN COALESCE(CONVERT(varchar(100), [i1].[TotalRating]), N'') + N' / 5'
+    ELSE N'Pending'
+END AS [Rating], [z].[JoinUrl] AS [MeetingURL]
+FROM (
+    SELECT [i].[InterviewId], [i].[CandidateId], [i].[InterviewDate], [i].[InterviewTypeId], [i].[IsConfirmedByInterviewer], [i].[IsRated], [i].[PrimarySkillId], [i].[StatusId], [i].[TimeSlotId]
+    FROM [Interview] AS [i]
+    WHERE [i].[InterviewerId] = @__inputParms_InterviewerId_0 AND [i].[InterviewDate] >= @__p_1 AND [i].[InterviewDate] < @__p_2 AND [i].[IsActive] = CAST(1 AS bit)
+    ORDER BY [i].[InterviewDate]
+    OFFSET @__p_3 ROWS FETCH NEXT @__p_4 ROWS ONLY
+) AS [t]
+INNER JOIN [TimeSlot] AS [t0] ON [t].[TimeSlotId] = [t0].[TimeSlotId]
+INNER JOIN [CandidateProfile] AS [c] ON [t].[CandidateId] = [c].[CandidateId]
+INNER JOIN [InterviewType] AS [i0] ON [t].[InterviewTypeId] = [i0].[InterviewTypeId]
+INNER JOIN [PrimarySkill] AS [p] ON [t].[PrimarySkillId] = [p].[PrimarySkillId]
+INNER JOIN [Status] AS [s] ON [t].[StatusId] = [s].[StatusId]
+LEFT JOIN [InterviewRating] AS [i1] ON [t].[InterviewId] = [i1].[InterviewId]
+LEFT JOIN [ZoomSchedules] AS [z] ON [t].[InterviewId] = [z].[InterviewId]
+ORDER BY [t].[InterviewDate] ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:02:11.1081 - INFO: Executing OkObjectResult, writing value of type 'IAI.Models.Models.Responses.PagedListModel`1[[IAI.Models.Models.Interviewer.Responses.InterviewerDashboardModel, IAI.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:02:11.1081 - INFO: Executed action IAI.WebAPI.Controllers.Interviewer.InterviewerController.LoadInterviews (IAI.WebAPI) in 952.5365ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:02:11.1081 - INFO: Executed endpoint 'IAI.WebAPI.Controllers.Interviewer.InterviewerController.LoadInterviews (IAI.WebAPI)' ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:02:11.1081 - INFO: Request finished HTTP/2 POST https://localhost:7254/api/Interviewer/InterviewerDashboard application/json 214 - 200 - application/json;+charset=utf-8 953.5640ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:02:34.7154 - INFO: Request starting HTTP/2 OPTIONS https://localhost:7254/api/Account/UserDetails - - ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:02:34.7154 - INFO: CORS policy execution successful. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:02:34.7154 - INFO: Request finished HTTP/2 OPTIONS https://localhost:7254/api/Account/UserDetails - - - 204 - - 0.3061ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:02:34.7261 - INFO: Request starting HTTP/2 GET https://localhost:7254/api/Account/UserDetails - - ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:02:34.7261 - INFO: CORS policy execution successful. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:02:34.7261 - INFO: Executing endpoint 'IAI.WebAPI.Controllers.AccountController.GetUserDetails (IAI.WebAPI)' ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:02:34.7261 - INFO: Route matched with {action = "GetUserDetails", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserDetails() on controller IAI.WebAPI.Controllers.AccountController (IAI.WebAPI). ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:02:35.0027 - INFO: Executed DbCommand (275ms) [Parameters=[@__userId_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[CreatedBy], [u].[CreatedDate], [u].[DeletedBy], [u].[DeletedDate], [u].[FailedPasswordAttemptCount], [u].[IsActive], [u].[IsLockedOut], [u].[IsPasswordChanged], [u].[IsVerified], [u].[LastActivityDate], [u].[LastLockoutDate], [u].[LastLoginDate], [u].[LastPasswordChangedDate], [u].[LoweredUserName], [u].[ModifiedBy], [u].[ModifiedDate], [u].[Password], [u].[PasswordFormat], [u].[PasswordResetRequestActive], [u].[PasswordSalt], [u].[UniqueId], [u].[UserName], [u].[VerificationCode]
+FROM [UserMaster] AS [u]
+WHERE [u].[UserId] = @__userId_0 AND [u].[IsActive] = CAST(1 AS bit) ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:02:35.2510 - INFO: Executed DbCommand (248ms) [Parameters=[@__userId_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[UserRoleId], [u].[CreatedBy], [u].[CreatedDate], [u].[DeletedBy], [u].[DeletedDate], [u].[IsActive], [u].[ModifiedBy], [u].[ModifiedDate], [u].[RoleId], [u].[UserId], [r].[RoleId], [r].[CreatedBy], [r].[CreatedDate], [r].[DeletedBy], [r].[DeletedDate], [r].[Description], [r].[IsActive], [r].[ModifiedBy], [r].[ModifiedDate], [r].[RoleName]
+FROM [UserRole] AS [u]
+INNER JOIN [Role] AS [r] ON [u].[RoleId] = [r].[RoleId]
+WHERE [u].[UserId] = @__userId_0 AND [u].[IsActive] = CAST(1 AS bit) ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:02:35.5027 - INFO: Executed DbCommand (250ms) [Parameters=[@__userId_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [i].[InterviewerId], [i].[Address], [i].[CityId], [i].[CreatedBy], [i].[CreatedDate], [i].[DeletedBy], [i].[DeletedDate], [i].[EmailId], [i].[ExperienceId], [i].[IsActive], [i].[MobileNumber], [i].[ModifiedBy], [i].[ModifiedDate], [i].[Name], [i].[UserId]
+FROM [InterviewerProfile] AS [i]
+WHERE [i].[UserId] = @__userId_0 ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:02:35.7481 - INFO: Executed DbCommand (244ms) [Parameters=[@__userId_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[RoleId]
+FROM [UserRole] AS [u]
+WHERE [u].[UserId] = @__userId_0 ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:02:35.9930 - INFO: Executed DbCommand (243ms) [Parameters=[@__roleId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT [r].[RoleScreenId], [r].[CreatedBy], [r].[CreatedDate], [r].[DeletedBy], [r].[DeletedDate], [r].[IsActive], [r].[ModifiedBy], [r].[ModifiedDate], [r].[RoleId], [r].[ScreenId], [r0].[RoleId], [r0].[CreatedBy], [r0].[CreatedDate], [r0].[DeletedBy], [r0].[DeletedDate], [r0].[Description], [r0].[IsActive], [r0].[ModifiedBy], [r0].[ModifiedDate], [r0].[RoleName], [s].[ScreenId], [s].[CreatedBy], [s].[CreatedDate], [s].[DeletedBy], [s].[DeletedDate], [s].[Description], [s].[Icon], [s].[IsActive], [s].[MenuLevel], [s].[ModifiedBy], [s].[ModifiedDate], [s].[ParentId], [s].[RoutePath], [s].[ScreenName]
+FROM [RoleScreenMapping] AS [r]
+INNER JOIN [Role] AS [r0] ON [r].[RoleId] = [r0].[RoleId]
+INNER JOIN [Screen] AS [s] ON [r].[ScreenId] = [s].[ScreenId]
+WHERE [r].[RoleId] = @__roleId_0 ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:02:36.2357 - INFO: Executed DbCommand (242ms) [Parameters=[@__roleId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT [r].[RoleId], [r0].[RoleName], [r].[ScreenId], [s].[ScreenName], [s].[Description] AS [DisplayName], [s].[RoutePath], [s].[Icon], [s].[MenuLevel], [s].[ParentId]
+FROM [RoleScreenMapping] AS [r]
+INNER JOIN [Role] AS [r0] ON [r].[RoleId] = [r0].[RoleId]
+INNER JOIN [Screen] AS [s] ON [r].[ScreenId] = [s].[ScreenId]
+WHERE [r].[RoleId] = @__roleId_0 ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:02:36.2357 - INFO: Executing OkObjectResult, writing value of type 'IAI.Models.Models.Responses.BaseResponse`1[[IAI.Models.Models.UserDetailsModel, IAI.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:02:36.2357 - INFO: Executed action IAI.WebAPI.Controllers.AccountController.GetUserDetails (IAI.WebAPI) in 1509.8364ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:02:36.2357 - INFO: Executed endpoint 'IAI.WebAPI.Controllers.AccountController.GetUserDetails (IAI.WebAPI)' ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:02:36.2357 - INFO: Request finished HTTP/2 GET https://localhost:7254/api/Account/UserDetails - - - 200 - application/json;+charset=utf-8 1510.7139ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:02:36.2720 - INFO: Request starting HTTP/2 OPTIONS https://localhost:7254/api/Interviewer/InterviewerDashboard - - ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:02:36.2720 - INFO: CORS policy execution successful. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:02:36.2720 - INFO: Request finished HTTP/2 OPTIONS https://localhost:7254/api/Interviewer/InterviewerDashboard - - - 204 - - 0.2064ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:02:36.2720 - INFO: Request starting HTTP/2 POST https://localhost:7254/api/Interviewer/InterviewerDashboard application/json 214 ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:02:36.2720 - INFO: CORS policy execution successful. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:02:36.2720 - INFO: Executing endpoint 'IAI.WebAPI.Controllers.Interviewer.InterviewerController.LoadInterviews (IAI.WebAPI)' ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:02:36.2720 - INFO: Route matched with {action = "LoadInterviews", controller = "Interviewer"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LoadInterviews(IAI.Models.Models.Interviewer.Requests.InterviewerDashboardRequestParameters) on controller IAI.WebAPI.Controllers.Interviewer.InterviewerController (IAI.WebAPI). ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:02:36.5231 - INFO: Executed DbCommand (243ms) [Parameters=[@__inputParms_InterviewerId_0='?' (DbType = Guid), @__p_1='?' (DbType = DateTimeOffset), @__p_2='?' (DbType = DateTimeOffset)], CommandType='Text', CommandTimeout='30']
+SELECT [i].[InterviewId], [i].[CandidateId], [i].[CreatedBy], [i].[CreatedDate], [i].[DeletedBy], [i].[DeletedDate], [i].[InterviewDate], [i].[InterviewTypeId], [i].[InterviewerId], [i].[IsActive], [i].[IsBlocked], [i].[IsConfirmedByInterviewer], [i].[IsPaymentConfirmed], [i].[IsRated], [i].[IsValid], [i].[ModifiedBy], [i].[ModifiedDate], [i].[PrimarySkillId], [i].[StatusId], [i].[TimeSlotId], [c].[CandidateId], [c].[AdditionalSkills], [c].[Address], [c].[CityId], [c].[CreatedBy], [c].[CreatedDate], [c].[CurrentPay], [c].[DeletedBy], [c].[DeletedDate], [c].[DesignationId], [c].[EmailId], [c].[ExpectedPay], [c].[ExperienceId], [c].[GapInEducation], [c].[GapInExperience], [c].[IsActive], [c].[MobileNumber], [c].[ModifiedBy], [c].[ModifiedDate], [c].[Name], [c].[NoticePeriodId], [c].[PrimarySkillId], [c].[PromoCode], [c].[ReadyToChange], [c].[RestrictEmployerToViewProfile], [c].[UserId], [t].[TimeSlotId], [t].[CreatedBy], [t].[CreatedDate], [t].[DeletedBy], [t].[DeletedDate], [t].[IsActive], [t].[ModifiedBy], [t].[ModifiedDate], [t].[TimeSlotName], [p].[PrimarySkillId], [p].[CreatedBy], [p].[CreatedDate], [p].[DeletedBy], [p].[DeletedDate], [p].[Description], [p].[IsActive], [p].[ModifiedBy], [p].[ModifiedDate], [p].[PrimarySkillName], [s].[StatusId], [s].[CreatedBy], [s].[CreatedDate], [s].[DeletedBy], [s].[DeletedDate], [s].[Description], [s].[IsActive], [s].[ModifiedBy], [s].[ModifiedDate], [s].[StatusName], [i0].[InterviewTypeId], [i0].[CreatedBy], [i0].[CreatedDate], [i0].[DeletedBy], [i0].[DeletedDate], [i0].[InterviewTypeName], [i0].[IsActive], [i0].[ModifiedBy], [i0].[ModifiedDate]
+FROM [Interview] AS [i]
+INNER JOIN [CandidateProfile] AS [c] ON [i].[CandidateId] = [c].[CandidateId]
+INNER JOIN [TimeSlot] AS [t] ON [i].[TimeSlotId] = [t].[TimeSlotId]
+INNER JOIN [PrimarySkill] AS [p] ON [i].[PrimarySkillId] = [p].[PrimarySkillId]
+INNER JOIN [Status] AS [s] ON [i].[StatusId] = [s].[StatusId]
+INNER JOIN [InterviewType] AS [i0] ON [i].[InterviewTypeId] = [i0].[InterviewTypeId]
+WHERE [i].[InterviewerId] = @__inputParms_InterviewerId_0 AND [i].[InterviewDate] >= @__p_1 AND [i].[InterviewDate] < @__p_2 AND [i].[IsActive] = CAST(1 AS bit) ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:02:36.7735 - INFO: Executed DbCommand (244ms) [Parameters=[@__inputParms_InterviewerId_0='?' (DbType = Guid), @__p_1='?' (DbType = DateTimeOffset), @__p_2='?' (DbType = DateTimeOffset)], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Interview] AS [i]
+WHERE [i].[InterviewerId] = @__inputParms_InterviewerId_0 AND [i].[InterviewDate] >= @__p_1 AND [i].[InterviewDate] < @__p_2 AND [i].[IsActive] = CAST(1 AS bit) ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:02:37.0188 - INFO: Executed DbCommand (243ms) [Parameters=[@__inputParms_InterviewerId_0='?' (DbType = Guid), @__p_1='?' (DbType = DateTimeOffset), @__p_2='?' (DbType = DateTimeOffset), @__p_3='?' (DbType = Int32), @__p_4='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT [t].[InterviewId], [t].[InterviewDate], [t0].[TimeSlotName], [c].[Name] AS [CandidateName], [i0].[InterviewTypeName], [p].[PrimarySkillName], CASE
+    WHEN [t].[IsConfirmedByInterviewer] = CAST(0 AS bit) THEN N'False'
+    ELSE N'True'
+END AS [IsConfirmedByInterviewer], [s].[StatusName], CASE
+    WHEN [t].[IsRated] = CAST(0 AS bit) THEN N'False'
+    ELSE N'True'
+END AS [IsRated], CASE
+    WHEN [i1].[IsRatingAcceptedByUser] = CAST(0 AS bit) THEN N'False'
+    WHEN [i1].[IsRatingAcceptedByUser] = CAST(1 AS bit) THEN N'True'
+    ELSE NULL
+END AS [IsRatingAcceptedByUser], CASE
+    WHEN [t].[IsRated] = CAST(1 AS bit) THEN COALESCE(CONVERT(varchar(100), [i1].[TotalRating]), N'') + N' / 5'
+    ELSE N'Pending'
+END AS [Rating], [z].[JoinUrl] AS [MeetingURL]
+FROM (
+    SELECT [i].[InterviewId], [i].[CandidateId], [i].[InterviewDate], [i].[InterviewTypeId], [i].[IsConfirmedByInterviewer], [i].[IsRated], [i].[PrimarySkillId], [i].[StatusId], [i].[TimeSlotId]
+    FROM [Interview] AS [i]
+    WHERE [i].[InterviewerId] = @__inputParms_InterviewerId_0 AND [i].[InterviewDate] >= @__p_1 AND [i].[InterviewDate] < @__p_2 AND [i].[IsActive] = CAST(1 AS bit)
+    ORDER BY [i].[InterviewDate]
+    OFFSET @__p_3 ROWS FETCH NEXT @__p_4 ROWS ONLY
+) AS [t]
+INNER JOIN [TimeSlot] AS [t0] ON [t].[TimeSlotId] = [t0].[TimeSlotId]
+INNER JOIN [CandidateProfile] AS [c] ON [t].[CandidateId] = [c].[CandidateId]
+INNER JOIN [InterviewType] AS [i0] ON [t].[InterviewTypeId] = [i0].[InterviewTypeId]
+INNER JOIN [PrimarySkill] AS [p] ON [t].[PrimarySkillId] = [p].[PrimarySkillId]
+INNER JOIN [Status] AS [s] ON [t].[StatusId] = [s].[StatusId]
+LEFT JOIN [InterviewRating] AS [i1] ON [t].[InterviewId] = [i1].[InterviewId]
+LEFT JOIN [ZoomSchedules] AS [z] ON [t].[InterviewId] = [z].[InterviewId]
+ORDER BY [t].[InterviewDate] ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:02:37.0188 - INFO: Executing OkObjectResult, writing value of type 'IAI.Models.Models.Responses.PagedListModel`1[[IAI.Models.Models.Interviewer.Responses.InterviewerDashboardModel, IAI.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:02:37.0188 - INFO: Executed action IAI.WebAPI.Controllers.Interviewer.InterviewerController.LoadInterviews (IAI.WebAPI) in 745.3465ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:02:37.0188 - INFO: Executed endpoint 'IAI.WebAPI.Controllers.Interviewer.InterviewerController.LoadInterviews (IAI.WebAPI)' ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:02:37.0188 - INFO: Request finished HTTP/2 POST https://localhost:7254/api/Interviewer/InterviewerDashboard application/json 214 - 200 - application/json;+charset=utf-8 746.7117ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:03:02.3361 - INFO: Request starting HTTP/2 OPTIONS https://localhost:7254/api/Account/ChangePassword - - ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:03:02.3361 - INFO: CORS policy execution successful. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:03:02.3361 - INFO: Request finished HTTP/2 OPTIONS https://localhost:7254/api/Account/ChangePassword - - - 204 - - 0.6426ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:03:02.3455 - INFO: Request starting HTTP/2 POST https://localhost:7254/api/Account/ChangePassword application/json 104 ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:03:02.3455 - INFO: CORS policy execution successful. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:03:02.3455 - INFO: Executing endpoint 'IAI.WebAPI.Controllers.AccountController.ChangePassword (IAI.WebAPI)' ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:03:02.3455 - INFO: Route matched with {action = "ChangePassword", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ChangePassword(IAI.Models.Models.Account.ChangePasswordModel) on controller IAI.WebAPI.Controllers.AccountController (IAI.WebAPI). ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:03:26.6595 - INFO: Executed DbCommand (250ms) [Parameters=[@__userId_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[CreatedBy], [u].[CreatedDate], [u].[DeletedBy], [u].[DeletedDate], [u].[FailedPasswordAttemptCount], [u].[IsActive], [u].[IsLockedOut], [u].[IsPasswordChanged], [u].[IsVerified], [u].[LastActivityDate], [u].[LastLockoutDate], [u].[LastLoginDate], [u].[LastPasswordChangedDate], [u].[LoweredUserName], [u].[ModifiedBy], [u].[ModifiedDate], [u].[Password], [u].[PasswordFormat], [u].[PasswordResetRequestActive], [u].[PasswordSalt], [u].[UniqueId], [u].[UserName], [u].[VerificationCode]
+FROM [UserMaster] AS [u]
+WHERE [u].[UserId] = @__userId_0 ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:03:26.6595 - INFO: Executing OkObjectResult, writing value of type 'IAI.Models.Models.Responses.BaseResponse`1[[System.Boolean, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:03:26.6595 - INFO: Executed action IAI.WebAPI.Controllers.AccountController.ChangePassword (IAI.WebAPI) in 24310.2833ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:03:26.6595 - INFO: Executed endpoint 'IAI.WebAPI.Controllers.AccountController.ChangePassword (IAI.WebAPI)' ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:03:26.6595 - INFO: Request finished HTTP/2 POST https://localhost:7254/api/Account/ChangePassword application/json 104 - 200 - application/json;+charset=utf-8 24316.7678ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:05:50.7710 - INFO: Request starting HTTP/2 OPTIONS https://localhost:7254/api/Account/UserDetails - - ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:05:50.7710 - INFO: CORS policy execution successful. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:05:50.7710 - INFO: Request finished HTTP/2 OPTIONS https://localhost:7254/api/Account/UserDetails - - - 204 - - 0.5634ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:05:50.7816 - INFO: Request starting HTTP/2 GET https://localhost:7254/api/Account/UserDetails - - ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:05:50.7816 - INFO: CORS policy execution successful. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:05:50.7816 - INFO: Executing endpoint 'IAI.WebAPI.Controllers.AccountController.GetUserDetails (IAI.WebAPI)' ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:05:50.7816 - INFO: Route matched with {action = "GetUserDetails", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserDetails() on controller IAI.WebAPI.Controllers.AccountController (IAI.WebAPI). ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:05:51.0410 - INFO: Executed DbCommand (255ms) [Parameters=[@__userId_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[CreatedBy], [u].[CreatedDate], [u].[DeletedBy], [u].[DeletedDate], [u].[FailedPasswordAttemptCount], [u].[IsActive], [u].[IsLockedOut], [u].[IsPasswordChanged], [u].[IsVerified], [u].[LastActivityDate], [u].[LastLockoutDate], [u].[LastLoginDate], [u].[LastPasswordChangedDate], [u].[LoweredUserName], [u].[ModifiedBy], [u].[ModifiedDate], [u].[Password], [u].[PasswordFormat], [u].[PasswordResetRequestActive], [u].[PasswordSalt], [u].[UniqueId], [u].[UserName], [u].[VerificationCode]
+FROM [UserMaster] AS [u]
+WHERE [u].[UserId] = @__userId_0 AND [u].[IsActive] = CAST(1 AS bit) ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:05:51.2933 - INFO: Executed DbCommand (243ms) [Parameters=[@__userId_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[UserRoleId], [u].[CreatedBy], [u].[CreatedDate], [u].[DeletedBy], [u].[DeletedDate], [u].[IsActive], [u].[ModifiedBy], [u].[ModifiedDate], [u].[RoleId], [u].[UserId], [r].[RoleId], [r].[CreatedBy], [r].[CreatedDate], [r].[DeletedBy], [r].[DeletedDate], [r].[Description], [r].[IsActive], [r].[ModifiedBy], [r].[ModifiedDate], [r].[RoleName]
+FROM [UserRole] AS [u]
+INNER JOIN [Role] AS [r] ON [u].[RoleId] = [r].[RoleId]
+WHERE [u].[UserId] = @__userId_0 AND [u].[IsActive] = CAST(1 AS bit) ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:05:51.5386 - INFO: Executed DbCommand (245ms) [Parameters=[@__userId_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [i].[InterviewerId], [i].[Address], [i].[CityId], [i].[CreatedBy], [i].[CreatedDate], [i].[DeletedBy], [i].[DeletedDate], [i].[EmailId], [i].[ExperienceId], [i].[IsActive], [i].[MobileNumber], [i].[ModifiedBy], [i].[ModifiedDate], [i].[Name], [i].[UserId]
+FROM [InterviewerProfile] AS [i]
+WHERE [i].[UserId] = @__userId_0 ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:05:51.7828 - INFO: Executed DbCommand (243ms) [Parameters=[@__userId_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[RoleId]
+FROM [UserRole] AS [u]
+WHERE [u].[UserId] = @__userId_0 ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:05:52.0264 - INFO: Executed DbCommand (243ms) [Parameters=[@__roleId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT [r].[RoleScreenId], [r].[CreatedBy], [r].[CreatedDate], [r].[DeletedBy], [r].[DeletedDate], [r].[IsActive], [r].[ModifiedBy], [r].[ModifiedDate], [r].[RoleId], [r].[ScreenId], [r0].[RoleId], [r0].[CreatedBy], [r0].[CreatedDate], [r0].[DeletedBy], [r0].[DeletedDate], [r0].[Description], [r0].[IsActive], [r0].[ModifiedBy], [r0].[ModifiedDate], [r0].[RoleName], [s].[ScreenId], [s].[CreatedBy], [s].[CreatedDate], [s].[DeletedBy], [s].[DeletedDate], [s].[Description], [s].[Icon], [s].[IsActive], [s].[MenuLevel], [s].[ModifiedBy], [s].[ModifiedDate], [s].[ParentId], [s].[RoutePath], [s].[ScreenName]
+FROM [RoleScreenMapping] AS [r]
+INNER JOIN [Role] AS [r0] ON [r].[RoleId] = [r0].[RoleId]
+INNER JOIN [Screen] AS [s] ON [r].[ScreenId] = [s].[ScreenId]
+WHERE [r].[RoleId] = @__roleId_0 ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:05:52.2710 - INFO: Executed DbCommand (244ms) [Parameters=[@__roleId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT [r].[RoleId], [r0].[RoleName], [r].[ScreenId], [s].[ScreenName], [s].[Description] AS [DisplayName], [s].[RoutePath], [s].[Icon], [s].[MenuLevel], [s].[ParentId]
+FROM [RoleScreenMapping] AS [r]
+INNER JOIN [Role] AS [r0] ON [r].[RoleId] = [r0].[RoleId]
+INNER JOIN [Screen] AS [s] ON [r].[ScreenId] = [s].[ScreenId]
+WHERE [r].[RoleId] = @__roleId_0 ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:05:52.2710 - INFO: Executing OkObjectResult, writing value of type 'IAI.Models.Models.Responses.BaseResponse`1[[IAI.Models.Models.UserDetailsModel, IAI.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:05:52.2710 - INFO: Executed action IAI.WebAPI.Controllers.AccountController.GetUserDetails (IAI.WebAPI) in 1488.0372ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:05:52.2710 - INFO: Executed endpoint 'IAI.WebAPI.Controllers.AccountController.GetUserDetails (IAI.WebAPI)' ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:05:52.2710 - INFO: Request finished HTTP/2 GET https://localhost:7254/api/Account/UserDetails - - - 200 - application/json;+charset=utf-8 1490.0369ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:06:04.8601 - INFO: Request starting HTTP/2 OPTIONS https://localhost:7254/api/Account/ChangePassword - - ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:06:04.8601 - INFO: CORS policy execution successful. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:06:04.8601 - INFO: Request finished HTTP/2 OPTIONS https://localhost:7254/api/Account/ChangePassword - - - 204 - - 0.2261ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:06:04.8601 - INFO: Request starting HTTP/2 POST https://localhost:7254/api/Account/ChangePassword application/json 152 ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:06:04.8601 - INFO: CORS policy execution successful. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:06:04.8601 - INFO: Executing endpoint 'IAI.WebAPI.Controllers.AccountController.ChangePassword (IAI.WebAPI)' ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:06:04.8601 - INFO: Route matched with {action = "ChangePassword", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ChangePassword(IAI.Models.Models.Account.ChangePasswordModel) on controller IAI.WebAPI.Controllers.AccountController (IAI.WebAPI). ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:06:09.2748 - INFO: Executed DbCommand (244ms) [Parameters=[@__userId_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[CreatedBy], [u].[CreatedDate], [u].[DeletedBy], [u].[DeletedDate], [u].[FailedPasswordAttemptCount], [u].[IsActive], [u].[IsLockedOut], [u].[IsPasswordChanged], [u].[IsVerified], [u].[LastActivityDate], [u].[LastLockoutDate], [u].[LastLoginDate], [u].[LastPasswordChangedDate], [u].[LoweredUserName], [u].[ModifiedBy], [u].[ModifiedDate], [u].[Password], [u].[PasswordFormat], [u].[PasswordResetRequestActive], [u].[PasswordSalt], [u].[UniqueId], [u].[UserName], [u].[VerificationCode]
+FROM [UserMaster] AS [u]
+WHERE [u].[UserId] = @__userId_0 ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:06:24.2982 - INFO: Executed DbCommand (596ms) [Parameters=[@__model_UserId_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[CreatedBy], [u].[CreatedDate], [u].[DeletedBy], [u].[DeletedDate], [u].[FailedPasswordAttemptCount], [u].[IsActive], [u].[IsLockedOut], [u].[IsPasswordChanged], [u].[IsVerified], [u].[LastActivityDate], [u].[LastLockoutDate], [u].[LastLoginDate], [u].[LastPasswordChangedDate], [u].[LoweredUserName], [u].[ModifiedBy], [u].[ModifiedDate], [u].[Password], [u].[PasswordFormat], [u].[PasswordResetRequestActive], [u].[PasswordSalt], [u].[UniqueId], [u].[UserName], [u].[VerificationCode]
+FROM [UserMaster] AS [u]
+WHERE [u].[UserId] = @__model_UserId_0 ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:06:24.7230 - INFO: Executed DbCommand (265ms) [Parameters=[@p3='?' (DbType = Guid), @p0='?' (DbType = DateTimeOffset), @p1='?' (Size = 4000), @p2='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [UserMaster] SET [ModifiedDate] = @p0, [Password] = @p1, [PasswordSalt] = @p2
+OUTPUT 1
+WHERE [UserId] = @p3; ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:06:26.9080 - INFO: Executed DbCommand (319ms) [Parameters=[@__userId_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[CreatedBy], [u].[CreatedDate], [u].[DeletedBy], [u].[DeletedDate], [u].[FailedPasswordAttemptCount], [u].[IsActive], [u].[IsLockedOut], [u].[IsPasswordChanged], [u].[IsVerified], [u].[LastActivityDate], [u].[LastLockoutDate], [u].[LastLoginDate], [u].[LastPasswordChangedDate], [u].[LoweredUserName], [u].[ModifiedBy], [u].[ModifiedDate], [u].[Password], [u].[PasswordFormat], [u].[PasswordResetRequestActive], [u].[PasswordSalt], [u].[UniqueId], [u].[UserName], [u].[VerificationCode]
+FROM [UserMaster] AS [u]
+WHERE [u].[UserId] = @__userId_0 AND [u].[IsActive] = CAST(1 AS bit) ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:06:27.1752 - INFO: Executed DbCommand (267ms) [Parameters=[@__userId_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[UserRoleId], [u].[CreatedBy], [u].[CreatedDate], [u].[DeletedBy], [u].[DeletedDate], [u].[IsActive], [u].[ModifiedBy], [u].[ModifiedDate], [u].[RoleId], [u].[UserId], [r].[RoleId], [r].[CreatedBy], [r].[CreatedDate], [r].[DeletedBy], [r].[DeletedDate], [r].[Description], [r].[IsActive], [r].[ModifiedBy], [r].[ModifiedDate], [r].[RoleName]
+FROM [UserRole] AS [u]
+INNER JOIN [Role] AS [r] ON [u].[RoleId] = [r].[RoleId]
+WHERE [u].[UserId] = @__userId_0 AND [u].[IsActive] = CAST(1 AS bit) ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:06:27.4444 - INFO: Executed DbCommand (269ms) [Parameters=[@__userId_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [i].[InterviewerId], [i].[Address], [i].[CityId], [i].[CreatedBy], [i].[CreatedDate], [i].[DeletedBy], [i].[DeletedDate], [i].[EmailId], [i].[ExperienceId], [i].[IsActive], [i].[MobileNumber], [i].[ModifiedBy], [i].[ModifiedDate], [i].[Name], [i].[UserId]
+FROM [InterviewerProfile] AS [i]
+WHERE [i].[UserId] = @__userId_0 ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:06:28.5229 - INFO: Executed DbCommand (314ms) [Parameters=[@__userId_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[CreatedBy], [u].[CreatedDate], [u].[DeletedBy], [u].[DeletedDate], [u].[FailedPasswordAttemptCount], [u].[IsActive], [u].[IsLockedOut], [u].[IsPasswordChanged], [u].[IsVerified], [u].[LastActivityDate], [u].[LastLockoutDate], [u].[LastLoginDate], [u].[LastPasswordChangedDate], [u].[LoweredUserName], [u].[ModifiedBy], [u].[ModifiedDate], [u].[Password], [u].[PasswordFormat], [u].[PasswordResetRequestActive], [u].[PasswordSalt], [u].[UniqueId], [u].[UserName], [u].[VerificationCode]
+FROM [UserMaster] AS [u]
+WHERE [u].[UserId] = @__userId_0 ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:07:05.1786 - INFO: Executing OkObjectResult, writing value of type 'IAI.Models.Models.Responses.BaseResponse`1[[System.Boolean, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:07:05.1786 - INFO: Executed action IAI.WebAPI.Controllers.AccountController.ChangePassword (IAI.WebAPI) in 60316.8185ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:07:05.1786 - INFO: Executed endpoint 'IAI.WebAPI.Controllers.AccountController.ChangePassword (IAI.WebAPI)' ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:07:05.1786 - INFO: Request finished HTTP/2 POST https://localhost:7254/api/Account/ChangePassword application/json 152 - 200 - application/json;+charset=utf-8 60317.5326ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:07:23.3614 - INFO: Request starting HTTP/2 OPTIONS https://localhost:7254/api/Account/ChangePassword - - ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:07:23.3614 - INFO: CORS policy execution successful. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:07:23.3614 - INFO: Request finished HTTP/2 OPTIONS https://localhost:7254/api/Account/ChangePassword - - - 204 - - 0.5846ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:07:23.3614 - INFO: Request starting HTTP/2 POST https://localhost:7254/api/Account/ChangePassword application/json 152 ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:07:23.3614 - INFO: CORS policy execution successful. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:07:23.3614 - INFO: Executing endpoint 'IAI.WebAPI.Controllers.AccountController.ChangePassword (IAI.WebAPI)' ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:07:23.3614 - INFO: Route matched with {action = "ChangePassword", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ChangePassword(IAI.Models.Models.Account.ChangePasswordModel) on controller IAI.WebAPI.Controllers.AccountController (IAI.WebAPI). ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:07:28.3104 - INFO: Executed DbCommand (243ms) [Parameters=[@__userId_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[CreatedBy], [u].[CreatedDate], [u].[DeletedBy], [u].[DeletedDate], [u].[FailedPasswordAttemptCount], [u].[IsActive], [u].[IsLockedOut], [u].[IsPasswordChanged], [u].[IsVerified], [u].[LastActivityDate], [u].[LastLockoutDate], [u].[LastLoginDate], [u].[LastPasswordChangedDate], [u].[LoweredUserName], [u].[ModifiedBy], [u].[ModifiedDate], [u].[Password], [u].[PasswordFormat], [u].[PasswordResetRequestActive], [u].[PasswordSalt], [u].[UniqueId], [u].[UserName], [u].[VerificationCode]
+FROM [UserMaster] AS [u]
+WHERE [u].[UserId] = @__userId_0 ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:07:35.7005 - INFO: Executing OkObjectResult, writing value of type 'IAI.Models.Models.Responses.BaseResponse`1[[System.Boolean, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:07:35.7005 - INFO: Executed action IAI.WebAPI.Controllers.AccountController.ChangePassword (IAI.WebAPI) in 12337.0437ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:07:35.7005 - INFO: Executed endpoint 'IAI.WebAPI.Controllers.AccountController.ChangePassword (IAI.WebAPI)' ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:07:35.7005 - INFO: Request finished HTTP/2 POST https://localhost:7254/api/Account/ChangePassword application/json 152 - 200 - application/json;+charset=utf-8 12337.5988ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:07:52.2747 - INFO: Request starting HTTP/2 OPTIONS https://localhost:7254/api/Account/UserDetails - - ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:07:52.2747 - INFO: CORS policy execution successful. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:07:52.2747 - INFO: Request finished HTTP/2 OPTIONS https://localhost:7254/api/Account/UserDetails - - - 204 - - 0.3116ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:07:52.2747 - INFO: Request starting HTTP/2 GET https://localhost:7254/api/Account/UserDetails - - ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:07:52.2747 - INFO: CORS policy execution successful. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:07:52.2747 - INFO: Executing endpoint 'IAI.WebAPI.Controllers.AccountController.GetUserDetails (IAI.WebAPI)' ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:07:52.2747 - INFO: Route matched with {action = "GetUserDetails", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserDetails() on controller IAI.WebAPI.Controllers.AccountController (IAI.WebAPI). ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:07:52.5223 - INFO: Executed DbCommand (243ms) [Parameters=[@__userId_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[CreatedBy], [u].[CreatedDate], [u].[DeletedBy], [u].[DeletedDate], [u].[FailedPasswordAttemptCount], [u].[IsActive], [u].[IsLockedOut], [u].[IsPasswordChanged], [u].[IsVerified], [u].[LastActivityDate], [u].[LastLockoutDate], [u].[LastLoginDate], [u].[LastPasswordChangedDate], [u].[LoweredUserName], [u].[ModifiedBy], [u].[ModifiedDate], [u].[Password], [u].[PasswordFormat], [u].[PasswordResetRequestActive], [u].[PasswordSalt], [u].[UniqueId], [u].[UserName], [u].[VerificationCode]
+FROM [UserMaster] AS [u]
+WHERE [u].[UserId] = @__userId_0 AND [u].[IsActive] = CAST(1 AS bit) ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:07:52.7690 - INFO: Executed DbCommand (246ms) [Parameters=[@__userId_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[UserRoleId], [u].[CreatedBy], [u].[CreatedDate], [u].[DeletedBy], [u].[DeletedDate], [u].[IsActive], [u].[ModifiedBy], [u].[ModifiedDate], [u].[RoleId], [u].[UserId], [r].[RoleId], [r].[CreatedBy], [r].[CreatedDate], [r].[DeletedBy], [r].[DeletedDate], [r].[Description], [r].[IsActive], [r].[ModifiedBy], [r].[ModifiedDate], [r].[RoleName]
+FROM [UserRole] AS [u]
+INNER JOIN [Role] AS [r] ON [u].[RoleId] = [r].[RoleId]
+WHERE [u].[UserId] = @__userId_0 AND [u].[IsActive] = CAST(1 AS bit) ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:07:53.0144 - INFO: Executed DbCommand (244ms) [Parameters=[@__userId_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [i].[InterviewerId], [i].[Address], [i].[CityId], [i].[CreatedBy], [i].[CreatedDate], [i].[DeletedBy], [i].[DeletedDate], [i].[EmailId], [i].[ExperienceId], [i].[IsActive], [i].[MobileNumber], [i].[ModifiedBy], [i].[ModifiedDate], [i].[Name], [i].[UserId]
+FROM [InterviewerProfile] AS [i]
+WHERE [i].[UserId] = @__userId_0 ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:07:53.2572 - INFO: Executed DbCommand (242ms) [Parameters=[@__userId_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[RoleId]
+FROM [UserRole] AS [u]
+WHERE [u].[UserId] = @__userId_0 ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:07:53.5019 - INFO: Executed DbCommand (244ms) [Parameters=[@__roleId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT [r].[RoleScreenId], [r].[CreatedBy], [r].[CreatedDate], [r].[DeletedBy], [r].[DeletedDate], [r].[IsActive], [r].[ModifiedBy], [r].[ModifiedDate], [r].[RoleId], [r].[ScreenId], [r0].[RoleId], [r0].[CreatedBy], [r0].[CreatedDate], [r0].[DeletedBy], [r0].[DeletedDate], [r0].[Description], [r0].[IsActive], [r0].[ModifiedBy], [r0].[ModifiedDate], [r0].[RoleName], [s].[ScreenId], [s].[CreatedBy], [s].[CreatedDate], [s].[DeletedBy], [s].[DeletedDate], [s].[Description], [s].[Icon], [s].[IsActive], [s].[MenuLevel], [s].[ModifiedBy], [s].[ModifiedDate], [s].[ParentId], [s].[RoutePath], [s].[ScreenName]
+FROM [RoleScreenMapping] AS [r]
+INNER JOIN [Role] AS [r0] ON [r].[RoleId] = [r0].[RoleId]
+INNER JOIN [Screen] AS [s] ON [r].[ScreenId] = [s].[ScreenId]
+WHERE [r].[RoleId] = @__roleId_0 ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:07:53.7559 - INFO: Executed DbCommand (253ms) [Parameters=[@__roleId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT [r].[RoleId], [r0].[RoleName], [r].[ScreenId], [s].[ScreenName], [s].[Description] AS [DisplayName], [s].[RoutePath], [s].[Icon], [s].[MenuLevel], [s].[ParentId]
+FROM [RoleScreenMapping] AS [r]
+INNER JOIN [Role] AS [r0] ON [r].[RoleId] = [r0].[RoleId]
+INNER JOIN [Screen] AS [s] ON [r].[ScreenId] = [s].[ScreenId]
+WHERE [r].[RoleId] = @__roleId_0 ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:07:53.7559 - INFO: Executing OkObjectResult, writing value of type 'IAI.Models.Models.Responses.BaseResponse`1[[IAI.Models.Models.UserDetailsModel, IAI.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:07:53.7559 - INFO: Executed action IAI.WebAPI.Controllers.AccountController.GetUserDetails (IAI.WebAPI) in 1478.449ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:07:53.7559 - INFO: Executed endpoint 'IAI.WebAPI.Controllers.AccountController.GetUserDetails (IAI.WebAPI)' ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:07:53.7559 - INFO: Request finished HTTP/2 GET https://localhost:7254/api/Account/UserDetails - - - 200 - application/json;+charset=utf-8 1479.3749ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:08:05.5879 - INFO: Request starting HTTP/2 OPTIONS https://localhost:7254/api/Account/ChangePassword - - ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:08:05.5879 - INFO: CORS policy execution successful. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:08:05.5879 - INFO: Request finished HTTP/2 OPTIONS https://localhost:7254/api/Account/ChangePassword - - - 204 - - 3.6094ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:08:05.5879 - INFO: Request starting HTTP/2 POST https://localhost:7254/api/Account/ChangePassword application/json 152 ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:08:05.5879 - INFO: CORS policy execution successful. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:08:05.5879 - INFO: Executing endpoint 'IAI.WebAPI.Controllers.AccountController.ChangePassword (IAI.WebAPI)' ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:08:05.5879 - INFO: Route matched with {action = "ChangePassword", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ChangePassword(IAI.Models.Models.Account.ChangePasswordModel) on controller IAI.WebAPI.Controllers.AccountController (IAI.WebAPI). ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:08:09.4840 - INFO: Executed DbCommand (243ms) [Parameters=[@__userId_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[CreatedBy], [u].[CreatedDate], [u].[DeletedBy], [u].[DeletedDate], [u].[FailedPasswordAttemptCount], [u].[IsActive], [u].[IsLockedOut], [u].[IsPasswordChanged], [u].[IsVerified], [u].[LastActivityDate], [u].[LastLockoutDate], [u].[LastLoginDate], [u].[LastPasswordChangedDate], [u].[LoweredUserName], [u].[ModifiedBy], [u].[ModifiedDate], [u].[Password], [u].[PasswordFormat], [u].[PasswordResetRequestActive], [u].[PasswordSalt], [u].[UniqueId], [u].[UserName], [u].[VerificationCode]
+FROM [UserMaster] AS [u]
+WHERE [u].[UserId] = @__userId_0 ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:08:20.6369 - INFO: Executing OkObjectResult, writing value of type 'IAI.Models.Models.Responses.BaseResponse`1[[System.Boolean, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:08:20.6369 - INFO: Executed action IAI.WebAPI.Controllers.AccountController.ChangePassword (IAI.WebAPI) in 15045.3464ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:08:20.6369 - INFO: Executed endpoint 'IAI.WebAPI.Controllers.AccountController.ChangePassword (IAI.WebAPI)' ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:08:20.6369 - INFO: Request finished HTTP/2 POST https://localhost:7254/api/Account/ChangePassword application/json 152 - 200 - application/json;+charset=utf-8 15046.1120ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:08:24.1614 - INFO: Request starting HTTP/2 OPTIONS https://localhost:7254/api/Account/ChangePassword - - ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:08:24.1614 - INFO: CORS policy execution successful. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:08:24.1614 - INFO: Request finished HTTP/2 OPTIONS https://localhost:7254/api/Account/ChangePassword - - - 204 - - 0.3865ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:08:24.1614 - INFO: Request starting HTTP/2 POST https://localhost:7254/api/Account/ChangePassword application/json 152 ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:08:24.1614 - INFO: CORS policy execution successful. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:08:24.1614 - INFO: Executing endpoint 'IAI.WebAPI.Controllers.AccountController.ChangePassword (IAI.WebAPI)' ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:08:24.1614 - INFO: Route matched with {action = "ChangePassword", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ChangePassword(IAI.Models.Models.Account.ChangePasswordModel) on controller IAI.WebAPI.Controllers.AccountController (IAI.WebAPI). ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:08:28.2842 - INFO: Executed DbCommand (243ms) [Parameters=[@__userId_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[CreatedBy], [u].[CreatedDate], [u].[DeletedBy], [u].[DeletedDate], [u].[FailedPasswordAttemptCount], [u].[IsActive], [u].[IsLockedOut], [u].[IsPasswordChanged], [u].[IsVerified], [u].[LastActivityDate], [u].[LastLockoutDate], [u].[LastLoginDate], [u].[LastPasswordChangedDate], [u].[LoweredUserName], [u].[ModifiedBy], [u].[ModifiedDate], [u].[Password], [u].[PasswordFormat], [u].[PasswordResetRequestActive], [u].[PasswordSalt], [u].[UniqueId], [u].[UserName], [u].[VerificationCode]
+FROM [UserMaster] AS [u]
+WHERE [u].[UserId] = @__userId_0 ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:08:46.2761 - INFO: Executing OkObjectResult, writing value of type 'IAI.Models.Models.Responses.BaseResponse`1[[System.Boolean, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:08:46.2761 - INFO: Executed action IAI.WebAPI.Controllers.AccountController.ChangePassword (IAI.WebAPI) in 22112.6121ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:08:46.2761 - INFO: Executed endpoint 'IAI.WebAPI.Controllers.AccountController.ChangePassword (IAI.WebAPI)' ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:08:46.2761 - INFO: Request finished HTTP/2 POST https://localhost:7254/api/Account/ChangePassword application/json 152 - 200 - application/json;+charset=utf-8 22113.2181ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:08:56.5738 - INFO: User profile is available. Using 'C:\Users\Dell\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:08:56.8018 - INFO: Now listening on: https://localhost:7254 ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:08:56.8018 - INFO: Now listening on: http://localhost:5254 ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:08:56.8018 - INFO: Application started. Press Ctrl+C to shut down. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:08:56.8018 - INFO: Hosting environment: Development ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:08:56.8018 - INFO: Content root path: D:\Antern\IAmInterviewed\IAmInterviewed\Code\IAI\WebAPI\IAI.WebAPI\ ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:08:57.5266 - INFO: Request starting HTTP/2 GET https://localhost:7254/swagger/index.html - - ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:08:58.3158 - INFO: Request finished HTTP/2 GET https://localhost:7254/swagger/index.html - - - 200 - text/html;charset=utf-8 796.3948ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:08:58.3579 - INFO: Request starting HTTP/2 GET https://localhost:7254/_framework/aspnetcore-browser-refresh.js - - ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:08:58.3634 - INFO: Request finished HTTP/2 GET https://localhost:7254/_framework/aspnetcore-browser-refresh.js - - - 200 11990 application/javascript;+charset=utf-8 5.3965ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:08:58.3634 - INFO: Request starting HTTP/2 GET https://localhost:7254/_vs/browserLink - - ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:08:58.3952 - INFO: Request finished HTTP/2 GET https://localhost:7254/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 26.6066ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:08:58.6126 - INFO: Request starting HTTP/2 GET https://localhost:7254/swagger/v1/swagger.json - - ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:08:58.8405 - INFO: Request finished HTTP/2 GET https://localhost:7254/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 227.9796ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:09:35.2538 - INFO: Request starting HTTP/2 OPTIONS https://localhost:7254/api/Account/token - - ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:09:35.2958 - INFO: CORS policy execution successful. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:09:35.3001 - INFO: Request finished HTTP/2 OPTIONS https://localhost:7254/api/Account/token - - - 204 - - 46.2038ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:09:35.3258 - INFO: Request starting HTTP/2 POST https://localhost:7254/api/Account/token application/json 66 ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:09:35.3258 - INFO: CORS policy execution successful. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:09:35.4194 - INFO: Executing endpoint 'IAI.WebAPI.Controllers.AccountController.GetToken (IAI.WebAPI)' ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:09:35.4759 - INFO: Route matched with {action = "GetToken", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetToken(IAI.Models.Models.Account.LoginModel) on controller IAI.WebAPI.Controllers.AccountController (IAI.WebAPI). ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:09:37.5785 - WARN: No store type was specified for the decimal property 'CurrentPay' on entity type 'CandidateProfile'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:09:37.5785 - WARN: No store type was specified for the decimal property 'ExpectedPay' on entity type 'CandidateProfile'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:09:37.5785 - WARN: No store type was specified for the decimal property 'TotalRating' on entity type 'InterviewRating'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:09:40.8964 - INFO: Executed DbCommand (323ms) [Parameters=[@__ToLower_0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[CreatedBy], [u].[CreatedDate], [u].[DeletedBy], [u].[DeletedDate], [u].[FailedPasswordAttemptCount], [u].[IsActive], [u].[IsLockedOut], [u].[IsPasswordChanged], [u].[IsVerified], [u].[LastActivityDate], [u].[LastLockoutDate], [u].[LastLoginDate], [u].[LastPasswordChangedDate], [u].[LoweredUserName], [u].[ModifiedBy], [u].[ModifiedDate], [u].[Password], [u].[PasswordFormat], [u].[PasswordResetRequestActive], [u].[PasswordSalt], [u].[UniqueId], [u].[UserName], [u].[VerificationCode]
+FROM [UserMaster] AS [u]
+WHERE LOWER([u].[UserName]) = @__ToLower_0 AND [u].[IsActive] = CAST(1 AS bit) AND [u].[IsVerified] = CAST(1 AS bit) ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:09:41.4744 - INFO: Executed action IAI.WebAPI.Controllers.AccountController.GetToken (IAI.WebAPI) in 5994.2964ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:09:41.4744 - INFO: Executed endpoint 'IAI.WebAPI.Controllers.AccountController.GetToken (IAI.WebAPI)' ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:09:41.4744 - ERROR: An unhandled exception has occurred while executing the request. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:09:41.8121 - INFO: Request finished HTTP/2 POST https://localhost:7254/api/Account/token application/json 66 - 500 - text/plain;+charset=utf-8 6486.4061ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:09:42.0959 - INFO: Request starting HTTP/2 OPTIONS https://localhost:7254/api/Account/UserDetails - - ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:09:42.0959 - INFO: CORS policy execution successful. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:09:42.0959 - INFO: Request finished HTTP/2 OPTIONS https://localhost:7254/api/Account/UserDetails - - - 204 - - 4.9330ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:09:42.0959 - INFO: Request starting HTTP/2 GET https://localhost:7254/api/Account/UserDetails - - ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:09:42.0959 - INFO: CORS policy execution successful. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:09:42.1191 - INFO: Bearer was not authenticated. Failure message: No SecurityTokenValidator available for token. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:09:42.1256 - INFO: Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:09:42.1987 - INFO: AuthenticationScheme: Bearer was challenged. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:09:42.1987 - INFO: Request finished HTTP/2 GET https://localhost:7254/api/Account/UserDetails - - - 401 0 - 96.5736ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:10:46.7700 - INFO: User profile is available. Using 'C:\Users\Dell\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:10:47.0151 - INFO: Now listening on: https://localhost:7254 ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:10:47.0151 - INFO: Now listening on: http://localhost:5254 ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:10:47.0151 - INFO: Application started. Press Ctrl+C to shut down. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:10:47.0151 - INFO: Hosting environment: Development ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:10:47.0151 - INFO: Content root path: D:\Antern\IAmInterviewed\IAmInterviewed\Code\IAI\WebAPI\IAI.WebAPI\ ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:10:47.6257 - INFO: Request starting HTTP/2 GET https://localhost:7254/swagger/index.html - - ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:10:48.2119 - INFO: Request finished HTTP/2 GET https://localhost:7254/swagger/index.html - - - 200 - text/html;charset=utf-8 592.2890ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:10:48.2749 - INFO: Request starting HTTP/2 GET https://localhost:7254/_framework/aspnetcore-browser-refresh.js - - ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:10:48.2812 - INFO: Request finished HTTP/2 GET https://localhost:7254/_framework/aspnetcore-browser-refresh.js - - - 200 11990 application/javascript;+charset=utf-8 6.3773ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:10:48.2812 - INFO: Request starting HTTP/2 GET https://localhost:7254/_vs/browserLink - - ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:10:48.3306 - INFO: Request finished HTTP/2 GET https://localhost:7254/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 45.3243ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:10:48.4647 - INFO: Request starting HTTP/2 GET https://localhost:7254/swagger/v1/swagger.json - - ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:10:48.7223 - INFO: Request finished HTTP/2 GET https://localhost:7254/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 257.6697ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:11:25.0842 - INFO: Request starting HTTP/2 OPTIONS https://localhost:7254/api/Account/token - - ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:11:25.0942 - INFO: CORS policy execution successful. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:11:25.0942 - INFO: Request finished HTTP/2 OPTIONS https://localhost:7254/api/Account/token - - - 204 - - 15.9839ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:11:25.1293 - INFO: Request starting HTTP/2 POST https://localhost:7254/api/Account/token application/json 66 ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:11:25.1293 - INFO: CORS policy execution successful. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:11:25.2511 - INFO: Executing endpoint 'IAI.WebAPI.Controllers.AccountController.GetToken (IAI.WebAPI)' ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:11:25.3094 - INFO: Route matched with {action = "GetToken", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetToken(IAI.Models.Models.Account.LoginModel) on controller IAI.WebAPI.Controllers.AccountController (IAI.WebAPI). ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:11:27.2988 - WARN: No store type was specified for the decimal property 'CurrentPay' on entity type 'CandidateProfile'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:11:27.2988 - WARN: No store type was specified for the decimal property 'ExpectedPay' on entity type 'CandidateProfile'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:11:27.2988 - WARN: No store type was specified for the decimal property 'TotalRating' on entity type 'InterviewRating'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:11:30.7608 - INFO: Executed DbCommand (352ms) [Parameters=[@__ToLower_0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[CreatedBy], [u].[CreatedDate], [u].[DeletedBy], [u].[DeletedDate], [u].[FailedPasswordAttemptCount], [u].[IsActive], [u].[IsLockedOut], [u].[IsPasswordChanged], [u].[IsVerified], [u].[LastActivityDate], [u].[LastLockoutDate], [u].[LastLoginDate], [u].[LastPasswordChangedDate], [u].[LoweredUserName], [u].[ModifiedBy], [u].[ModifiedDate], [u].[Password], [u].[PasswordFormat], [u].[PasswordResetRequestActive], [u].[PasswordSalt], [u].[UniqueId], [u].[UserName], [u].[VerificationCode]
+FROM [UserMaster] AS [u]
+WHERE LOWER([u].[UserName]) = @__ToLower_0 AND [u].[IsActive] = CAST(1 AS bit) AND [u].[IsVerified] = CAST(1 AS bit) ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:11:31.2919 - INFO: Executed DbCommand (248ms) [Parameters=[@__userId_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[UserRoleId], [u].[CreatedBy], [u].[CreatedDate], [u].[DeletedBy], [u].[DeletedDate], [u].[IsActive], [u].[ModifiedBy], [u].[ModifiedDate], [u].[RoleId], [u].[UserId], [r].[RoleId], [r].[CreatedBy], [r].[CreatedDate], [r].[DeletedBy], [r].[DeletedDate], [r].[Description], [r].[IsActive], [r].[ModifiedBy], [r].[ModifiedDate], [r].[RoleName]
+FROM [UserRole] AS [u]
+INNER JOIN [Role] AS [r] ON [u].[RoleId] = [r].[RoleId]
+WHERE [u].[UserId] = @__userId_0 AND [u].[IsActive] = CAST(1 AS bit) ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:11:31.5366 - INFO: Executing OkObjectResult, writing value of type 'IAI.Models.Models.JWTTokens.UserTokens'. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:11:31.5820 - INFO: Executed action IAI.WebAPI.Controllers.AccountController.GetToken (IAI.WebAPI) in 6266.9132ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:11:31.5820 - INFO: Executed endpoint 'IAI.WebAPI.Controllers.AccountController.GetToken (IAI.WebAPI)' ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:11:31.6513 - INFO: Request finished HTTP/2 POST https://localhost:7254/api/Account/token application/json 66 - 200 - application/json;+charset=utf-8 6521.9738ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:11:31.6646 - INFO: Request starting HTTP/2 OPTIONS https://localhost:7254/api/Account/UserDetails - - ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:11:31.6646 - INFO: CORS policy execution successful. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:11:31.6646 - INFO: Request finished HTTP/2 OPTIONS https://localhost:7254/api/Account/UserDetails - - - 204 - - 4.9716ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:11:31.6712 - INFO: Request starting HTTP/2 GET https://localhost:7254/api/Account/UserDetails - - ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:11:31.6712 - INFO: CORS policy execution successful. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:11:31.7872 - INFO: Executing endpoint 'IAI.WebAPI.Controllers.AccountController.GetUserDetails (IAI.WebAPI)' ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:11:31.7872 - INFO: Route matched with {action = "GetUserDetails", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserDetails() on controller IAI.WebAPI.Controllers.AccountController (IAI.WebAPI). ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:11:32.0591 - INFO: Executed DbCommand (248ms) [Parameters=[@__userId_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[CreatedBy], [u].[CreatedDate], [u].[DeletedBy], [u].[DeletedDate], [u].[FailedPasswordAttemptCount], [u].[IsActive], [u].[IsLockedOut], [u].[IsPasswordChanged], [u].[IsVerified], [u].[LastActivityDate], [u].[LastLockoutDate], [u].[LastLoginDate], [u].[LastPasswordChangedDate], [u].[LoweredUserName], [u].[ModifiedBy], [u].[ModifiedDate], [u].[Password], [u].[PasswordFormat], [u].[PasswordResetRequestActive], [u].[PasswordSalt], [u].[UniqueId], [u].[UserName], [u].[VerificationCode]
+FROM [UserMaster] AS [u]
+WHERE [u].[UserId] = @__userId_0 AND [u].[IsActive] = CAST(1 AS bit) ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:11:32.3062 - INFO: Executed DbCommand (244ms) [Parameters=[@__userId_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[UserRoleId], [u].[CreatedBy], [u].[CreatedDate], [u].[DeletedBy], [u].[DeletedDate], [u].[IsActive], [u].[ModifiedBy], [u].[ModifiedDate], [u].[RoleId], [u].[UserId], [r].[RoleId], [r].[CreatedBy], [r].[CreatedDate], [r].[DeletedBy], [r].[DeletedDate], [r].[Description], [r].[IsActive], [r].[ModifiedBy], [r].[ModifiedDate], [r].[RoleName]
+FROM [UserRole] AS [u]
+INNER JOIN [Role] AS [r] ON [u].[RoleId] = [r].[RoleId]
+WHERE [u].[UserId] = @__userId_0 AND [u].[IsActive] = CAST(1 AS bit) ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:11:32.5633 - INFO: Executed DbCommand (251ms) [Parameters=[@__userId_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [i].[InterviewerId], [i].[Address], [i].[CityId], [i].[CreatedBy], [i].[CreatedDate], [i].[DeletedBy], [i].[DeletedDate], [i].[EmailId], [i].[ExperienceId], [i].[IsActive], [i].[MobileNumber], [i].[ModifiedBy], [i].[ModifiedDate], [i].[Name], [i].[UserId]
+FROM [InterviewerProfile] AS [i]
+WHERE [i].[UserId] = @__userId_0 ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:11:32.8706 - INFO: Executed DbCommand (242ms) [Parameters=[@__userId_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[RoleId]
+FROM [UserRole] AS [u]
+WHERE [u].[UserId] = @__userId_0 ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:11:33.1387 - INFO: Executed DbCommand (243ms) [Parameters=[@__roleId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT [r].[RoleScreenId], [r].[CreatedBy], [r].[CreatedDate], [r].[DeletedBy], [r].[DeletedDate], [r].[IsActive], [r].[ModifiedBy], [r].[ModifiedDate], [r].[RoleId], [r].[ScreenId], [r0].[RoleId], [r0].[CreatedBy], [r0].[CreatedDate], [r0].[DeletedBy], [r0].[DeletedDate], [r0].[Description], [r0].[IsActive], [r0].[ModifiedBy], [r0].[ModifiedDate], [r0].[RoleName], [s].[ScreenId], [s].[CreatedBy], [s].[CreatedDate], [s].[DeletedBy], [s].[DeletedDate], [s].[Description], [s].[Icon], [s].[IsActive], [s].[MenuLevel], [s].[ModifiedBy], [s].[ModifiedDate], [s].[ParentId], [s].[RoutePath], [s].[ScreenName]
+FROM [RoleScreenMapping] AS [r]
+INNER JOIN [Role] AS [r0] ON [r].[RoleId] = [r0].[RoleId]
+INNER JOIN [Screen] AS [s] ON [r].[ScreenId] = [s].[ScreenId]
+WHERE [r].[RoleId] = @__roleId_0 ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:11:33.4500 - INFO: Executed DbCommand (243ms) [Parameters=[@__roleId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT [r].[RoleId], [r0].[RoleName], [r].[ScreenId], [s].[ScreenName], [s].[Description] AS [DisplayName], [s].[RoutePath], [s].[Icon], [s].[MenuLevel], [s].[ParentId]
+FROM [RoleScreenMapping] AS [r]
+INNER JOIN [Role] AS [r0] ON [r].[RoleId] = [r0].[RoleId]
+INNER JOIN [Screen] AS [s] ON [r].[ScreenId] = [s].[ScreenId]
+WHERE [r].[RoleId] = @__roleId_0 ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:11:33.4500 - INFO: Executing OkObjectResult, writing value of type 'IAI.Models.Models.Responses.BaseResponse`1[[IAI.Models.Models.UserDetailsModel, IAI.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:11:33.4810 - INFO: Executed action IAI.WebAPI.Controllers.AccountController.GetUserDetails (IAI.WebAPI) in 1691.4828ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:11:33.4810 - INFO: Executed endpoint 'IAI.WebAPI.Controllers.AccountController.GetUserDetails (IAI.WebAPI)' ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:11:33.4810 - INFO: Request finished HTTP/2 GET https://localhost:7254/api/Account/UserDetails - - - 200 - application/json;+charset=utf-8 1811.8815ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:11:33.5816 - INFO: Request starting HTTP/2 OPTIONS https://localhost:7254/api/Interviewer/InterviewerDashboard - - ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:11:33.5816 - INFO: CORS policy execution successful. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:11:33.5816 - INFO: Request finished HTTP/2 OPTIONS https://localhost:7254/api/Interviewer/InterviewerDashboard - - - 204 - - 0.5717ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:11:33.5816 - INFO: Request starting HTTP/2 POST https://localhost:7254/api/Interviewer/InterviewerDashboard application/json 214 ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:11:33.5816 - INFO: CORS policy execution successful. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:11:33.5936 - INFO: Executing endpoint 'IAI.WebAPI.Controllers.Interviewer.InterviewerController.LoadInterviews (IAI.WebAPI)' ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:11:33.5936 - INFO: Route matched with {action = "LoadInterviews", controller = "Interviewer"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LoadInterviews(IAI.Models.Models.Interviewer.Requests.InterviewerDashboardRequestParameters) on controller IAI.WebAPI.Controllers.Interviewer.InterviewerController (IAI.WebAPI). ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:11:33.9807 - INFO: Executed DbCommand (244ms) [Parameters=[@__inputParms_InterviewerId_0='?' (DbType = Guid), @__p_1='?' (DbType = DateTimeOffset), @__p_2='?' (DbType = DateTimeOffset)], CommandType='Text', CommandTimeout='30']
+SELECT [i].[InterviewId], [i].[CandidateId], [i].[CreatedBy], [i].[CreatedDate], [i].[DeletedBy], [i].[DeletedDate], [i].[InterviewDate], [i].[InterviewTypeId], [i].[InterviewerId], [i].[IsActive], [i].[IsBlocked], [i].[IsConfirmedByInterviewer], [i].[IsPaymentConfirmed], [i].[IsRated], [i].[IsValid], [i].[ModifiedBy], [i].[ModifiedDate], [i].[PrimarySkillId], [i].[StatusId], [i].[TimeSlotId], [c].[CandidateId], [c].[AdditionalSkills], [c].[Address], [c].[CityId], [c].[CreatedBy], [c].[CreatedDate], [c].[CurrentPay], [c].[DeletedBy], [c].[DeletedDate], [c].[DesignationId], [c].[EmailId], [c].[ExpectedPay], [c].[ExperienceId], [c].[GapInEducation], [c].[GapInExperience], [c].[IsActive], [c].[MobileNumber], [c].[ModifiedBy], [c].[ModifiedDate], [c].[Name], [c].[NoticePeriodId], [c].[PrimarySkillId], [c].[PromoCode], [c].[ReadyToChange], [c].[RestrictEmployerToViewProfile], [c].[UserId], [t].[TimeSlotId], [t].[CreatedBy], [t].[CreatedDate], [t].[DeletedBy], [t].[DeletedDate], [t].[IsActive], [t].[ModifiedBy], [t].[ModifiedDate], [t].[TimeSlotName], [p].[PrimarySkillId], [p].[CreatedBy], [p].[CreatedDate], [p].[DeletedBy], [p].[DeletedDate], [p].[Description], [p].[IsActive], [p].[ModifiedBy], [p].[ModifiedDate], [p].[PrimarySkillName], [s].[StatusId], [s].[CreatedBy], [s].[CreatedDate], [s].[DeletedBy], [s].[DeletedDate], [s].[Description], [s].[IsActive], [s].[ModifiedBy], [s].[ModifiedDate], [s].[StatusName], [i0].[InterviewTypeId], [i0].[CreatedBy], [i0].[CreatedDate], [i0].[DeletedBy], [i0].[DeletedDate], [i0].[InterviewTypeName], [i0].[IsActive], [i0].[ModifiedBy], [i0].[ModifiedDate]
+FROM [Interview] AS [i]
+INNER JOIN [CandidateProfile] AS [c] ON [i].[CandidateId] = [c].[CandidateId]
+INNER JOIN [TimeSlot] AS [t] ON [i].[TimeSlotId] = [t].[TimeSlotId]
+INNER JOIN [PrimarySkill] AS [p] ON [i].[PrimarySkillId] = [p].[PrimarySkillId]
+INNER JOIN [Status] AS [s] ON [i].[StatusId] = [s].[StatusId]
+INNER JOIN [InterviewType] AS [i0] ON [i].[InterviewTypeId] = [i0].[InterviewTypeId]
+WHERE [i].[InterviewerId] = @__inputParms_InterviewerId_0 AND [i].[InterviewDate] >= @__p_1 AND [i].[InterviewDate] < @__p_2 AND [i].[IsActive] = CAST(1 AS bit) ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:11:34.2768 - INFO: Executed DbCommand (244ms) [Parameters=[@__inputParms_InterviewerId_0='?' (DbType = Guid), @__p_1='?' (DbType = DateTimeOffset), @__p_2='?' (DbType = DateTimeOffset)], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Interview] AS [i]
+WHERE [i].[InterviewerId] = @__inputParms_InterviewerId_0 AND [i].[InterviewDate] >= @__p_1 AND [i].[InterviewDate] < @__p_2 AND [i].[IsActive] = CAST(1 AS bit) ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:11:34.5921 - INFO: Executed DbCommand (244ms) [Parameters=[@__inputParms_InterviewerId_0='?' (DbType = Guid), @__p_1='?' (DbType = DateTimeOffset), @__p_2='?' (DbType = DateTimeOffset), @__p_3='?' (DbType = Int32), @__p_4='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT [t].[InterviewId], [t].[InterviewDate], [t0].[TimeSlotName], [c].[Name] AS [CandidateName], [i0].[InterviewTypeName], [p].[PrimarySkillName], CASE
+    WHEN [t].[IsConfirmedByInterviewer] = CAST(0 AS bit) THEN N'False'
+    ELSE N'True'
+END AS [IsConfirmedByInterviewer], [s].[StatusName], CASE
+    WHEN [t].[IsRated] = CAST(0 AS bit) THEN N'False'
+    ELSE N'True'
+END AS [IsRated], CASE
+    WHEN [i1].[IsRatingAcceptedByUser] = CAST(0 AS bit) THEN N'False'
+    WHEN [i1].[IsRatingAcceptedByUser] = CAST(1 AS bit) THEN N'True'
+    ELSE NULL
+END AS [IsRatingAcceptedByUser], CASE
+    WHEN [t].[IsRated] = CAST(1 AS bit) THEN COALESCE(CONVERT(varchar(100), [i1].[TotalRating]), N'') + N' / 5'
+    ELSE N'Pending'
+END AS [Rating], [z].[JoinUrl] AS [MeetingURL]
+FROM (
+    SELECT [i].[InterviewId], [i].[CandidateId], [i].[InterviewDate], [i].[InterviewTypeId], [i].[IsConfirmedByInterviewer], [i].[IsRated], [i].[PrimarySkillId], [i].[StatusId], [i].[TimeSlotId]
+    FROM [Interview] AS [i]
+    WHERE [i].[InterviewerId] = @__inputParms_InterviewerId_0 AND [i].[InterviewDate] >= @__p_1 AND [i].[InterviewDate] < @__p_2 AND [i].[IsActive] = CAST(1 AS bit)
+    ORDER BY [i].[InterviewDate]
+    OFFSET @__p_3 ROWS FETCH NEXT @__p_4 ROWS ONLY
+) AS [t]
+INNER JOIN [TimeSlot] AS [t0] ON [t].[TimeSlotId] = [t0].[TimeSlotId]
+INNER JOIN [CandidateProfile] AS [c] ON [t].[CandidateId] = [c].[CandidateId]
+INNER JOIN [InterviewType] AS [i0] ON [t].[InterviewTypeId] = [i0].[InterviewTypeId]
+INNER JOIN [PrimarySkill] AS [p] ON [t].[PrimarySkillId] = [p].[PrimarySkillId]
+INNER JOIN [Status] AS [s] ON [t].[StatusId] = [s].[StatusId]
+LEFT JOIN [InterviewRating] AS [i1] ON [t].[InterviewId] = [i1].[InterviewId]
+LEFT JOIN [ZoomSchedules] AS [z] ON [t].[InterviewId] = [z].[InterviewId]
+ORDER BY [t].[InterviewDate] ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:11:34.5936 - INFO: Executing OkObjectResult, writing value of type 'IAI.Models.Models.Responses.PagedListModel`1[[IAI.Models.Models.Interviewer.Responses.InterviewerDashboardModel, IAI.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:11:34.5936 - INFO: Executed action IAI.WebAPI.Controllers.Interviewer.InterviewerController.LoadInterviews (IAI.WebAPI) in 1001.8505ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:11:34.5936 - INFO: Executed endpoint 'IAI.WebAPI.Controllers.Interviewer.InterviewerController.LoadInterviews (IAI.WebAPI)' ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:11:34.5936 - INFO: Request finished HTTP/2 POST https://localhost:7254/api/Interviewer/InterviewerDashboard application/json 214 - 200 - application/json;+charset=utf-8 1018.6070ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:11:49.3082 - INFO: Request starting HTTP/2 OPTIONS https://localhost:7254/api/Account/ChangePassword - - ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:11:49.3082 - INFO: CORS policy execution successful. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:11:49.3082 - INFO: Request finished HTTP/2 OPTIONS https://localhost:7254/api/Account/ChangePassword - - - 204 - - 1.1734ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:11:49.3179 - INFO: Request starting HTTP/2 POST https://localhost:7254/api/Account/ChangePassword application/json 152 ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:11:49.3179 - INFO: CORS policy execution successful. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:11:49.3179 - INFO: Executing endpoint 'IAI.WebAPI.Controllers.AccountController.ChangePassword (IAI.WebAPI)' ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:11:49.3179 - INFO: Route matched with {action = "ChangePassword", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ChangePassword(IAI.Models.Models.Account.ChangePasswordModel) on controller IAI.WebAPI.Controllers.AccountController (IAI.WebAPI). ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:11:54.3328 - INFO: Executed DbCommand (243ms) [Parameters=[@__userId_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[CreatedBy], [u].[CreatedDate], [u].[DeletedBy], [u].[DeletedDate], [u].[FailedPasswordAttemptCount], [u].[IsActive], [u].[IsLockedOut], [u].[IsPasswordChanged], [u].[IsVerified], [u].[LastActivityDate], [u].[LastLockoutDate], [u].[LastLoginDate], [u].[LastPasswordChangedDate], [u].[LoweredUserName], [u].[ModifiedBy], [u].[ModifiedDate], [u].[Password], [u].[PasswordFormat], [u].[PasswordResetRequestActive], [u].[PasswordSalt], [u].[UniqueId], [u].[UserName], [u].[VerificationCode]
+FROM [UserMaster] AS [u]
+WHERE [u].[UserId] = @__userId_0 ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:11:58.1045 - INFO: Executed DbCommand (243ms) [Parameters=[@__model_UserId_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[CreatedBy], [u].[CreatedDate], [u].[DeletedBy], [u].[DeletedDate], [u].[FailedPasswordAttemptCount], [u].[IsActive], [u].[IsLockedOut], [u].[IsPasswordChanged], [u].[IsVerified], [u].[LastActivityDate], [u].[LastLockoutDate], [u].[LastLoginDate], [u].[LastPasswordChangedDate], [u].[LoweredUserName], [u].[ModifiedBy], [u].[ModifiedDate], [u].[Password], [u].[PasswordFormat], [u].[PasswordResetRequestActive], [u].[PasswordSalt], [u].[UniqueId], [u].[UserName], [u].[VerificationCode]
+FROM [UserMaster] AS [u]
+WHERE [u].[UserId] = @__model_UserId_0 ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:11:58.5317 - INFO: Executed DbCommand (259ms) [Parameters=[@p1='?' (DbType = Guid), @p0='?' (DbType = DateTimeOffset)], CommandType='Text', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [UserMaster] SET [ModifiedDate] = @p0
+OUTPUT 1
+WHERE [UserId] = @p1; ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:12:04.1821 - INFO: Executed DbCommand (244ms) [Parameters=[@__userId_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[CreatedBy], [u].[CreatedDate], [u].[DeletedBy], [u].[DeletedDate], [u].[FailedPasswordAttemptCount], [u].[IsActive], [u].[IsLockedOut], [u].[IsPasswordChanged], [u].[IsVerified], [u].[LastActivityDate], [u].[LastLockoutDate], [u].[LastLoginDate], [u].[LastPasswordChangedDate], [u].[LoweredUserName], [u].[ModifiedBy], [u].[ModifiedDate], [u].[Password], [u].[PasswordFormat], [u].[PasswordResetRequestActive], [u].[PasswordSalt], [u].[UniqueId], [u].[UserName], [u].[VerificationCode]
+FROM [UserMaster] AS [u]
+WHERE [u].[UserId] = @__userId_0 AND [u].[IsActive] = CAST(1 AS bit) ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:12:04.4245 - INFO: Executed DbCommand (242ms) [Parameters=[@__userId_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[UserRoleId], [u].[CreatedBy], [u].[CreatedDate], [u].[DeletedBy], [u].[DeletedDate], [u].[IsActive], [u].[ModifiedBy], [u].[ModifiedDate], [u].[RoleId], [u].[UserId], [r].[RoleId], [r].[CreatedBy], [r].[CreatedDate], [r].[DeletedBy], [r].[DeletedDate], [r].[Description], [r].[IsActive], [r].[ModifiedBy], [r].[ModifiedDate], [r].[RoleName]
+FROM [UserRole] AS [u]
+INNER JOIN [Role] AS [r] ON [u].[RoleId] = [r].[RoleId]
+WHERE [u].[UserId] = @__userId_0 AND [u].[IsActive] = CAST(1 AS bit) ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:12:04.6667 - INFO: Executed DbCommand (242ms) [Parameters=[@__userId_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [i].[InterviewerId], [i].[Address], [i].[CityId], [i].[CreatedBy], [i].[CreatedDate], [i].[DeletedBy], [i].[DeletedDate], [i].[EmailId], [i].[ExperienceId], [i].[IsActive], [i].[MobileNumber], [i].[ModifiedBy], [i].[ModifiedDate], [i].[Name], [i].[UserId]
+FROM [InterviewerProfile] AS [i]
+WHERE [i].[UserId] = @__userId_0 ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:12:05.8022 - INFO: Executed DbCommand (242ms) [Parameters=[@__userId_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[CreatedBy], [u].[CreatedDate], [u].[DeletedBy], [u].[DeletedDate], [u].[FailedPasswordAttemptCount], [u].[IsActive], [u].[IsLockedOut], [u].[IsPasswordChanged], [u].[IsVerified], [u].[LastActivityDate], [u].[LastLockoutDate], [u].[LastLoginDate], [u].[LastPasswordChangedDate], [u].[LoweredUserName], [u].[ModifiedBy], [u].[ModifiedDate], [u].[Password], [u].[PasswordFormat], [u].[PasswordResetRequestActive], [u].[PasswordSalt], [u].[UniqueId], [u].[UserName], [u].[VerificationCode]
+FROM [UserMaster] AS [u]
+WHERE [u].[UserId] = @__userId_0 ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:12:30.2812 - INFO: Executing OkObjectResult, writing value of type 'IAI.Models.Models.Responses.BaseResponse`1[[System.Boolean, System.Private.CoreLib, Version=6.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:12:30.2812 - INFO: Executed action IAI.WebAPI.Controllers.AccountController.ChangePassword (IAI.WebAPI) in 40958.0512ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:12:30.2812 - INFO: Executed endpoint 'IAI.WebAPI.Controllers.AccountController.ChangePassword (IAI.WebAPI)' ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:12:30.2812 - INFO: Request finished HTTP/2 POST https://localhost:7254/api/Account/ChangePassword application/json 152 - 200 - application/json;+charset=utf-8 40966.8962ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:13:39.0441 - INFO: Request starting HTTP/2 OPTIONS https://localhost:7254/api/Account/token - - ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:13:39.0441 - INFO: CORS policy execution successful. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:13:39.0441 - INFO: Request finished HTTP/2 OPTIONS https://localhost:7254/api/Account/token - - - 204 - - 0.7081ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:13:39.0441 - INFO: Request starting HTTP/2 POST https://localhost:7254/api/Account/token application/json 66 ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:13:39.0462 - INFO: CORS policy execution successful. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:13:39.0462 - INFO: Executing endpoint 'IAI.WebAPI.Controllers.AccountController.GetToken (IAI.WebAPI)' ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:13:39.0462 - INFO: Route matched with {action = "GetToken", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetToken(IAI.Models.Models.Account.LoginModel) on controller IAI.WebAPI.Controllers.AccountController (IAI.WebAPI). ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:13:39.2938 - INFO: Executed DbCommand (244ms) [Parameters=[@__ToLower_0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[CreatedBy], [u].[CreatedDate], [u].[DeletedBy], [u].[DeletedDate], [u].[FailedPasswordAttemptCount], [u].[IsActive], [u].[IsLockedOut], [u].[IsPasswordChanged], [u].[IsVerified], [u].[LastActivityDate], [u].[LastLockoutDate], [u].[LastLoginDate], [u].[LastPasswordChangedDate], [u].[LoweredUserName], [u].[ModifiedBy], [u].[ModifiedDate], [u].[Password], [u].[PasswordFormat], [u].[PasswordResetRequestActive], [u].[PasswordSalt], [u].[UniqueId], [u].[UserName], [u].[VerificationCode]
+FROM [UserMaster] AS [u]
+WHERE LOWER([u].[UserName]) = @__ToLower_0 AND [u].[IsActive] = CAST(1 AS bit) AND [u].[IsVerified] = CAST(1 AS bit) ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:13:39.5415 - INFO: Executed DbCommand (243ms) [Parameters=[@__userId_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[UserRoleId], [u].[CreatedBy], [u].[CreatedDate], [u].[DeletedBy], [u].[DeletedDate], [u].[IsActive], [u].[ModifiedBy], [u].[ModifiedDate], [u].[RoleId], [u].[UserId], [r].[RoleId], [r].[CreatedBy], [r].[CreatedDate], [r].[DeletedBy], [r].[DeletedDate], [r].[Description], [r].[IsActive], [r].[ModifiedBy], [r].[ModifiedDate], [r].[RoleName]
+FROM [UserRole] AS [u]
+INNER JOIN [Role] AS [r] ON [u].[RoleId] = [r].[RoleId]
+WHERE [u].[UserId] = @__userId_0 AND [u].[IsActive] = CAST(1 AS bit) ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:13:39.5415 - INFO: Executing OkObjectResult, writing value of type 'IAI.Models.Models.JWTTokens.UserTokens'. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:13:39.5415 - INFO: Executed action IAI.WebAPI.Controllers.AccountController.GetToken (IAI.WebAPI) in 496.9637ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:13:39.5415 - INFO: Executed endpoint 'IAI.WebAPI.Controllers.AccountController.GetToken (IAI.WebAPI)' ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:13:39.5415 - INFO: Request finished HTTP/2 POST https://localhost:7254/api/Account/token application/json 66 - 200 - application/json;+charset=utf-8 497.8954ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:13:39.5557 - INFO: Request starting HTTP/2 OPTIONS https://localhost:7254/api/Account/UserDetails - - ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:13:39.5557 - INFO: CORS policy execution successful. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:13:39.5557 - INFO: Request finished HTTP/2 OPTIONS https://localhost:7254/api/Account/UserDetails - - - 204 - - 2.2268ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:13:39.5627 - INFO: Request starting HTTP/2 GET https://localhost:7254/api/Account/UserDetails - - ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:13:39.5627 - INFO: CORS policy execution successful. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:13:39.5627 - INFO: Executing endpoint 'IAI.WebAPI.Controllers.AccountController.GetUserDetails (IAI.WebAPI)' ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:13:39.5627 - INFO: Route matched with {action = "GetUserDetails", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserDetails() on controller IAI.WebAPI.Controllers.AccountController (IAI.WebAPI). ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:13:39.8090 - INFO: Executed DbCommand (242ms) [Parameters=[@__userId_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[CreatedBy], [u].[CreatedDate], [u].[DeletedBy], [u].[DeletedDate], [u].[FailedPasswordAttemptCount], [u].[IsActive], [u].[IsLockedOut], [u].[IsPasswordChanged], [u].[IsVerified], [u].[LastActivityDate], [u].[LastLockoutDate], [u].[LastLoginDate], [u].[LastPasswordChangedDate], [u].[LoweredUserName], [u].[ModifiedBy], [u].[ModifiedDate], [u].[Password], [u].[PasswordFormat], [u].[PasswordResetRequestActive], [u].[PasswordSalt], [u].[UniqueId], [u].[UserName], [u].[VerificationCode]
+FROM [UserMaster] AS [u]
+WHERE [u].[UserId] = @__userId_0 AND [u].[IsActive] = CAST(1 AS bit) ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:13:40.0529 - INFO: Executed DbCommand (243ms) [Parameters=[@__userId_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[UserRoleId], [u].[CreatedBy], [u].[CreatedDate], [u].[DeletedBy], [u].[DeletedDate], [u].[IsActive], [u].[ModifiedBy], [u].[ModifiedDate], [u].[RoleId], [u].[UserId], [r].[RoleId], [r].[CreatedBy], [r].[CreatedDate], [r].[DeletedBy], [r].[DeletedDate], [r].[Description], [r].[IsActive], [r].[ModifiedBy], [r].[ModifiedDate], [r].[RoleName]
+FROM [UserRole] AS [u]
+INNER JOIN [Role] AS [r] ON [u].[RoleId] = [r].[RoleId]
+WHERE [u].[UserId] = @__userId_0 AND [u].[IsActive] = CAST(1 AS bit) ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:13:40.2974 - INFO: Executed DbCommand (243ms) [Parameters=[@__userId_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [i].[InterviewerId], [i].[Address], [i].[CityId], [i].[CreatedBy], [i].[CreatedDate], [i].[DeletedBy], [i].[DeletedDate], [i].[EmailId], [i].[ExperienceId], [i].[IsActive], [i].[MobileNumber], [i].[ModifiedBy], [i].[ModifiedDate], [i].[Name], [i].[UserId]
+FROM [InterviewerProfile] AS [i]
+WHERE [i].[UserId] = @__userId_0 ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:13:40.5413 - INFO: Executed DbCommand (242ms) [Parameters=[@__userId_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[RoleId]
+FROM [UserRole] AS [u]
+WHERE [u].[UserId] = @__userId_0 ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:13:40.7858 - INFO: Executed DbCommand (243ms) [Parameters=[@__roleId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT [r].[RoleScreenId], [r].[CreatedBy], [r].[CreatedDate], [r].[DeletedBy], [r].[DeletedDate], [r].[IsActive], [r].[ModifiedBy], [r].[ModifiedDate], [r].[RoleId], [r].[ScreenId], [r0].[RoleId], [r0].[CreatedBy], [r0].[CreatedDate], [r0].[DeletedBy], [r0].[DeletedDate], [r0].[Description], [r0].[IsActive], [r0].[ModifiedBy], [r0].[ModifiedDate], [r0].[RoleName], [s].[ScreenId], [s].[CreatedBy], [s].[CreatedDate], [s].[DeletedBy], [s].[DeletedDate], [s].[Description], [s].[Icon], [s].[IsActive], [s].[MenuLevel], [s].[ModifiedBy], [s].[ModifiedDate], [s].[ParentId], [s].[RoutePath], [s].[ScreenName]
+FROM [RoleScreenMapping] AS [r]
+INNER JOIN [Role] AS [r0] ON [r].[RoleId] = [r0].[RoleId]
+INNER JOIN [Screen] AS [s] ON [r].[ScreenId] = [s].[ScreenId]
+WHERE [r].[RoleId] = @__roleId_0 ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:13:41.0320 - INFO: Executed DbCommand (243ms) [Parameters=[@__roleId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT [r].[RoleId], [r0].[RoleName], [r].[ScreenId], [s].[ScreenName], [s].[Description] AS [DisplayName], [s].[RoutePath], [s].[Icon], [s].[MenuLevel], [s].[ParentId]
+FROM [RoleScreenMapping] AS [r]
+INNER JOIN [Role] AS [r0] ON [r].[RoleId] = [r0].[RoleId]
+INNER JOIN [Screen] AS [s] ON [r].[ScreenId] = [s].[ScreenId]
+WHERE [r].[RoleId] = @__roleId_0 ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:13:41.0320 - INFO: Executing OkObjectResult, writing value of type 'IAI.Models.Models.Responses.BaseResponse`1[[IAI.Models.Models.UserDetailsModel, IAI.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:13:41.0320 - INFO: Executed action IAI.WebAPI.Controllers.AccountController.GetUserDetails (IAI.WebAPI) in 1468.9947ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:13:41.0320 - INFO: Executed endpoint 'IAI.WebAPI.Controllers.AccountController.GetUserDetails (IAI.WebAPI)' ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:13:41.0320 - INFO: Request finished HTTP/2 GET https://localhost:7254/api/Account/UserDetails - - - 200 - application/json;+charset=utf-8 1470.9853ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:13:41.1062 - INFO: Request starting HTTP/2 OPTIONS https://localhost:7254/api/Interviewer/InterviewerDashboard - - ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:13:41.1062 - INFO: CORS policy execution successful. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:13:41.1062 - INFO: Request finished HTTP/2 OPTIONS https://localhost:7254/api/Interviewer/InterviewerDashboard - - - 204 - - 0.2335ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:13:41.1062 - INFO: Request starting HTTP/2 POST https://localhost:7254/api/Interviewer/InterviewerDashboard application/json 214 ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:13:41.1062 - INFO: CORS policy execution successful. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:13:41.1062 - INFO: Executing endpoint 'IAI.WebAPI.Controllers.Interviewer.InterviewerController.LoadInterviews (IAI.WebAPI)' ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:13:41.1062 - INFO: Route matched with {action = "LoadInterviews", controller = "Interviewer"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LoadInterviews(IAI.Models.Models.Interviewer.Requests.InterviewerDashboardRequestParameters) on controller IAI.WebAPI.Controllers.Interviewer.InterviewerController (IAI.WebAPI). ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:13:41.3716 - INFO: Executed DbCommand (245ms) [Parameters=[@__inputParms_InterviewerId_0='?' (DbType = Guid), @__p_1='?' (DbType = DateTimeOffset), @__p_2='?' (DbType = DateTimeOffset)], CommandType='Text', CommandTimeout='30']
+SELECT [i].[InterviewId], [i].[CandidateId], [i].[CreatedBy], [i].[CreatedDate], [i].[DeletedBy], [i].[DeletedDate], [i].[InterviewDate], [i].[InterviewTypeId], [i].[InterviewerId], [i].[IsActive], [i].[IsBlocked], [i].[IsConfirmedByInterviewer], [i].[IsPaymentConfirmed], [i].[IsRated], [i].[IsValid], [i].[ModifiedBy], [i].[ModifiedDate], [i].[PrimarySkillId], [i].[StatusId], [i].[TimeSlotId], [c].[CandidateId], [c].[AdditionalSkills], [c].[Address], [c].[CityId], [c].[CreatedBy], [c].[CreatedDate], [c].[CurrentPay], [c].[DeletedBy], [c].[DeletedDate], [c].[DesignationId], [c].[EmailId], [c].[ExpectedPay], [c].[ExperienceId], [c].[GapInEducation], [c].[GapInExperience], [c].[IsActive], [c].[MobileNumber], [c].[ModifiedBy], [c].[ModifiedDate], [c].[Name], [c].[NoticePeriodId], [c].[PrimarySkillId], [c].[PromoCode], [c].[ReadyToChange], [c].[RestrictEmployerToViewProfile], [c].[UserId], [t].[TimeSlotId], [t].[CreatedBy], [t].[CreatedDate], [t].[DeletedBy], [t].[DeletedDate], [t].[IsActive], [t].[ModifiedBy], [t].[ModifiedDate], [t].[TimeSlotName], [p].[PrimarySkillId], [p].[CreatedBy], [p].[CreatedDate], [p].[DeletedBy], [p].[DeletedDate], [p].[Description], [p].[IsActive], [p].[ModifiedBy], [p].[ModifiedDate], [p].[PrimarySkillName], [s].[StatusId], [s].[CreatedBy], [s].[CreatedDate], [s].[DeletedBy], [s].[DeletedDate], [s].[Description], [s].[IsActive], [s].[ModifiedBy], [s].[ModifiedDate], [s].[StatusName], [i0].[InterviewTypeId], [i0].[CreatedBy], [i0].[CreatedDate], [i0].[DeletedBy], [i0].[DeletedDate], [i0].[InterviewTypeName], [i0].[IsActive], [i0].[ModifiedBy], [i0].[ModifiedDate]
+FROM [Interview] AS [i]
+INNER JOIN [CandidateProfile] AS [c] ON [i].[CandidateId] = [c].[CandidateId]
+INNER JOIN [TimeSlot] AS [t] ON [i].[TimeSlotId] = [t].[TimeSlotId]
+INNER JOIN [PrimarySkill] AS [p] ON [i].[PrimarySkillId] = [p].[PrimarySkillId]
+INNER JOIN [Status] AS [s] ON [i].[StatusId] = [s].[StatusId]
+INNER JOIN [InterviewType] AS [i0] ON [i].[InterviewTypeId] = [i0].[InterviewTypeId]
+WHERE [i].[InterviewerId] = @__inputParms_InterviewerId_0 AND [i].[InterviewDate] >= @__p_1 AND [i].[InterviewDate] < @__p_2 AND [i].[IsActive] = CAST(1 AS bit) ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:13:41.6199 - INFO: Executed DbCommand (242ms) [Parameters=[@__inputParms_InterviewerId_0='?' (DbType = Guid), @__p_1='?' (DbType = DateTimeOffset), @__p_2='?' (DbType = DateTimeOffset)], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Interview] AS [i]
+WHERE [i].[InterviewerId] = @__inputParms_InterviewerId_0 AND [i].[InterviewDate] >= @__p_1 AND [i].[InterviewDate] < @__p_2 AND [i].[IsActive] = CAST(1 AS bit) ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:13:41.8704 - INFO: Executed DbCommand (243ms) [Parameters=[@__inputParms_InterviewerId_0='?' (DbType = Guid), @__p_1='?' (DbType = DateTimeOffset), @__p_2='?' (DbType = DateTimeOffset), @__p_3='?' (DbType = Int32), @__p_4='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT [t].[InterviewId], [t].[InterviewDate], [t0].[TimeSlotName], [c].[Name] AS [CandidateName], [i0].[InterviewTypeName], [p].[PrimarySkillName], CASE
+    WHEN [t].[IsConfirmedByInterviewer] = CAST(0 AS bit) THEN N'False'
+    ELSE N'True'
+END AS [IsConfirmedByInterviewer], [s].[StatusName], CASE
+    WHEN [t].[IsRated] = CAST(0 AS bit) THEN N'False'
+    ELSE N'True'
+END AS [IsRated], CASE
+    WHEN [i1].[IsRatingAcceptedByUser] = CAST(0 AS bit) THEN N'False'
+    WHEN [i1].[IsRatingAcceptedByUser] = CAST(1 AS bit) THEN N'True'
+    ELSE NULL
+END AS [IsRatingAcceptedByUser], CASE
+    WHEN [t].[IsRated] = CAST(1 AS bit) THEN COALESCE(CONVERT(varchar(100), [i1].[TotalRating]), N'') + N' / 5'
+    ELSE N'Pending'
+END AS [Rating], [z].[JoinUrl] AS [MeetingURL]
+FROM (
+    SELECT [i].[InterviewId], [i].[CandidateId], [i].[InterviewDate], [i].[InterviewTypeId], [i].[IsConfirmedByInterviewer], [i].[IsRated], [i].[PrimarySkillId], [i].[StatusId], [i].[TimeSlotId]
+    FROM [Interview] AS [i]
+    WHERE [i].[InterviewerId] = @__inputParms_InterviewerId_0 AND [i].[InterviewDate] >= @__p_1 AND [i].[InterviewDate] < @__p_2 AND [i].[IsActive] = CAST(1 AS bit)
+    ORDER BY [i].[InterviewDate]
+    OFFSET @__p_3 ROWS FETCH NEXT @__p_4 ROWS ONLY
+) AS [t]
+INNER JOIN [TimeSlot] AS [t0] ON [t].[TimeSlotId] = [t0].[TimeSlotId]
+INNER JOIN [CandidateProfile] AS [c] ON [t].[CandidateId] = [c].[CandidateId]
+INNER JOIN [InterviewType] AS [i0] ON [t].[InterviewTypeId] = [i0].[InterviewTypeId]
+INNER JOIN [PrimarySkill] AS [p] ON [t].[PrimarySkillId] = [p].[PrimarySkillId]
+INNER JOIN [Status] AS [s] ON [t].[StatusId] = [s].[StatusId]
+LEFT JOIN [InterviewRating] AS [i1] ON [t].[InterviewId] = [i1].[InterviewId]
+LEFT JOIN [ZoomSchedules] AS [z] ON [t].[InterviewId] = [z].[InterviewId]
+ORDER BY [t].[InterviewDate] ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:13:41.8704 - INFO: Executing OkObjectResult, writing value of type 'IAI.Models.Models.Responses.PagedListModel`1[[IAI.Models.Models.Interviewer.Responses.InterviewerDashboardModel, IAI.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:13:41.8704 - INFO: Executed action IAI.WebAPI.Controllers.Interviewer.InterviewerController.LoadInterviews (IAI.WebAPI) in 762.5457ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:13:41.8704 - INFO: Executed endpoint 'IAI.WebAPI.Controllers.Interviewer.InterviewerController.LoadInterviews (IAI.WebAPI)' ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2023-09-19 11:13:41.8704 - INFO: Request finished HTTP/2 POST https://localhost:7254/api/Interviewer/InterviewerDashboard application/json 214 - 200 - application/json;+charset=utf-8 763.0654ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}

@@ -1,0 +1,13 @@
+/* .modalHeader {
+  border-top: 9px solid blue !important;
+} */
+
+.close {
+  color: red !important;
+}
+
+.modal-body {
+  line-break: auto;
+  overflow-y: auto;
+  max-height: 100%;
+}

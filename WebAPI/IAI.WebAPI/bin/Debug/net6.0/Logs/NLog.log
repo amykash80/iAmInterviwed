@@ -1,0 +1,28 @@
+2024-03-11 11:54:29.0718 - INFO: User profile is available. Using 'C:\Users\lenovo\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-03-11 11:54:29.5862 - INFO: Now listening on: https://localhost:7254 ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-03-11 11:54:29.5862 - INFO: Now listening on: http://localhost:5254 ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-03-11 11:54:29.9293 - INFO: Application started. Press Ctrl+C to shut down. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-03-11 11:54:29.9293 - INFO: Hosting environment: Development ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-03-11 11:54:29.9293 - INFO: Content root path: C:\Users\lenovo\Documents\GitHub\IAI_Test\WebAPI\IAI.WebAPI\ ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-03-11 11:54:34.0535 - INFO: Request starting HTTP/2 GET https://localhost:7254/swagger - - ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-03-11 11:54:34.3304 - INFO: Request starting HTTP/2 GET https://localhost:7254/swagger/index.html - - ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-03-11 11:54:34.3304 - INFO: Request finished HTTP/2 GET https://localhost:7254/swagger - - - 301 0 - 284.5283ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-03-11 11:54:34.4472 - INFO: Request finished HTTP/2 GET https://localhost:7254/swagger/index.html - - - 200 - text/html;charset=utf-8 115.4129ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-03-11 11:54:34.4472 - INFO: Request starting HTTP/2 GET https://localhost:7254/swagger/swagger-ui.css - - ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-03-11 11:54:34.4472 - INFO: Request starting HTTP/2 GET https://localhost:7254/swagger/swagger-ui-bundle.js - - ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-03-11 11:54:34.4472 - INFO: Request starting HTTP/2 GET https://localhost:7254/_framework/aspnetcore-browser-refresh.js - - ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-03-11 11:54:34.4472 - INFO: Request starting HTTP/2 GET https://localhost:7254/swagger/swagger-ui-standalone-preset.js - - ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-03-11 11:54:34.4472 - INFO: Request starting HTTP/2 GET https://localhost:7254/_vs/browserLink - - ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-03-11 11:54:34.4656 - INFO: Request finished HTTP/2 GET https://localhost:7254/_framework/aspnetcore-browser-refresh.js - - - 200 13756 application/javascript;+charset=utf-8 10.2445ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-03-11 11:54:34.4984 - INFO: Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A' ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-03-11 11:54:34.4984 - INFO: Request finished HTTP/2 GET https://localhost:7254/swagger/swagger-ui.css - - - 200 143632 text/css 44.0265ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-03-11 11:54:34.5093 - INFO: Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A' ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-03-11 11:54:34.5093 - INFO: Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A' ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-03-11 11:54:34.5093 - INFO: Request finished HTTP/2 GET https://localhost:7254/swagger/swagger-ui-standalone-preset.js - - - 200 337162 application/javascript 63.2912ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-03-11 11:54:34.5093 - INFO: Request finished HTTP/2 GET https://localhost:7254/swagger/swagger-ui-bundle.js - - - 200 1092889 application/javascript 64.3414ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-03-11 11:54:34.5601 - INFO: Request finished HTTP/2 GET https://localhost:7254/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 104.2626ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-03-11 11:54:34.6690 - INFO: Request starting HTTP/2 GET https://localhost:7254/swagger/v1/swagger.json - - ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-03-11 11:54:34.6903 - INFO: Request starting HTTP/2 GET https://localhost:7254/swagger/favicon-32x32.png - - ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-03-11 11:54:34.6903 - INFO: Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A' ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-03-11 11:54:34.6903 - INFO: Request finished HTTP/2 GET https://localhost:7254/swagger/favicon-32x32.png - - - 200 628 image/png 0.5986ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-03-11 11:54:34.8673 - INFO: Request finished HTTP/2 GET https://localhost:7254/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 198.1982ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}

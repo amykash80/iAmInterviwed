@@ -1,0 +1,198 @@
+.model-rating-details-badge .modal-dialog {
+    max-width: 90% !important;
+}
+
+.model-rating-details-badge .modal-dialog .modal-content {
+    min-height: 650px;
+}
+
+.model-rating-details-badge .modal-dialog .modal-content .modal-body {
+    max-height: 100% !important;
+}
+
+.rating-tab {
+    margin: 0 !important;
+}
+
+.rating-tab .nav-item {
+    border-top-left-radius: 10px !important;
+    border-top-right-radius: 10px !important;
+    border: 1px solid #ddd !important;
+    border-radius: 4px 4px 0 0;
+    background-color: #edecec !important;
+}
+
+.rating-tab .nav-item.active {
+    color: #00950c !important;
+    font-weight: 600 !important;
+    background-color: #fff !important;
+    border: 1px solid #ddd !important;
+    border-bottom-color: transparent !important;
+}
+
+.tab-content {
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+
+.tab-content>.tab-pane {
+    padding: 10px;
+}
+
+.rating-donut {
+    height: 300px;
+    width: 200px;
+}
+
+.rating-skill-chart {
+    height: 300px;
+    width: 100%;
+}
+
+.rating-block-header {
+    font-size: 20px;
+    color: #00a651;
+    margin-top: 0;
+}
+
+.no-padding {
+    padding: 0;
+}
+
+.padding-10 {
+    padding: 10px;
+}
+
+.rating-block-skill-name {
+    font-weight: 600;
+    color: #504f4f;
+    margin-bottom: 5px;
+    font-size: 13px;
+}
+
+.rating-block-rating {
+    color: #147fb7 !important;
+    font-size: 13px !important;
+    border-bottom: 1px dashed #147fb7;
+    font-weight: 600;
+}
+
+.rating-block-comments {
+    color: #000000;
+    font-size: 12px;
+    margin: 0 0 10px;
+}
+
+.rating-block-skill-row {
+    border-bottom: solid 1px #e5e5e5;
+    padding-bottom: 5px;
+}
+
+.rating-block-cand-name {
+    font-size: 20px !important;
+    font-weight: 500;
+    color: #504f4f;
+}
+
+.model-header-buttons {
+    float: right;
+    margin-right: 50px;
+    font-size: 25px;
+}
+
+/* Raring Barge CSS */
+
+.badgewrapper-iai {
+    width: 400px;
+    height: max-content;
+    border: solid 4px blue;
+    display: flex;
+    flex-direction: rows;
+    padding: 15px;
+    padding-bottom: 0;
+    margin: 5% auto;
+}
+
+.badgewrapper-iai .badgeflex {
+    width: 200px;
+    padding: 0;
+}
+
+.badgewrapper-iai .badgeflex ul {
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+    letter-spacing: 0.5px;
+    color: #575a7b;
+    font-weight: 400;
+    line-height: 1.7;
+}
+
+.badgewrapper-iai .badgeflex .badge-rating-img-container {
+    position: absolute;
+    left: 17rem;
+    top: 4rem;
+    padding: 0 0 0 0px;
+}
+
+.rating-iai-candidate-name {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.rating-iai-interviewid {
+    font-size: 12px;
+    line-height: 0.5em;
+    margin: 0 0 20px;
+}
+
+.rating-iai-primary-skill {
+    font-size: 12px;
+    line-height: 0.5em;
+    margin-top: -10px;
+}
+
+.rating-iai-secondary-skills {
+    font-size: 10px;
+    text-decoration: none;
+    padding: 0;
+    list-style-type: none;
+}
+
+.rating-iai-badge-skill {
+    font-size: 10px;
+    color: #fff;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    line-height: 1.2;
+}
+
+.rating-iai-badge-rating {
+    font-size: 14px;
+    padding: 5px 10px;
+    background-color: #FFCD55;
+    width: min-content;
+    margin: auto;
+    border-radius: 200px;
+    line-height: 1.2;
+    font-weight: 600;
+}
+
+.rating-iai-verify {
+    text-align: center;
+    font-size: 12px;
+}
+
+.rating-iai-badge-img {
+    height: 120px !important;
+}
+
+.rating-iai-logo-img {
+    width: 120px !important;
+}
+/* Raring Barge CSS Ends */

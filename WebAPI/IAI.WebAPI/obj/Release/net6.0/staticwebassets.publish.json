@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "P8JmxJyYM76mU0xmtza+jjpSmFBF6waZScDgsS19kPk=",
+  "Source": "IAI.WebAPI",
+  "BasePath": "_content/IAI.WebAPI",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

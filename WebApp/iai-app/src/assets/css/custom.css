@@ -1,0 +1,593 @@
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+    color: #495057;
+    font-weight: 600;
+    background-color: #EBF0F7;
+    border: none;
+    color: #507DBC;
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link:hover {
+    border: none;
+}
+
+.testmonial-single p {
+    color: #000;
+    font-weight: 500;
+}
+
+.testmonial-single p:before {
+    margin: auto auto 15px;
+    content: "\f10d";
+    font-weight: 700;
+    font-family: Font Awesome\ 5 Free;
+    color: #507DBC;
+    font-size: 23px;
+    display: block;
+}
+
+.services-block-two .icon-box {
+    color: #86bc42;
+    font-size: 36px;
+    left: 0px;
+    position: absolute;
+    top: 0px;
+}
+
+a {
+    cursor: pointer !important;
+    color: #507DBC;
+}
+
+.register-image {
+    background-image: url('../img/content/badge.png');
+    min-height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.register-image-name {
+    color: #ffffff;
+    padding-top: 18%;
+    text-align: center;
+}
+
+.register-image-rating {
+    color: #000000;
+    padding-top: 5%;
+    text-align: center;
+}
+
+.register-image-skill {
+    color: #ffffff;
+    margin-top: 7%;
+    text-align: center;
+    padding: 0 30% 0 30%;
+    line-height: 1;
+}
+
+.register-image-info {
+    color: #ffffff;
+    margin-top: -1%;
+    text-align: center;
+}
+
+.register-profile-info {
+    background-color: #ebf0f7;
+    margin-top: 5%;
+    width: 80%;
+    padding: 5% 10%;
+}
+
+.register-profile-info-padding-0 {
+    padding: 0;
+}
+
+.padding-0 {
+    padding: 0 !important;
+}
+
+.padding-10 {
+    padding: 10px !important;
+}
+
+.register-block {
+    background-color: #ebf0f7
+}
+
+.register-block .contact-form-box {
+    padding: 50px;
+}
+
+.register-block-signin-text {
+    color: #000;
+    font-weight: 700;
+}
+
+.register-block-already-registered {
+    text-align: right;
+}
+
+.register-block-signup {
+    color: #000;
+    font-weight: 700;
+    padding-top: 10%;
+}
+
+.register-block-signup-interviewer {
+    text-align: left !important;
+    padding: 0 !important;
+    padding-left: 50px !important;
+}
+
+.register-block-signup-interviewer .icon-box {
+    top: 0;
+    left: 0;
+}
+
+.register-block-signup-interviewer-logo {
+    margin-bottom: 10px;
+    width: 40px;
+}
+
+.register-block-signup-interviewer h3 {
+    padding-top: 5px;
+}
+
+.register-block-signup-company {
+    text-align: left !important;
+    padding: 0 !important;
+    padding-left: 50px !important;
+}
+
+.register-block-signup-company .icon-box {
+    top: 0;
+    left: 0;
+}
+
+.register-block-signup-company-logo {
+    margin-bottom: 10px;
+    width: 40px;
+}
+
+.register-block-signup-company h3 {
+    padding-top: 5px;
+}
+
+.error {
+    color: red !important;
+}
+
+.index-slider {
+    background-image: url('../img/bg/herobg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.padding-top-10per {
+    padding-top: 10%;
+}
+
+.padding-top-5per {
+    padding-top: 5%;
+}
+
+.index-slider-tech-inter {
+    font-size: 58px;
+    color: #fff;
+}
+
+.index-slider-ondemand {
+    font-size: 58px;
+    color: #fff;
+    opacity: 0.5;
+}
+
+.index-slider-completed-interviews {
+    font-size: 15px;
+}
+
+.index-slider-companies-registered {
+    font-size: 15px;
+}
+
+.index-slider-interviewers {
+    font-size: 15px;
+}
+
+.section2-employer {
+    color: #507DBC;
+}
+
+.section2-info-mess {
+    color: #000;
+}
+
+.section2-how-it-works {
+    color: #000;
+    font-weight: 700;
+}
+
+.section2-links {
+    font-size: 18px;
+    font-weight: 500;
+    color: #575a7b;
+}
+
+.section2-links-link {
+    font-size: 18px;
+    color: #507DBC;
+}
+
+.scetion3 {
+    background-image: url('../img/bg/herobg.png');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+
+.scetion3-header {
+    color: #fff;
+}
+
+.scetion3-how-it-works {
+    color: #fff;
+    font-weight: 700;
+}
+
+.scetion3-links {
+    font-size: 18px;
+    font-weight: 900;
+    color: #fff;
+}
+
+.scetion3-links-link {
+    font-size: 18px;
+    color: #fff;
+}
+
+.section4-header {
+    color: #507DBC;
+}
+
+.section4-info {
+    color: #000;
+}
+
+.section4-how-it-works {
+    color: #000;
+    font-weight: 700;
+}
+
+.section4-links {
+    font-size: 18px;
+    font-weight: 600;
+    color: #575a7b;
+}
+
+.section4-links-link {
+    font-size: 18px;
+    color: #507DBC;
+}
+
+.section5-heading {
+    color: #507DBC;
+}
+
+.section5-info {
+    color: #000;
+    font-weight: 700;
+}
+
+.section5-tabpane {
+    padding: 40px 30px;
+}
+
+.section5-tabpane-image {
+    margin-bottom: 10px;
+    width: 40px;
+}
+
+.section5-tab {
+    background-color: #EBF0F7;
+}
+
+.section-testimonials {
+    margin-bottom: 5%;
+}
+
+.section-testimonials .section-heading h2 {
+    color: #507DBC;
+}
+
+.section-testimonials .section-heading p {
+    color: #000;
+    font-weight: 700;
+    margin-top: -2%;
+}
+
+.section-testimonials-carousel {
+    background-color: #EBF0F7;
+    padding: 30px 0;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.section6 {
+    margin-top: -2%;
+}
+
+.section6-header {
+    color: #507DBC;
+}
+
+.section6-info {
+    color: #000;
+    font-weight: 700;
+}
+
+.section6-card-body {
+    margin-bottom: 20px;
+}
+
+.section6-tab-pane {
+    background-color: #EBF0F7;
+    padding: 50px 50px 20px !important;
+}
+
+.section6-tab-pane-image-header {
+    padding: 0px 50px 20px;
+}
+
+.section6-services-block-1 {
+    padding-left: 100px !important;
+    padding-bottom: 30px;
+}
+
+.section6-services-block-1-box {
+    text-align: center;
+    padding-left: 100px;
+}
+
+.section6-services-block-1-image {
+    padding-bottom: 30px;
+    width: 80px;
+}
+
+.section6-services-block-2 {
+    padding-top: 20px;
+}
+
+.section6-services-block-2-box {
+    text-align: left !important;
+    padding: 0 !important;
+    padding-left: 50px !important;
+}
+
+.section6-services-block-2-image {
+    margin-bottom: 10px;
+    width: 40px;
+}
+
+.section6-services-block-3 {
+    padding-top: 20px;
+}
+
+.section6-services-block-3-box {
+    text-align: left !important;
+    padding: 0 !important;
+    padding-left: 50px !important;
+}
+
+.section6-services-block-3-image {
+    margin-bottom: 10px;
+    width: 40px;
+}
+
+.section6-services-block-4 {
+    padding-top: 20px;
+}
+
+.section6-services-block-4-box {
+    text-align: left !important;
+    padding: 0 !important;
+    padding-left: 50px !important;
+}
+
+.section6-services-block-4-image {
+    margin-bottom: 10px;
+    width: 40px;
+}
+
+.section-clients-header {
+    color: #507DBC;
+}
+
+.section-clients-info {
+    color: #000;
+    font-weight: 700;
+    margin-top: -2%;
+}
+
+.section-clients-container {
+    padding-bottom: 20px;
+}
+
+.form-label {
+    font-size: 12px;
+    color: #3f51b5de;
+    margin: 0 !important;
+}
+
+.text-center-align {
+    text-align: center;
+}
+
+.text-left-align {
+    text-align: left;
+}
+
+.text-right-align {
+    text-align: right;
+}
+
+.required-validator {
+    color: red;
+}
+
+.border-right-line {
+    border-right: 1px solid #ccc;
+}
+
+.min-height-300 {
+    min-height: 300px;
+}
+
+.a-info-click {
+    color: #507DBC !important;
+    font-size: 12px;
+}
+
+.btn-form {
+    margin: 5px;
+    max-height: 30px;
+    min-width: 100px;
+}
+
+.react-tags-wrapper {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    display: inline-block;
+    padding: 4px 6px;
+    color: #555;
+    vertical-align: middle;
+    border-radius: 4px;
+    max-width: 100%;
+    line-height: 22px;
+    cursor: text;
+    width: 100%;
+    height: 75px;
+    overflow-y: scroll;
+}
+
+.ReactTags__tagInputField {
+    border: none;
+    width: 100%;
+}
+
+.ReactTags__selected .ReactTags__tag {
+    background-color: #507DBD;
+    color: white;
+    display: inline;
+    padding: 2px;
+    border-radius: 3px;
+    margin: 0 2px 0 2px;
+}
+
+.ReactTags__selected .ReactTags__remove {
+    border: none;
+    background: transparent;
+    color: white;
+    padding: 0 0px 0 5px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.ReactTags__suggestions {
+    position: absolute;
+    overflow-y: scroll;
+    max-height: 250px;
+    top: 100%;
+    left: 0px;
+    z-index: 100;
+    display: block;
+    float: left;
+}
+
+.ReactTags__suggestions ul {
+    list-style-type: none;
+    box-shadow: 0.05em 0.01em 0.5em rgba(0, 0, 0, 0.2);
+    background: white;
+    width: 200px;
+}
+
+.ReactTags__suggestions li {
+    border-bottom: 1px solid #ddd;
+    padding: 5px 5px;
+    margin: 0;
+}
+
+.ReactTags__suggestions li mark {
+    text-decoration: underline;
+    background: none;
+    font-weight: 600;
+}
+
+.ReactTags__suggestions ul li.ReactTags__activeSuggestion {
+    background: #507DBD;
+    cursor: pointer;
+}
+
+.table>thead>tr>td, .table>thead>tr>th {
+    background-color: #507DBD !important;
+}
+
+.block-display {
+    display: block !important;
+}
+
+.model-min-height-500 .modal-dialog .modal-content {
+    min-height: 500px;
+}
+
+.model-min-height-650 .modal-dialog .modal-content {
+    min-height: 650px;
+}
+
+.tab-content-index-page {
+    background-color: #EBF0F7;
+}
+
+.tab-index-page .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    font-weight: 600 !important;
+    background-color: #EBF0F7 !important;
+    border: none;
+    color: #507DBC !important;
+}
+
+.badge-candidate-name {
+    color: #ffffff;
+    padding-top: 13%;
+    text-align: center;
+    margin: 0 0 20px;
+    font-size: 16px;
+}
+
+.badge-rating {
+    color: #000000;
+    padding-top: 1%;
+    text-align: center;
+    font-weight: 600;
+}
+
+.float-right {
+    float: right;
+}
+
+.required {
+    color: red;
+}
+
+.checkbox-job-posting-skills {
+    margin: 30px 0 0 0;
+}

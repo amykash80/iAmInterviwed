@@ -1,0 +1,8 @@
+div.toastContainer {
+    position: fixed;
+    top: 50;
+    right: 0;
+    min-width: 350px;
+    z-index: 9999;
+    overflow: hidden;
+} 

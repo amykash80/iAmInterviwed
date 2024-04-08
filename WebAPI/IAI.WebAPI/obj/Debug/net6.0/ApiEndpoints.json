@@ -1,0 +1,573 @@
+[
+  {
+    "ContainingType": "IAI.WebAPI.Controllers.AccountController",
+    "Method": "ChangePassword",
+    "RelativePath": "api/Account/ChangePassword",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "IAI.Models.Models.Account.ChangePasswordModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "IAI.WebAPI.Controllers.AccountController",
+    "Method": "RegisterUser",
+    "RelativePath": "api/Account/Register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "IAI.Models.Models.Account.RegisterModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "IAI.WebAPI.Controllers.AccountController",
+    "Method": "RegisterCompanyUser",
+    "RelativePath": "api/Account/RegisterCompany",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "IAI.Models.Models.Account.CompanyRegisterModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "IAI.WebAPI.Controllers.AccountController",
+    "Method": "GetToken",
+    "RelativePath": "api/Account/token",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userLogins",
+        "Type": "IAI.Models.Models.Account.LoginModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "IAI.WebAPI.Controllers.AccountController",
+    "Method": "GetUserDetails",
+    "RelativePath": "api/Account/UserDetails",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "IAI.WebAPI.Controllers.AccountController",
+    "Method": "VerifyUser",
+    "RelativePath": "api/Account/VerifyUser",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "IAI.Models.Models.Account.VerificationModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "IAI.WebAPI.Controllers.Candidate.CandidateController",
+    "Method": "GetCandidateDashboardDetails",
+    "RelativePath": "api/Candidate/CandidateDashboardDetails/{candidateId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "candidateId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "IAI.WebAPI.Controllers.Candidate.CandidateController",
+    "Method": "LoadCandidateDesignation",
+    "RelativePath": "api/Candidate/CandidateDesignation",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "IAI.WebAPI.Controllers.Candidate.CandidateController",
+    "Method": "GetCandidateProfile",
+    "RelativePath": "api/Candidate/CandidateProfile/{candidateId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "candidateId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "IAI.WebAPI.Controllers.Candidate.CandidateController",
+    "Method": "UpdateCandidateProfile",
+    "RelativePath": "api/Candidate/SaveCandidateProfile",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "candidateProfileRequest",
+        "Type": "IAI.Models.Models.Candidate.Requests.CandidateProfileRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "IAI.WebAPI.Controllers.Candidate.CandidateController",
+    "Method": "ScheduleInterview",
+    "RelativePath": "api/Candidate/ScheduleInterview",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "interviewRequest",
+        "Type": "IAI.Models.Models.Candidate.Requests.ScheduleInterviewRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "IAI.WebAPI.Controllers.EncryptDecryptController",
+    "Method": "DecryptString",
+    "RelativePath": "api/EncryptDecrypt/Decrypt/{encryptedText}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "encryptedText",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "IAI.WebAPI.Controllers.EncryptDecryptController",
+    "Method": "DecryptBase64String",
+    "RelativePath": "api/EncryptDecrypt/DecryptBase64/{encryptedText}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "encryptedText",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "IAI.WebAPI.Controllers.EncryptDecryptController",
+    "Method": "EncryptString",
+    "RelativePath": "api/EncryptDecrypt/Encrypt/{plainText}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "plainText",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "IAI.WebAPI.Controllers.EncryptDecryptController",
+    "Method": "EncryptBase64String",
+    "RelativePath": "api/EncryptDecrypt/EncryptBase64/{plainText}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "plainText",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "IAI.WebAPI.Controllers.FileUploadController",
+    "Method": "DownloadFileContent",
+    "RelativePath": "api/FileUpload/DownloadFile/{userId}/{fileUploadType}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "fileUploadType",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "IAI.WebAPI.Controllers.FileUploadController",
+    "Method": "UploadFile",
+    "RelativePath": "api/FileUpload/UploadFile",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "IAI.WebAPI.Controllers.MasterDataController",
+    "Method": "LoadCities",
+    "RelativePath": "api/MasterData/GetCities/{countryId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "countryId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "IAI.WebAPI.Controllers.MasterDataController",
+    "Method": "LoadCountries",
+    "RelativePath": "api/MasterData/GetCountries",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "IAI.WebAPI.Controllers.MasterDataController",
+    "Method": "LoadDesignation",
+    "RelativePath": "api/MasterData/GetDesignation/{companyId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "companyId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "IAI.WebAPI.Controllers.MasterDataController",
+    "Method": "LoadDomains",
+    "RelativePath": "api/MasterData/GetDomains",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "IAI.WebAPI.Controllers.MasterDataController",
+    "Method": "LoadExperiences",
+    "RelativePath": "api/MasterData/GetExperiences",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "IAI.WebAPI.Controllers.MasterDataController",
+    "Method": "LoadInterviewRounds",
+    "RelativePath": "api/MasterData/GetInterviewRounds",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "IAI.WebAPI.Controllers.MasterDataController",
+    "Method": "LoadInterviewTypes",
+    "RelativePath": "api/MasterData/GetInterviewTypes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "IAI.WebAPI.Controllers.MasterDataController",
+    "Method": "LoadJobTypes",
+    "RelativePath": "api/MasterData/GetJobTypes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "IAI.WebAPI.Controllers.MasterDataController",
+    "Method": "LoadNoticePeriod",
+    "RelativePath": "api/MasterData/GetNoticePeriod",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "IAI.WebAPI.Controllers.MasterDataController",
+    "Method": "LoadPrimarySkills",
+    "RelativePath": "api/MasterData/GetPrimarySkills",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "IAI.WebAPI.Controllers.MasterDataController",
+    "Method": "LoadRoles",
+    "RelativePath": "api/MasterData/GetRoles",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "IAI.WebAPI.Controllers.MasterDataController",
+    "Method": "LoadScreens",
+    "RelativePath": "api/MasterData/GetScreens",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "IAI.WebAPI.Controllers.MasterDataController",
+    "Method": "LoadSecondarySkills",
+    "RelativePath": "api/MasterData/GetSecondarySkills/{primarySkillId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "primarySkillId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "IAI.WebAPI.Controllers.MasterDataController",
+    "Method": "LoadSoftSkills",
+    "RelativePath": "api/MasterData/GetSoftSkills",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "IAI.WebAPI.Controllers.MasterDataController",
+    "Method": "LoadStatus",
+    "RelativePath": "api/MasterData/GetStatus",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "IAI.WebAPI.Controllers.MasterDataController",
+    "Method": "LoadTimeSlots",
+    "RelativePath": "api/MasterData/GetTimeSlots",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "IAI.WebAPI.Controllers.MasterDataController",
+    "Method": "LoadZoomAccounts",
+    "RelativePath": "api/MasterData/GetZoomAccounts",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "IAI.WebAPI.Controllers.PrimarySkillController",
+    "Method": "DeletePrimarySkill",
+    "RelativePath": "api/PrimarySkill/DeletePrimarySkill/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "IAI.WebAPI.Controllers.PrimarySkillController",
+    "Method": "GetPrimarySkill",
+    "RelativePath": "api/PrimarySkill/GetPrimarySkill/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "IAI.Models.Models.PrimarySkillModel",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      }
+    ]
+  },
+  {
+    "ContainingType": "IAI.WebAPI.Controllers.PrimarySkillController",
+    "Method": "GetPrimarySkills",
+    "RelativePath": "api/PrimarySkill/GetPrimarySkills",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "parms",
+        "Type": "IAI.Models.Models.Requests.FilterPagingParameters",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "IAI.Models.Models.Responses.PagedListModel\u00601[[IAI.Models.Models.PrimarySkillModel, IAI.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "IAI.WebAPI.Controllers.PrimarySkillController",
+    "Method": "PostPrimarySKill",
+    "RelativePath": "api/PrimarySkill/PostPrimarySKill",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "primarySkill",
+        "Type": "IAI.Models.Models.PrimarySkillModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "IAI.WebAPI.Controllers.PrimarySkillController",
+    "Method": "PutPrimarySkill",
+    "RelativePath": "api/PrimarySkill/PutPrimarySkill/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "primarySkill",
+        "Type": "IAI.Models.Models.PrimarySkillModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "IAI.WebAPI.Controllers.RoleMappingController",
+    "Method": "GetRoleBasedRoutes",
+    "RelativePath": "api/RoleMapping/GetRoutes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

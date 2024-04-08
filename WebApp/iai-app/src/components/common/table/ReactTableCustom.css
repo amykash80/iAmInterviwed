@@ -1,0 +1,103 @@
+.page-item.active .page-link {
+    background-color: #424242 !important;
+    border-color: #424242 !important;
+    color: #fff !important;
+} 
+
+.page-item {
+    height: 30px !important;
+} 
+
+.page-link {
+    color: #424242 !important;
+} 
+
+.page-link:focus {
+    box-shadow: none !important;
+}
+
+.react-bootstrap-table-pagination-total {
+    height: 20px;
+    width: auto;
+    color: #212121;
+    /* font-family: "Cognizant Sans";*/
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 20px;
+} 
+
+.react-bootstrap-table-pagination {
+    height: 40px !important;
+    width: auto;
+    border-radius: 0 0 2px 2px !important;
+    background-color: #ffffff !important;
+    border: 1px solid lightgrey;
+    border-color: none !important;
+    padding-top: 0.1% !important;
+    margin-top: -1.6% !important;
+    margin-left: -0.1% !important;
+    margin-right: -0.1% !important;
+    /* padding-bottom: 4.5%!important; */
+} 
+
+.filter-label {
+    padding-top: 3%;
+    margin-bottom: 0px !important;
+}
+
+.btn-secondary {
+    color: #424242 !important;
+    background-color: #fff !important;
+    border-color: none !important;
+} 
+
+.table th {
+    padding-top: 0.5rem !important;
+    padding-bottom: 0.5rem !important;
+    padding-left: 0.5rem !important;
+    padding-right: 0.5rem !important;
+    vertical-align: middle !important;
+    text-transform: uppercase !important;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+} 
+
+.table td {
+    padding-top: 0.15rem !important;
+    padding-bottom: 0.15rem !important;
+    padding-left: 0.5rem !important;
+    padding-right: 0.5rem !important;
+    vertical-align: middle;
+} 
+
+.dropdown-menu li a {
+    color: #424242 !important;
+} 
+
+.react-bootstrap-table-pagination-list {
+    max-width: 150px !important;
+    font-size: 14px !important;
+} 
+
+.react-bs-table-sizePerPage-dropdown > .dropdown-menu {
+    min-width: 3.5rem !important;
+    top:auto !important;
+    bottom:100%;
+    left:-86% !important;
+}
+
+.modal-body .react-bs-table-sizePerPage-dropdown > .dropdown-menu {
+    min-width: 3.5rem !important;
+    top:auto !important;
+    bottom: 100%;
+    left:-86% !important;
+}
+
+.modal-body  .dropdown-menu.show {
+    display: inline-flex !important;
+}
+
+.react-bs-table-sizePerPage-dropdown {
+    margin-left: 170% !important;
+} 

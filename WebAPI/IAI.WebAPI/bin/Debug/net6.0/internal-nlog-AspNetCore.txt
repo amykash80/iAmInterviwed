@@ -1,0 +1,15 @@
+2022-11-14 22:51:13.8944 Info Message Template Auto Format enabled
+2022-11-14 22:51:13.9065 Info Loading assembly: NLog.Web.AspNetCore
+2022-11-14 22:51:13.9677 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Failed to parse layout containing type: oneexception - LayoutRenderer type-alias is unknown: 'oneexception'
+ ---> System.ArgumentException: LayoutRenderer type-alias is unknown: 'oneexception'
+   at NLog.Config.Factory`2.CreateInstance(String itemName)
+   at NLog.Layouts.LayoutParser.GetLayoutRenderer(String typeName, ConfigurationItemFactory configurationItemFactory, Nullable`1 throwConfigExceptions)
+   --- End of inner exception stack trace ---
+2022-11-14 22:51:14.0099 Info Adding target AsyncTargetWrapper(Name=logFile)
+2022-11-14 22:51:14.0099 Warn Error has been raised. Exception: NLog.NLogConfigurationException: Failed to parse layout containing type: oneexception - LayoutRenderer type-alias is unknown: 'oneexception'
+ ---> System.ArgumentException: LayoutRenderer type-alias is unknown: 'oneexception'
+   at NLog.Config.Factory`2.CreateInstance(String itemName)
+   at NLog.Layouts.LayoutParser.GetLayoutRenderer(String typeName, ConfigurationItemFactory configurationItemFactory, Nullable`1 throwConfigExceptions)
+   --- End of inner exception stack trace ---
+2022-11-14 22:51:14.0099 Info Adding target AsyncTargetWrapper(Name=controllerLogFile)
+2022-11-14 22:51:14.0706 Info Validating config: TargetNames=logFile, controllerLogFile, ConfigItems=32, FilePath=D:\Antern\IAmInterviewed\IAmInterviewed\Code\IAI\WebAPI\IAI.WebAPI\NLog.config

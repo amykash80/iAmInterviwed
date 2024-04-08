@@ -1,0 +1,72 @@
+.groupTable {
+    height: auto;
+    width: auto;
+}
+
+.groupTable:hover {
+    cursor:context-menu;
+} 
+
+.groupTableScroll {
+    width: auto;
+    max-height: 20rem;
+    overflow: scroll;
+} 
+
+.tableRow {
+    height: 16px !important;
+    /* width: 102px !important; */
+    color: #ffffff !important;
+    font-family: "CognizantSans-Bold" !important;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 0.3px;
+    line-height: 16px !important;
+    border: none !important;
+    background-color: #424242;
+}
+
+.tableRow:hover {
+    cursor:context-menu;
+} 
+
+.columnStyle {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    cursor: default;
+    height: 24px !important;
+    width: auto;
+    color: #212121;
+    /* font-family: "Cognizant Sans"; */
+    font-size: 12px;
+    letter-spacing: 0;
+    /* line-height: 20px; */
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    padding-left: 8px !important;
+    padding-right: 8px !important;
+} 
+
+.filterClass {
+    height: 24px !important;
+    width: 100% !important;
+    border-radius: 2px !important;
+    background-color: #ffffff !important;
+} 
+
+.recordClass {
+    float: right;
+    margin-right: -105%;
+} 
+
+.showClass {
+    float: right;
+    margin-right: -60%;
+} 
+
+.totalTextalign {
+    padding-top: 1% !important;
+    margin-top: -6%;
+    font-size: 14px;
+} 

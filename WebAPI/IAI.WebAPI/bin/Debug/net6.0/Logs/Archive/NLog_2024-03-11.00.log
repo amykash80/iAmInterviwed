@@ -1,0 +1,454 @@
+2024-01-25 19:46:17.7483 - INFO: User profile is available. Using 'C:\Users\Dell\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:46:18.4702 - INFO: Now listening on: https://localhost:7254 ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:46:18.4702 - INFO: Now listening on: http://localhost:5254 ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:46:18.4702 - INFO: Application started. Press Ctrl+C to shut down. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:46:18.4702 - INFO: Hosting environment: Development ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:46:18.4702 - INFO: Content root path: D:\Antern\IAmInterviewed\IAmInterviewed\Code\IAI\WebAPI\IAI.WebAPI\ ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:46:19.4524 - INFO: Request starting HTTP/2 GET https://localhost:7254/swagger/index.html - - ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:46:20.9109 - INFO: Request finished HTTP/2 GET https://localhost:7254/swagger/index.html - - - 200 - text/html;charset=utf-8 1468.6086ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:46:20.9909 - INFO: Request starting HTTP/2 GET https://localhost:7254/_framework/aspnetcore-browser-refresh.js - - ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:46:21.0015 - INFO: Request finished HTTP/2 GET https://localhost:7254/_framework/aspnetcore-browser-refresh.js - - - 200 11990 application/javascript;+charset=utf-8 10.5378ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:46:21.0015 - INFO: Request starting HTTP/2 GET https://localhost:7254/_vs/browserLink - - ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:46:21.0559 - INFO: Request finished HTTP/2 GET https://localhost:7254/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 46.0210ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:46:21.3432 - INFO: Request starting HTTP/2 GET https://localhost:7254/swagger/v1/swagger.json - - ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:46:21.8779 - INFO: Request finished HTTP/2 GET https://localhost:7254/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 534.6862ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:48:04.6974 - INFO: Request starting HTTP/2 OPTIONS https://localhost:7254/api/Account/token - - ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:48:04.7564 - INFO: CORS policy execution successful. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:48:04.7564 - INFO: Request finished HTTP/2 OPTIONS https://localhost:7254/api/Account/token - - - 204 - - 64.0691ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:48:04.8002 - INFO: Request starting HTTP/2 POST https://localhost:7254/api/Account/token application/json 66 ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:48:04.8102 - INFO: CORS policy execution successful. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:48:05.7411 - INFO: Executing endpoint 'IAI.WebAPI.Controllers.AccountController.GetToken (IAI.WebAPI)' ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:48:05.8431 - INFO: Route matched with {action = "GetToken", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetToken(IAI.Models.Models.Account.LoginModel) on controller IAI.WebAPI.Controllers.AccountController (IAI.WebAPI). ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:48:11.7241 - WARN: No store type was specified for the decimal property 'CurrentPay' on entity type 'CandidateProfile'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:48:11.7241 - WARN: No store type was specified for the decimal property 'ExpectedPay' on entity type 'CandidateProfile'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:48:11.7241 - WARN: No store type was specified for the decimal property 'MinRatingForSelection' on entity type 'CompanyRequirement'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:48:11.7241 - WARN: No store type was specified for the decimal property 'TotalRating' on entity type 'InterviewRating'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:48:21.4160 - INFO: Executed DbCommand (684ms) [Parameters=[@__ToLower_0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[CreatedBy], [u].[CreatedDate], [u].[DeletedBy], [u].[DeletedDate], [u].[FailedPasswordAttemptCount], [u].[IsActive], [u].[IsLockedOut], [u].[IsPasswordChanged], [u].[IsVerified], [u].[LastActivityDate], [u].[LastLockoutDate], [u].[LastLoginDate], [u].[LastPasswordChangedDate], [u].[LoweredUserName], [u].[ModifiedBy], [u].[ModifiedDate], [u].[Password], [u].[PasswordFormat], [u].[PasswordResetRequestActive], [u].[PasswordSalt], [u].[UniqueId], [u].[UserName], [u].[VerificationCode]
+FROM [UserMaster] AS [u]
+WHERE LOWER([u].[UserName]) = @__ToLower_0 AND [u].[IsActive] = CAST(1 AS bit) AND [u].[IsVerified] = CAST(1 AS bit) ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:48:22.4859 - INFO: Executed DbCommand (290ms) [Parameters=[@__userId_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[UserRoleId], [u].[CreatedBy], [u].[CreatedDate], [u].[DeletedBy], [u].[DeletedDate], [u].[IsActive], [u].[ModifiedBy], [u].[ModifiedDate], [u].[RoleId], [u].[UserId], [r].[RoleId], [r].[CreatedBy], [r].[CreatedDate], [r].[DeletedBy], [r].[DeletedDate], [r].[Description], [r].[IsActive], [r].[ModifiedBy], [r].[ModifiedDate], [r].[RoleName]
+FROM [UserRole] AS [u]
+INNER JOIN [Role] AS [r] ON [u].[RoleId] = [r].[RoleId]
+WHERE [u].[UserId] = @__userId_0 AND [u].[IsActive] = CAST(1 AS bit) ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:48:23.7231 - INFO: Executing OkObjectResult, writing value of type 'IAI.Models.Models.JWTTokens.UserTokens'. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:48:23.8317 - INFO: Executed action IAI.WebAPI.Controllers.AccountController.GetToken (IAI.WebAPI) in 17974.4569ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:48:23.8317 - INFO: Executed endpoint 'IAI.WebAPI.Controllers.AccountController.GetToken (IAI.WebAPI)' ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:48:23.8908 - INFO: Request finished HTTP/2 POST https://localhost:7254/api/Account/token application/json 66 - 200 - application/json;+charset=utf-8 19090.5044ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:48:23.9326 - INFO: Request starting HTTP/2 OPTIONS https://localhost:7254/api/Account/UserDetails - - ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:48:23.9452 - INFO: CORS policy execution successful. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:48:23.9452 - INFO: Request finished HTTP/2 OPTIONS https://localhost:7254/api/Account/UserDetails - - - 204 - - 13.0893ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:48:23.9452 - INFO: Request starting HTTP/2 GET https://localhost:7254/api/Account/UserDetails - - ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:48:23.9452 - INFO: CORS policy execution successful. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:48:24.2040 - INFO: Executing endpoint 'IAI.WebAPI.Controllers.AccountController.GetUserDetails (IAI.WebAPI)' ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:48:24.2040 - INFO: Route matched with {action = "GetUserDetails", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserDetails() on controller IAI.WebAPI.Controllers.AccountController (IAI.WebAPI). ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:48:24.5067 - INFO: Executed DbCommand (264ms) [Parameters=[@__userId_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[CreatedBy], [u].[CreatedDate], [u].[DeletedBy], [u].[DeletedDate], [u].[FailedPasswordAttemptCount], [u].[IsActive], [u].[IsLockedOut], [u].[IsPasswordChanged], [u].[IsVerified], [u].[LastActivityDate], [u].[LastLockoutDate], [u].[LastLoginDate], [u].[LastPasswordChangedDate], [u].[LoweredUserName], [u].[ModifiedBy], [u].[ModifiedDate], [u].[Password], [u].[PasswordFormat], [u].[PasswordResetRequestActive], [u].[PasswordSalt], [u].[UniqueId], [u].[UserName], [u].[VerificationCode]
+FROM [UserMaster] AS [u]
+WHERE [u].[UserId] = @__userId_0 AND [u].[IsActive] = CAST(1 AS bit) ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:48:24.7680 - INFO: Executed DbCommand (254ms) [Parameters=[@__userId_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[UserRoleId], [u].[CreatedBy], [u].[CreatedDate], [u].[DeletedBy], [u].[DeletedDate], [u].[IsActive], [u].[ModifiedBy], [u].[ModifiedDate], [u].[RoleId], [u].[UserId], [r].[RoleId], [r].[CreatedBy], [r].[CreatedDate], [r].[DeletedBy], [r].[DeletedDate], [r].[Description], [r].[IsActive], [r].[ModifiedBy], [r].[ModifiedDate], [r].[RoleName]
+FROM [UserRole] AS [u]
+INNER JOIN [Role] AS [r] ON [u].[RoleId] = [r].[RoleId]
+WHERE [u].[UserId] = @__userId_0 AND [u].[IsActive] = CAST(1 AS bit) ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:48:25.0427 - INFO: Executed DbCommand (260ms) [Parameters=[@__userId_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [c].[CompanyId], [c].[Address], [c].[CityId], [c].[ContactPersonEmailId], [c].[ContactPersonName], [c].[ContactPersonPhoneNumber], [c].[CountryId], [c].[CreatedBy], [c].[CreatedDate], [c].[DeletedBy], [c].[DeletedDate], [c].[EmailId], [c].[IsActive], [c].[MobileNumber], [c].[ModifiedBy], [c].[ModifiedDate], [c].[Name], [c].[UserId], [c].[Website]
+FROM [CompanyProfile] AS [c]
+WHERE [c].[UserId] = @__userId_0 ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:48:25.5668 - INFO: Executed DbCommand (254ms) [Parameters=[@__userId_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[RoleId]
+FROM [UserRole] AS [u]
+WHERE [u].[UserId] = @__userId_0 ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:48:25.9227 - INFO: Executed DbCommand (300ms) [Parameters=[@__roleId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT [r].[RoleScreenId], [r].[CreatedBy], [r].[CreatedDate], [r].[DeletedBy], [r].[DeletedDate], [r].[IsActive], [r].[ModifiedBy], [r].[ModifiedDate], [r].[RoleId], [r].[ScreenId], [r0].[RoleId], [r0].[CreatedBy], [r0].[CreatedDate], [r0].[DeletedBy], [r0].[DeletedDate], [r0].[Description], [r0].[IsActive], [r0].[ModifiedBy], [r0].[ModifiedDate], [r0].[RoleName], [s].[ScreenId], [s].[CreatedBy], [s].[CreatedDate], [s].[DeletedBy], [s].[DeletedDate], [s].[Description], [s].[Icon], [s].[IsActive], [s].[MenuLevel], [s].[ModifiedBy], [s].[ModifiedDate], [s].[ParentId], [s].[RoutePath], [s].[ScreenName], [s].[ScreenOrder]
+FROM [RoleScreenMapping] AS [r]
+INNER JOIN [Role] AS [r0] ON [r].[RoleId] = [r0].[RoleId]
+INNER JOIN [Screen] AS [s] ON [r].[ScreenId] = [s].[ScreenId]
+WHERE [r].[RoleId] = @__roleId_0 ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:48:26.3577 - INFO: Executed DbCommand (259ms) [Parameters=[@__roleId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT [r].[RoleId], [r0].[RoleName], [r].[ScreenId], [s].[ScreenName], [s].[Description] AS [DisplayName], [s].[RoutePath], [s].[Icon], [s].[MenuLevel], [s].[ParentId]
+FROM [RoleScreenMapping] AS [r]
+INNER JOIN [Screen] AS [s] ON [r].[ScreenId] = [s].[ScreenId]
+INNER JOIN [Role] AS [r0] ON [r].[RoleId] = [r0].[RoleId]
+WHERE [r].[RoleId] = @__roleId_0
+ORDER BY [s].[ScreenOrder] ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:48:26.3577 - INFO: Executing OkObjectResult, writing value of type 'IAI.Models.Models.Responses.BaseResponse`1[[IAI.Models.Models.UserDetailsModel, IAI.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:48:26.4195 - INFO: Executed action IAI.WebAPI.Controllers.AccountController.GetUserDetails (IAI.WebAPI) in 2208.1348ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:48:26.4195 - INFO: Executed endpoint 'IAI.WebAPI.Controllers.AccountController.GetUserDetails (IAI.WebAPI)' ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:48:26.4195 - INFO: Request finished HTTP/2 GET https://localhost:7254/api/Account/UserDetails - - - 200 - application/json;+charset=utf-8 2475.0574ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:49:23.4799 - INFO: Request starting HTTP/2 OPTIONS https://localhost:7254/api/JobPosting/getCompanyConfiguration/6ad6c0a0-9e1a-4679-0806-08dc19c885f0 - - ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:49:23.4837 - INFO: CORS policy execution successful. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:49:23.4837 - INFO: Request finished HTTP/2 OPTIONS https://localhost:7254/api/JobPosting/getCompanyConfiguration/6ad6c0a0-9e1a-4679-0806-08dc19c885f0 - - - 204 - - 5.6463ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:49:23.5225 - INFO: Request starting HTTP/2 OPTIONS https://localhost:7254/api/MasterData/GetJobTypes - - ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:49:23.5299 - INFO: CORS policy execution successful. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:49:23.5299 - INFO: Request finished HTTP/2 OPTIONS https://localhost:7254/api/MasterData/GetJobTypes - - - 204 - - 7.6662ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:49:23.5299 - INFO: Request starting HTTP/2 OPTIONS https://localhost:7254/api/MasterData/GetInterviewTypes - - ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:49:23.5299 - INFO: Request starting HTTP/2 OPTIONS https://localhost:7254/api/MasterData/GetDomains - - ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:49:23.5299 - INFO: Request starting HTTP/2 OPTIONS https://localhost:7254/api/MasterData/GetPrimarySkills - - ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:49:23.5299 - INFO: Request starting HTTP/2 OPTIONS https://localhost:7254/api/MasterData/GetExperiences - - ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:49:23.5299 - INFO: Request starting HTTP/2 GET https://localhost:7254/api/JobPosting/getCompanyConfiguration/6ad6c0a0-9e1a-4679-0806-08dc19c885f0 - - ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:49:23.5299 - INFO: Request starting HTTP/2 GET https://localhost:7254/api/MasterData/GetJobTypes - - ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:49:23.5299 - INFO: CORS policy execution successful. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:49:23.5448 - INFO: CORS policy execution successful. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:49:23.5448 - INFO: CORS policy execution successful. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:49:23.5448 - INFO: CORS policy execution successful. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:49:23.5448 - INFO: CORS policy execution successful. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:49:23.5448 - INFO: CORS policy execution successful. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:49:23.5448 - INFO: Request finished HTTP/2 OPTIONS https://localhost:7254/api/MasterData/GetDomains - - - 204 - - 12.1210ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:49:23.5448 - INFO: Request finished HTTP/2 OPTIONS https://localhost:7254/api/MasterData/GetInterviewTypes - - - 204 - - 12.4838ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:49:23.5448 - INFO: Request finished HTTP/2 OPTIONS https://localhost:7254/api/MasterData/GetPrimarySkills - - - 204 - - 12.1985ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:49:23.5448 - INFO: Request finished HTTP/2 OPTIONS https://localhost:7254/api/MasterData/GetExperiences - - - 204 - - 12.1301ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:49:23.5448 - INFO: Executing endpoint 'IAI.WebAPI.Controllers.MasterDataController.LoadJobTypes (IAI.WebAPI)' ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:49:23.5448 - INFO: Request starting HTTP/2 GET https://localhost:7254/api/MasterData/GetDomains - - ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:49:23.5448 - INFO: Request starting HTTP/2 GET https://localhost:7254/api/MasterData/GetInterviewTypes - - ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:49:23.5448 - INFO: CORS policy execution successful. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:49:23.5448 - INFO: Request starting HTTP/2 GET https://localhost:7254/api/MasterData/GetPrimarySkills - - ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:49:23.5448 - INFO: Request starting HTTP/2 GET https://localhost:7254/api/MasterData/GetExperiences - - ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:49:23.5448 - INFO: CORS policy execution successful. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:49:23.5448 - INFO: CORS policy execution successful. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:49:23.5448 - INFO: CORS policy execution successful. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:49:23.5448 - INFO: Executing endpoint 'IAI.WebAPI.Controllers.Company.JobPostingController.GetCompanyConfiguration (IAI.WebAPI)' ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:49:23.5448 - INFO: Executing endpoint 'IAI.WebAPI.Controllers.MasterDataController.LoadExperiences (IAI.WebAPI)' ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:49:23.5448 - INFO: Executing endpoint 'IAI.WebAPI.Controllers.MasterDataController.LoadPrimarySkills (IAI.WebAPI)' ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:49:23.5448 - INFO: Executing endpoint 'IAI.WebAPI.Controllers.MasterDataController.LoadInterviewTypes (IAI.WebAPI)' ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:49:23.5448 - INFO: Route matched with {action = "LoadJobTypes", controller = "MasterData"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LoadJobTypes() on controller IAI.WebAPI.Controllers.MasterDataController (IAI.WebAPI). ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:49:23.5448 - INFO: Executing endpoint 'IAI.WebAPI.Controllers.MasterDataController.LoadDomains (IAI.WebAPI)' ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:49:23.5448 - INFO: Route matched with {action = "LoadInterviewTypes", controller = "MasterData"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LoadInterviewTypes() on controller IAI.WebAPI.Controllers.MasterDataController (IAI.WebAPI). ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:49:23.5448 - INFO: Route matched with {action = "GetCompanyConfiguration", controller = "JobPosting"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCompanyConfiguration(System.Guid) on controller IAI.WebAPI.Controllers.Company.JobPostingController (IAI.WebAPI). ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:49:23.5448 - INFO: Route matched with {action = "LoadPrimarySkills", controller = "MasterData"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LoadPrimarySkills() on controller IAI.WebAPI.Controllers.MasterDataController (IAI.WebAPI). ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:49:23.5448 - INFO: Route matched with {action = "LoadExperiences", controller = "MasterData"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LoadExperiences() on controller IAI.WebAPI.Controllers.MasterDataController (IAI.WebAPI). ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:49:23.5611 - INFO: Route matched with {action = "LoadDomains", controller = "MasterData"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LoadDomains() on controller IAI.WebAPI.Controllers.MasterDataController (IAI.WebAPI). ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:49:24.0077 - INFO: Executed DbCommand (296ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[DomainId] AS [Id], [d].[DomainName] AS [Name]
+FROM [Domain] AS [d]
+WHERE [d].[IsActive] = CAST(1 AS bit)
+ORDER BY [d].[DomainName] ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:49:24.0077 - INFO: Executing OkObjectResult, writing value of type 'IAI.Models.Models.Responses.BaseResponseList`1[[IAI.Models.Models.Common.IdNameModel, IAI.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:49:24.0163 - INFO: Executed action IAI.WebAPI.Controllers.MasterDataController.LoadDomains (IAI.WebAPI) in 455.1719ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:49:24.0163 - INFO: Executed endpoint 'IAI.WebAPI.Controllers.MasterDataController.LoadDomains (IAI.WebAPI)' ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:49:24.0163 - INFO: Request finished HTTP/2 GET https://localhost:7254/api/MasterData/GetDomains - - - 200 - application/json;+charset=utf-8 465.2057ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:49:24.8959 - INFO: Executed DbCommand (252ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [e].[ExperienceId] AS [Id], [e].[ExperienceName] AS [Name]
+FROM [Experience] AS [e] ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:49:24.8959 - INFO: Executing OkObjectResult, writing value of type 'IAI.Models.Models.Responses.BaseResponseList`1[[IAI.Models.Models.Common.IdNameModel, IAI.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:49:24.8959 - INFO: Executed action IAI.WebAPI.Controllers.MasterDataController.LoadExperiences (IAI.WebAPI) in 1338.1412ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:49:24.8959 - INFO: Executed endpoint 'IAI.WebAPI.Controllers.MasterDataController.LoadExperiences (IAI.WebAPI)' ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:49:24.8959 - INFO: Request finished HTTP/2 GET https://localhost:7254/api/MasterData/GetExperiences - - - 200 - application/json;+charset=utf-8 1346.1819ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:49:24.9300 - INFO: Executed DbCommand (286ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[PrimarySkillId] AS [Id], [p].[PrimarySkillName] AS [Name]
+FROM [PrimarySkill] AS [p]
+WHERE [p].[IsActive] = CAST(1 AS bit)
+ORDER BY [p].[PrimarySkillName] ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:49:24.9300 - INFO: Executing OkObjectResult, writing value of type 'IAI.Models.Models.Responses.BaseResponseList`1[[IAI.Models.Models.Common.IdNameModel, IAI.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:49:24.9300 - INFO: Executed action IAI.WebAPI.Controllers.MasterDataController.LoadPrimarySkills (IAI.WebAPI) in 1372.6431ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:49:24.9300 - INFO: Executed endpoint 'IAI.WebAPI.Controllers.MasterDataController.LoadPrimarySkills (IAI.WebAPI)' ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:49:24.9300 - INFO: Request finished HTTP/2 GET https://localhost:7254/api/MasterData/GetPrimarySkills - - - 200 - application/json;+charset=utf-8 1380.0536ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:49:25.7441 - INFO: Executed DbCommand (215ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [j].[JobTypeId] AS [Id], [j].[JobTypeName] AS [Name]
+FROM [JobType] AS [j]
+ORDER BY [j].[JobTypeName] ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:49:25.7441 - INFO: Executing OkObjectResult, writing value of type 'IAI.Models.Models.Responses.BaseResponseList`1[[IAI.Models.Models.Common.IdNameModel, IAI.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:49:25.7441 - INFO: Executed action IAI.WebAPI.Controllers.MasterDataController.LoadJobTypes (IAI.WebAPI) in 2190.3243ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:49:25.7441 - INFO: Executed endpoint 'IAI.WebAPI.Controllers.MasterDataController.LoadJobTypes (IAI.WebAPI)' ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:49:25.7441 - INFO: Request finished HTTP/2 GET https://localhost:7254/api/MasterData/GetJobTypes - - - 200 - application/json;+charset=utf-8 2212.1058ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:49:25.7546 - INFO: Executed DbCommand (224ms) [Parameters=[@__userId_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [s].[CompanyId]
+FROM [SubUser] AS [s]
+WHERE [s].[UserId] = @__userId_0 ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:49:25.7867 - INFO: Executed DbCommand (258ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [i].[InterviewTypeId] AS [Id], [i].[InterviewTypeName] AS [Name]
+FROM [InterviewType] AS [i]
+WHERE [i].[IsActive] = CAST(1 AS bit)
+ORDER BY [i].[InterviewTypeName] ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:49:25.7867 - INFO: Executing OkObjectResult, writing value of type 'IAI.Models.Models.Responses.BaseResponseList`1[[IAI.Models.Models.Common.IdNameModel, IAI.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:49:25.7867 - INFO: Executed action IAI.WebAPI.Controllers.MasterDataController.LoadInterviewTypes (IAI.WebAPI) in 2230.3157ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:49:25.7867 - INFO: Executed endpoint 'IAI.WebAPI.Controllers.MasterDataController.LoadInterviewTypes (IAI.WebAPI)' ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:49:25.7867 - INFO: Request finished HTTP/2 GET https://localhost:7254/api/MasterData/GetInterviewTypes - - - 200 - application/json;+charset=utf-8 2236.4890ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:49:26.0710 - INFO: Executed DbCommand (266ms) [Parameters=[@__companyId_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryId]
+FROM [CompanyProfile] AS [c]
+WHERE [c].[CompanyId] = @__companyId_0 ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:49:26.0800 - INFO: Executing OkObjectResult, writing value of type 'IAI.Models.Models.Responses.BaseResponse`1[[IAI.Models.Models.Company.Response.CompanyConfigurationModel, IAI.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:49:26.0800 - INFO: Executed action IAI.WebAPI.Controllers.Company.JobPostingController.GetCompanyConfiguration (IAI.WebAPI) in 2524.1569ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:49:26.0800 - INFO: Executed endpoint 'IAI.WebAPI.Controllers.Company.JobPostingController.GetCompanyConfiguration (IAI.WebAPI)' ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:49:26.0800 - INFO: Request finished HTTP/2 GET https://localhost:7254/api/JobPosting/getCompanyConfiguration/6ad6c0a0-9e1a-4679-0806-08dc19c885f0 - - - 200 - application/json;+charset=utf-8 2549.5863ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:49:26.0931 - INFO: Request starting HTTP/2 OPTIONS https://localhost:7254/api/MasterData/GetCities/1 - - ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:49:26.0931 - INFO: Request starting HTTP/2 OPTIONS https://localhost:7254/api/Designation/fillDesignations/340793f0-a09c-42dc-8584-08dc16b6f26f - - ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:49:26.0931 - INFO: CORS policy execution successful. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:49:26.0931 - INFO: CORS policy execution successful. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:49:26.0931 - INFO: Request finished HTTP/2 OPTIONS https://localhost:7254/api/MasterData/GetCities/1 - - - 204 - - 0.5507ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:49:26.0931 - INFO: Request finished HTTP/2 OPTIONS https://localhost:7254/api/Designation/fillDesignations/340793f0-a09c-42dc-8584-08dc16b6f26f - - - 204 - - 0.4495ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:49:26.0931 - INFO: Request starting HTTP/2 GET https://localhost:7254/api/MasterData/GetCities/1 - - ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:49:26.0931 - INFO: Request starting HTTP/2 GET https://localhost:7254/api/Designation/fillDesignations/340793f0-a09c-42dc-8584-08dc16b6f26f - - ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:49:26.0931 - INFO: CORS policy execution successful. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:49:26.0931 - INFO: Executing endpoint 'IAI.WebAPI.Controllers.MasterDataController.LoadCities (IAI.WebAPI)' ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:49:26.0931 - INFO: CORS policy execution successful. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:49:26.0931 - INFO: Executing endpoint 'IAI.WebAPI.Controllers.Company.DesignationController.FillDesignations (IAI.WebAPI)' ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:49:26.0931 - INFO: Route matched with {action = "LoadCities", controller = "MasterData"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LoadCities(Int32) on controller IAI.WebAPI.Controllers.MasterDataController (IAI.WebAPI). ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:49:26.1069 - INFO: Route matched with {action = "FillDesignations", controller = "Designation"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] FillDesignations(System.Guid) on controller IAI.WebAPI.Controllers.Company.DesignationController (IAI.WebAPI). ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:49:26.3568 - INFO: Executed DbCommand (233ms) [Parameters=[@__companyId_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SELECT [d].[DesignationName] AS [Name], [d].[DesignationId] AS [GuId]
+FROM [Designation] AS [d]
+WHERE [d].[CompanyId] = @__companyId_0 AND [d].[IsActive] = CAST(1 AS bit) ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:49:26.3568 - INFO: Executing OkObjectResult, writing value of type 'IAI.Models.Models.Responses.BaseResponseList`1[[IAI.Models.Models.Common.IdNameModel, IAI.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:49:26.3568 - INFO: Executed action IAI.WebAPI.Controllers.Company.DesignationController.FillDesignations (IAI.WebAPI) in 251.2333ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:49:26.3568 - INFO: Executed endpoint 'IAI.WebAPI.Controllers.Company.DesignationController.FillDesignations (IAI.WebAPI)' ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:49:26.3568 - INFO: Request finished HTTP/2 GET https://localhost:7254/api/Designation/fillDesignations/340793f0-a09c-42dc-8584-08dc16b6f26f - - - 200 - application/json;+charset=utf-8 262.1176ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:49:26.3965 - INFO: Executed DbCommand (281ms) [Parameters=[@__countryId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT [c].[CityId] AS [Id], [c].[CityName] AS [Name]
+FROM [City] AS [c]
+WHERE [c].[CountryId] = @__countryId_0 AND [c].[IsActive] = CAST(1 AS bit)
+ORDER BY [c].[CityName] ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:49:26.3965 - INFO: Executing OkObjectResult, writing value of type 'IAI.Models.Models.Responses.BaseResponseList`1[[IAI.Models.Models.Common.IdNameModel, IAI.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:49:26.3965 - INFO: Executed action IAI.WebAPI.Controllers.MasterDataController.LoadCities (IAI.WebAPI) in 296.1642ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:49:26.3965 - INFO: Executed endpoint 'IAI.WebAPI.Controllers.MasterDataController.LoadCities (IAI.WebAPI)' ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:49:26.3965 - INFO: Request finished HTTP/2 GET https://localhost:7254/api/MasterData/GetCities/1 - - - 200 - application/json;+charset=utf-8 302.0054ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:49:26.4229 - INFO: Request starting HTTP/2 OPTIONS https://localhost:7254/api/JobPosting/getJobPostings - - ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:49:26.4229 - INFO: CORS policy execution successful. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:49:26.4229 - INFO: Request finished HTTP/2 OPTIONS https://localhost:7254/api/JobPosting/getJobPostings - - - 204 - - 0.7314ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:49:26.4229 - INFO: Request starting HTTP/2 POST https://localhost:7254/api/JobPosting/getJobPostings application/json 166 ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:49:26.4229 - INFO: CORS policy execution successful. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:49:26.4229 - INFO: Executing endpoint 'IAI.WebAPI.Controllers.Company.JobPostingController.GetJobPostingsForRecruiter (IAI.WebAPI)' ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:49:26.4229 - INFO: Route matched with {action = "GetJobPostingsForRecruiter", controller = "JobPosting"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetJobPostingsForRecruiter(IAI.Models.Models.Company.Request.JobPostingSearchInputModel) on controller IAI.WebAPI.Controllers.Company.JobPostingController (IAI.WebAPI). ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:49:26.9039 - INFO: Executed DbCommand (262ms) [Parameters=[@__inputParms_UserId_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [CompanyRequirementRecruiterDetail] AS [c]
+INNER JOIN [CompanyRequirement] AS [c0] ON [c].[RequirementId] = [c0].[RequirementId]
+WHERE [c].[RecruiterId] = @__inputParms_UserId_0 AND [c].[IsActive] = CAST(1 AS bit) ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:49:27.3635 - INFO: Executed DbCommand (308ms) [Parameters=[@__inputParms_UserId_0='?' (DbType = Guid), @__p_1='?' (DbType = Int32), @__p_2='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT [t].[RequirementId], [t].[CompanyId], [t].[JobCode], [d].[DesignationName], [j].[JobTypeName], [e].[ExperienceName], [e0].[ExperienceName], [t].[HighestPay], [p].[PrimarySkillName], [t].[StartDate], [t].[EndDate], [s].[StatusName], [t].[AddInterviewProcess]
+FROM (
+    SELECT [c].[RequirementId], [c0].[AddInterviewProcess], [c0].[CompanyId], [c0].[DesignationId], [c0].[EndDate], [c0].[HighestPay], [c0].[JobCode], [c0].[JobTypeId], [c0].[MaxExperienceId], [c0].[MinExperienceId], [c0].[PrimarySkillId], [c0].[StartDate], [c0].[StatusId]
+    FROM [CompanyRequirementRecruiterDetail] AS [c]
+    INNER JOIN [CompanyRequirement] AS [c0] ON [c].[RequirementId] = [c0].[RequirementId]
+    WHERE [c].[RecruiterId] = @__inputParms_UserId_0 AND [c].[IsActive] = CAST(1 AS bit)
+    ORDER BY [c0].[JobCode]
+    OFFSET @__p_1 ROWS FETCH NEXT @__p_2 ROWS ONLY
+) AS [t]
+INNER JOIN [Designation] AS [d] ON [t].[DesignationId] = [d].[DesignationId]
+INNER JOIN [JobType] AS [j] ON [t].[JobTypeId] = [j].[JobTypeId]
+INNER JOIN [Experience] AS [e] ON [t].[MinExperienceId] = [e].[ExperienceId]
+INNER JOIN [Experience] AS [e0] ON [t].[MaxExperienceId] = [e0].[ExperienceId]
+INNER JOIN [PrimarySkill] AS [p] ON [t].[PrimarySkillId] = [p].[PrimarySkillId]
+INNER JOIN [Status] AS [s] ON [t].[StatusId] = [s].[StatusId]
+ORDER BY [t].[JobCode] ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:49:27.3635 - INFO: Executing OkObjectResult, writing value of type 'IAI.Models.Models.Responses.PagedListModel`1[[IAI.Models.Models.Company.Response.JobPostingModel, IAI.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:49:27.3749 - INFO: Executed action IAI.WebAPI.Controllers.Company.JobPostingController.GetJobPostingsForRecruiter (IAI.WebAPI) in 940.5186ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:49:27.3749 - INFO: Executed endpoint 'IAI.WebAPI.Controllers.Company.JobPostingController.GetJobPostingsForRecruiter (IAI.WebAPI)' ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:49:27.3749 - INFO: Request finished HTTP/2 POST https://localhost:7254/api/JobPosting/getJobPostings application/json 166 - 200 - application/json;+charset=utf-8 948.9072ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:51:00.3409 - INFO: Request starting HTTP/2 OPTIONS https://localhost:7254/api/Account/UserDetails - - ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:51:00.3409 - INFO: CORS policy execution successful. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:51:00.3409 - INFO: Request finished HTTP/2 OPTIONS https://localhost:7254/api/Account/UserDetails - - - 204 - - 1.6416ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:51:00.3409 - INFO: Request starting HTTP/2 GET https://localhost:7254/api/Account/UserDetails - - ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:51:00.3409 - INFO: CORS policy execution successful. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:51:00.3409 - INFO: Executing endpoint 'IAI.WebAPI.Controllers.AccountController.GetUserDetails (IAI.WebAPI)' ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:51:00.3409 - INFO: Route matched with {action = "GetUserDetails", controller = "Account"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserDetails() on controller IAI.WebAPI.Controllers.AccountController (IAI.WebAPI). ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:51:00.6561 - INFO: Executed DbCommand (298ms) [Parameters=[@__userId_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[CreatedBy], [u].[CreatedDate], [u].[DeletedBy], [u].[DeletedDate], [u].[FailedPasswordAttemptCount], [u].[IsActive], [u].[IsLockedOut], [u].[IsPasswordChanged], [u].[IsVerified], [u].[LastActivityDate], [u].[LastLockoutDate], [u].[LastLoginDate], [u].[LastPasswordChangedDate], [u].[LoweredUserName], [u].[ModifiedBy], [u].[ModifiedDate], [u].[Password], [u].[PasswordFormat], [u].[PasswordResetRequestActive], [u].[PasswordSalt], [u].[UniqueId], [u].[UserName], [u].[VerificationCode]
+FROM [UserMaster] AS [u]
+WHERE [u].[UserId] = @__userId_0 AND [u].[IsActive] = CAST(1 AS bit) ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:51:00.9243 - INFO: Executed DbCommand (262ms) [Parameters=[@__userId_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[UserRoleId], [u].[CreatedBy], [u].[CreatedDate], [u].[DeletedBy], [u].[DeletedDate], [u].[IsActive], [u].[ModifiedBy], [u].[ModifiedDate], [u].[RoleId], [u].[UserId], [r].[RoleId], [r].[CreatedBy], [r].[CreatedDate], [r].[DeletedBy], [r].[DeletedDate], [r].[Description], [r].[IsActive], [r].[ModifiedBy], [r].[ModifiedDate], [r].[RoleName]
+FROM [UserRole] AS [u]
+INNER JOIN [Role] AS [r] ON [u].[RoleId] = [r].[RoleId]
+WHERE [u].[UserId] = @__userId_0 AND [u].[IsActive] = CAST(1 AS bit) ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:51:01.1790 - INFO: Executed DbCommand (253ms) [Parameters=[@__userId_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [c].[CompanyId], [c].[Address], [c].[CityId], [c].[ContactPersonEmailId], [c].[ContactPersonName], [c].[ContactPersonPhoneNumber], [c].[CountryId], [c].[CreatedBy], [c].[CreatedDate], [c].[DeletedBy], [c].[DeletedDate], [c].[EmailId], [c].[IsActive], [c].[MobileNumber], [c].[ModifiedBy], [c].[ModifiedDate], [c].[Name], [c].[UserId], [c].[Website]
+FROM [CompanyProfile] AS [c]
+WHERE [c].[UserId] = @__userId_0 ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:51:01.4317 - INFO: Executed DbCommand (252ms) [Parameters=[@__userId_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [u].[RoleId]
+FROM [UserRole] AS [u]
+WHERE [u].[UserId] = @__userId_0 ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:51:01.6948 - INFO: Executed DbCommand (262ms) [Parameters=[@__roleId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT [r].[RoleScreenId], [r].[CreatedBy], [r].[CreatedDate], [r].[DeletedBy], [r].[DeletedDate], [r].[IsActive], [r].[ModifiedBy], [r].[ModifiedDate], [r].[RoleId], [r].[ScreenId], [r0].[RoleId], [r0].[CreatedBy], [r0].[CreatedDate], [r0].[DeletedBy], [r0].[DeletedDate], [r0].[Description], [r0].[IsActive], [r0].[ModifiedBy], [r0].[ModifiedDate], [r0].[RoleName], [s].[ScreenId], [s].[CreatedBy], [s].[CreatedDate], [s].[DeletedBy], [s].[DeletedDate], [s].[Description], [s].[Icon], [s].[IsActive], [s].[MenuLevel], [s].[ModifiedBy], [s].[ModifiedDate], [s].[ParentId], [s].[RoutePath], [s].[ScreenName], [s].[ScreenOrder]
+FROM [RoleScreenMapping] AS [r]
+INNER JOIN [Role] AS [r0] ON [r].[RoleId] = [r0].[RoleId]
+INNER JOIN [Screen] AS [s] ON [r].[ScreenId] = [s].[ScreenId]
+WHERE [r].[RoleId] = @__roleId_0 ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:51:01.9873 - INFO: Executed DbCommand (289ms) [Parameters=[@__roleId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT [r].[RoleId], [r0].[RoleName], [r].[ScreenId], [s].[ScreenName], [s].[Description] AS [DisplayName], [s].[RoutePath], [s].[Icon], [s].[MenuLevel], [s].[ParentId]
+FROM [RoleScreenMapping] AS [r]
+INNER JOIN [Screen] AS [s] ON [r].[ScreenId] = [s].[ScreenId]
+INNER JOIN [Role] AS [r0] ON [r].[RoleId] = [r0].[RoleId]
+WHERE [r].[RoleId] = @__roleId_0
+ORDER BY [s].[ScreenOrder] ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:51:01.9873 - INFO: Executing OkObjectResult, writing value of type 'IAI.Models.Models.Responses.BaseResponse`1[[IAI.Models.Models.UserDetailsModel, IAI.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:51:01.9873 - INFO: Executed action IAI.WebAPI.Controllers.AccountController.GetUserDetails (IAI.WebAPI) in 1638.9631ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:51:01.9873 - INFO: Executed endpoint 'IAI.WebAPI.Controllers.AccountController.GetUserDetails (IAI.WebAPI)' ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:51:01.9873 - INFO: Request finished HTTP/2 GET https://localhost:7254/api/Account/UserDetails - - - 200 - application/json;+charset=utf-8 1640.1594ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:51:02.1031 - INFO: Request starting HTTP/2 OPTIONS https://localhost:7254/api/JobPosting/getCompanyConfiguration/6ad6c0a0-9e1a-4679-0806-08dc19c885f0 - - ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:51:02.1061 - INFO: Request starting HTTP/2 OPTIONS https://localhost:7254/api/MasterData/GetJobTypes - - ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:51:02.1061 - INFO: CORS policy execution successful. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:51:02.1061 - INFO: CORS policy execution successful. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:51:02.1061 - INFO: Request starting HTTP/2 OPTIONS https://localhost:7254/api/MasterData/GetInterviewTypes - - ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:51:02.1061 - INFO: CORS policy execution successful. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:51:02.1061 - INFO: Request finished HTTP/2 OPTIONS https://localhost:7254/api/MasterData/GetJobTypes - - - 204 - - 0.2642ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:51:02.1061 - INFO: Request finished HTTP/2 OPTIONS https://localhost:7254/api/JobPosting/getCompanyConfiguration/6ad6c0a0-9e1a-4679-0806-08dc19c885f0 - - - 204 - - 3.2792ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:51:02.1061 - INFO: Request finished HTTP/2 OPTIONS https://localhost:7254/api/MasterData/GetInterviewTypes - - - 204 - - 0.1480ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:51:02.1328 - INFO: Request starting HTTP/2 OPTIONS https://localhost:7254/api/MasterData/GetDomains - - ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:51:02.1328 - INFO: CORS policy execution successful. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:51:02.1328 - INFO: Request finished HTTP/2 OPTIONS https://localhost:7254/api/MasterData/GetDomains - - - 204 - - 0.5430ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:51:02.1568 - INFO: Request starting HTTP/2 OPTIONS https://localhost:7254/api/MasterData/GetPrimarySkills - - ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:51:02.1568 - INFO: Request starting HTTP/2 OPTIONS https://localhost:7254/api/MasterData/GetExperiences - - ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:51:02.1568 - INFO: CORS policy execution successful. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:51:02.1568 - INFO: Request starting HTTP/2 GET https://localhost:7254/api/JobPosting/getCompanyConfiguration/6ad6c0a0-9e1a-4679-0806-08dc19c885f0 - - ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:51:02.1568 - INFO: Request starting HTTP/2 GET https://localhost:7254/api/MasterData/GetJobTypes - - ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:51:02.1568 - INFO: CORS policy execution successful. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:51:02.1568 - INFO: Request starting HTTP/2 GET https://localhost:7254/api/MasterData/GetInterviewTypes - - ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:51:02.1568 - INFO: CORS policy execution successful. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:51:02.1568 - INFO: CORS policy execution successful. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:51:02.1568 - INFO: Executing endpoint 'IAI.WebAPI.Controllers.MasterDataController.LoadInterviewTypes (IAI.WebAPI)' ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:51:02.1568 - INFO: Executing endpoint 'IAI.WebAPI.Controllers.Company.JobPostingController.GetCompanyConfiguration (IAI.WebAPI)' ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:51:02.1568 - INFO: Request finished HTTP/2 OPTIONS https://localhost:7254/api/MasterData/GetPrimarySkills - - - 204 - - 1.0343ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:51:02.1568 - INFO: Route matched with {action = "GetCompanyConfiguration", controller = "JobPosting"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCompanyConfiguration(System.Guid) on controller IAI.WebAPI.Controllers.Company.JobPostingController (IAI.WebAPI). ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:51:02.1568 - INFO: Request starting HTTP/2 GET https://localhost:7254/api/MasterData/GetDomains - - ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:51:02.1568 - INFO: Route matched with {action = "LoadInterviewTypes", controller = "MasterData"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LoadInterviewTypes() on controller IAI.WebAPI.Controllers.MasterDataController (IAI.WebAPI). ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:51:02.1568 - INFO: CORS policy execution successful. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:51:02.1568 - INFO: Executing endpoint 'IAI.WebAPI.Controllers.MasterDataController.LoadDomains (IAI.WebAPI)' ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:51:02.1568 - INFO: Route matched with {action = "LoadDomains", controller = "MasterData"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LoadDomains() on controller IAI.WebAPI.Controllers.MasterDataController (IAI.WebAPI). ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:51:02.1568 - INFO: CORS policy execution successful. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:51:02.1568 - INFO: Executing endpoint 'IAI.WebAPI.Controllers.MasterDataController.LoadJobTypes (IAI.WebAPI)' ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:51:02.1568 - INFO: Route matched with {action = "LoadJobTypes", controller = "MasterData"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LoadJobTypes() on controller IAI.WebAPI.Controllers.MasterDataController (IAI.WebAPI). ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:51:02.1568 - INFO: Request starting HTTP/2 GET https://localhost:7254/api/MasterData/GetPrimarySkills - - ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:51:02.1568 - INFO: CORS policy execution successful. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:51:02.1568 - INFO: Executing endpoint 'IAI.WebAPI.Controllers.MasterDataController.LoadPrimarySkills (IAI.WebAPI)' ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:51:02.1568 - INFO: Route matched with {action = "LoadPrimarySkills", controller = "MasterData"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LoadPrimarySkills() on controller IAI.WebAPI.Controllers.MasterDataController (IAI.WebAPI). ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:51:02.1568 - INFO: Request starting HTTP/2 GET https://localhost:7254/api/MasterData/GetExperiences - - ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:51:02.1568 - INFO: CORS policy execution successful. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:51:02.1568 - INFO: Executing endpoint 'IAI.WebAPI.Controllers.MasterDataController.LoadExperiences (IAI.WebAPI)' ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:51:02.1568 - INFO: Route matched with {action = "LoadExperiences", controller = "MasterData"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LoadExperiences() on controller IAI.WebAPI.Controllers.MasterDataController (IAI.WebAPI). ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:51:02.1568 - INFO: Request finished HTTP/2 OPTIONS https://localhost:7254/api/MasterData/GetExperiences - - - 204 - - 5.9010ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:51:02.3819 - INFO: Executed DbCommand (223ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [i].[InterviewTypeId] AS [Id], [i].[InterviewTypeName] AS [Name]
+FROM [InterviewType] AS [i]
+WHERE [i].[IsActive] = CAST(1 AS bit)
+ORDER BY [i].[InterviewTypeName] ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:51:02.3819 - INFO: Executed DbCommand (221ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [j].[JobTypeId] AS [Id], [j].[JobTypeName] AS [Name]
+FROM [JobType] AS [j]
+ORDER BY [j].[JobTypeName] ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:51:02.3819 - INFO: Executing OkObjectResult, writing value of type 'IAI.Models.Models.Responses.BaseResponseList`1[[IAI.Models.Models.Common.IdNameModel, IAI.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:51:02.3819 - INFO: Executing OkObjectResult, writing value of type 'IAI.Models.Models.Responses.BaseResponseList`1[[IAI.Models.Models.Common.IdNameModel, IAI.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:51:02.3819 - INFO: Executed action IAI.WebAPI.Controllers.MasterDataController.LoadInterviewTypes (IAI.WebAPI) in 224.7215ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:51:02.3819 - INFO: Executed endpoint 'IAI.WebAPI.Controllers.MasterDataController.LoadInterviewTypes (IAI.WebAPI)' ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:51:02.3819 - INFO: Executed action IAI.WebAPI.Controllers.MasterDataController.LoadJobTypes (IAI.WebAPI) in 224.0395ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:51:02.3819 - INFO: Executed endpoint 'IAI.WebAPI.Controllers.MasterDataController.LoadJobTypes (IAI.WebAPI)' ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:51:02.3819 - INFO: Request finished HTTP/2 GET https://localhost:7254/api/MasterData/GetInterviewTypes - - - 200 - application/json;+charset=utf-8 225.4511ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:51:02.3819 - INFO: Request finished HTTP/2 GET https://localhost:7254/api/MasterData/GetJobTypes - - - 200 - application/json;+charset=utf-8 225.8264ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:51:02.4109 - INFO: Executed DbCommand (252ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [d].[DomainId] AS [Id], [d].[DomainName] AS [Name]
+FROM [Domain] AS [d]
+WHERE [d].[IsActive] = CAST(1 AS bit)
+ORDER BY [d].[DomainName] ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:51:02.4109 - INFO: Executing OkObjectResult, writing value of type 'IAI.Models.Models.Responses.BaseResponseList`1[[IAI.Models.Models.Common.IdNameModel, IAI.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:51:02.4109 - INFO: Executed action IAI.WebAPI.Controllers.MasterDataController.LoadDomains (IAI.WebAPI) in 253.2053ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:51:02.4109 - INFO: Executed endpoint 'IAI.WebAPI.Controllers.MasterDataController.LoadDomains (IAI.WebAPI)' ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:51:02.4109 - INFO: Request finished HTTP/2 GET https://localhost:7254/api/MasterData/GetDomains - - - 200 - application/json;+charset=utf-8 253.7532ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:51:03.4607 - INFO: Executed DbCommand (223ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [e].[ExperienceId] AS [Id], [e].[ExperienceName] AS [Name]
+FROM [Experience] AS [e] ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:51:03.4607 - INFO: Executing OkObjectResult, writing value of type 'IAI.Models.Models.Responses.BaseResponseList`1[[IAI.Models.Models.Common.IdNameModel, IAI.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:51:03.4607 - INFO: Executed action IAI.WebAPI.Controllers.MasterDataController.LoadExperiences (IAI.WebAPI) in 1294.7645ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:51:03.4607 - INFO: Executed endpoint 'IAI.WebAPI.Controllers.MasterDataController.LoadExperiences (IAI.WebAPI)' ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:51:03.4607 - INFO: Request finished HTTP/2 GET https://localhost:7254/api/MasterData/GetExperiences - - - 200 - application/json;+charset=utf-8 1295.8170ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:51:03.4926 - INFO: Executed DbCommand (256ms) [Parameters=[@__userId_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [s].[CompanyId]
+FROM [SubUser] AS [s]
+WHERE [s].[UserId] = @__userId_0 ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:51:03.4926 - INFO: Executed DbCommand (256ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[PrimarySkillId] AS [Id], [p].[PrimarySkillName] AS [Name]
+FROM [PrimarySkill] AS [p]
+WHERE [p].[IsActive] = CAST(1 AS bit)
+ORDER BY [p].[PrimarySkillName] ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:51:03.4926 - INFO: Executing OkObjectResult, writing value of type 'IAI.Models.Models.Responses.BaseResponseList`1[[IAI.Models.Models.Common.IdNameModel, IAI.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:51:03.4926 - INFO: Executed action IAI.WebAPI.Controllers.MasterDataController.LoadPrimarySkills (IAI.WebAPI) in 1328.4769ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:51:03.4926 - INFO: Executed endpoint 'IAI.WebAPI.Controllers.MasterDataController.LoadPrimarySkills (IAI.WebAPI)' ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:51:03.4926 - INFO: Request finished HTTP/2 GET https://localhost:7254/api/MasterData/GetPrimarySkills - - - 200 - application/json;+charset=utf-8 1330.1504ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:51:03.7454 - INFO: Executed DbCommand (251ms) [Parameters=[@__companyId_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [c].[CountryId]
+FROM [CompanyProfile] AS [c]
+WHERE [c].[CompanyId] = @__companyId_0 ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:51:03.7454 - INFO: Executing OkObjectResult, writing value of type 'IAI.Models.Models.Responses.BaseResponse`1[[IAI.Models.Models.Company.Response.CompanyConfigurationModel, IAI.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:51:03.7454 - INFO: Executed action IAI.WebAPI.Controllers.Company.JobPostingController.GetCompanyConfiguration (IAI.WebAPI) in 1588.2949ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:51:03.7454 - INFO: Executed endpoint 'IAI.WebAPI.Controllers.Company.JobPostingController.GetCompanyConfiguration (IAI.WebAPI)' ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:51:03.7454 - INFO: Request finished HTTP/2 GET https://localhost:7254/api/JobPosting/getCompanyConfiguration/6ad6c0a0-9e1a-4679-0806-08dc19c885f0 - - - 200 - application/json;+charset=utf-8 1589.5844ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:51:03.7570 - INFO: Request starting HTTP/2 OPTIONS https://localhost:7254/api/MasterData/GetCities/1 - - ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:51:03.7570 - INFO: CORS policy execution successful. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:51:03.7570 - INFO: Request finished HTTP/2 OPTIONS https://localhost:7254/api/MasterData/GetCities/1 - - - 204 - - 0.2103ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:51:03.7570 - INFO: Request starting HTTP/2 OPTIONS https://localhost:7254/api/Designation/fillDesignations/340793f0-a09c-42dc-8584-08dc16b6f26f - - ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:51:03.7570 - INFO: CORS policy execution successful. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:51:03.7570 - INFO: Request starting HTTP/2 GET https://localhost:7254/api/MasterData/GetCities/1 - - ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:51:03.7570 - INFO: CORS policy execution successful. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:51:03.7570 - INFO: Request finished HTTP/2 OPTIONS https://localhost:7254/api/Designation/fillDesignations/340793f0-a09c-42dc-8584-08dc16b6f26f - - - 204 - - 1.0616ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:51:03.7655 - INFO: Executing endpoint 'IAI.WebAPI.Controllers.MasterDataController.LoadCities (IAI.WebAPI)' ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:51:03.7655 - INFO: Route matched with {action = "LoadCities", controller = "MasterData"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LoadCities(Int32) on controller IAI.WebAPI.Controllers.MasterDataController (IAI.WebAPI). ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:51:03.7889 - INFO: Request starting HTTP/2 GET https://localhost:7254/api/Designation/fillDesignations/340793f0-a09c-42dc-8584-08dc16b6f26f - - ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:51:03.7889 - INFO: CORS policy execution successful. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:51:03.7889 - INFO: Executing endpoint 'IAI.WebAPI.Controllers.Company.DesignationController.FillDesignations (IAI.WebAPI)' ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:51:03.7889 - INFO: Route matched with {action = "FillDesignations", controller = "Designation"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] FillDesignations(System.Guid) on controller IAI.WebAPI.Controllers.Company.DesignationController (IAI.WebAPI). ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:51:04.0634 - INFO: Executed DbCommand (280ms) [Parameters=[@__countryId_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT [c].[CityId] AS [Id], [c].[CityName] AS [Name]
+FROM [City] AS [c]
+WHERE [c].[CountryId] = @__countryId_0 AND [c].[IsActive] = CAST(1 AS bit)
+ORDER BY [c].[CityName] ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:51:04.0634 - INFO: Executing OkObjectResult, writing value of type 'IAI.Models.Models.Responses.BaseResponseList`1[[IAI.Models.Models.Common.IdNameModel, IAI.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:51:04.0634 - INFO: Executed action IAI.WebAPI.Controllers.MasterDataController.LoadCities (IAI.WebAPI) in 298.5905ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:51:04.0634 - INFO: Executed endpoint 'IAI.WebAPI.Controllers.MasterDataController.LoadCities (IAI.WebAPI)' ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:51:04.0634 - INFO: Request finished HTTP/2 GET https://localhost:7254/api/MasterData/GetCities/1 - - - 200 - application/json;+charset=utf-8 303.3024ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:51:04.0912 - INFO: Executed DbCommand (293ms) [Parameters=[@__companyId_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SELECT [d].[DesignationName] AS [Name], [d].[DesignationId] AS [GuId]
+FROM [Designation] AS [d]
+WHERE [d].[CompanyId] = @__companyId_0 AND [d].[IsActive] = CAST(1 AS bit) ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:51:04.0912 - INFO: Executing OkObjectResult, writing value of type 'IAI.Models.Models.Responses.BaseResponseList`1[[IAI.Models.Models.Common.IdNameModel, IAI.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:51:04.0912 - INFO: Executed action IAI.WebAPI.Controllers.Company.DesignationController.FillDesignations (IAI.WebAPI) in 298.7339ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:51:04.0912 - INFO: Executed endpoint 'IAI.WebAPI.Controllers.Company.DesignationController.FillDesignations (IAI.WebAPI)' ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:51:04.0912 - INFO: Request finished HTTP/2 GET https://localhost:7254/api/Designation/fillDesignations/340793f0-a09c-42dc-8584-08dc16b6f26f - - - 200 - application/json;+charset=utf-8 303.5963ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:51:04.1109 - INFO: Request starting HTTP/2 OPTIONS https://localhost:7254/api/JobPosting/getJobPostings - - ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:51:04.1109 - INFO: CORS policy execution successful. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:51:04.1109 - INFO: Request finished HTTP/2 OPTIONS https://localhost:7254/api/JobPosting/getJobPostings - - - 204 - - 0.5547ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:51:04.1109 - INFO: Request starting HTTP/2 POST https://localhost:7254/api/JobPosting/getJobPostings application/json 166 ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:51:04.1109 - INFO: CORS policy execution successful. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:51:04.1109 - INFO: Executing endpoint 'IAI.WebAPI.Controllers.Company.JobPostingController.GetJobPostingsForRecruiter (IAI.WebAPI)' ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:51:04.1109 - INFO: Route matched with {action = "GetJobPostingsForRecruiter", controller = "JobPosting"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetJobPostingsForRecruiter(IAI.Models.Models.Company.Request.JobPostingSearchInputModel) on controller IAI.WebAPI.Controllers.Company.JobPostingController (IAI.WebAPI). ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:51:04.3736 - INFO: Executed DbCommand (256ms) [Parameters=[@__inputParms_UserId_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [CompanyRequirementRecruiterDetail] AS [c]
+INNER JOIN [CompanyRequirement] AS [c0] ON [c].[RequirementId] = [c0].[RequirementId]
+WHERE [c].[RecruiterId] = @__inputParms_UserId_0 AND [c].[IsActive] = CAST(1 AS bit) ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:51:04.6375 - INFO: Executed DbCommand (262ms) [Parameters=[@__inputParms_UserId_0='?' (DbType = Guid), @__p_1='?' (DbType = Int32), @__p_2='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT [t].[RequirementId], [t].[CompanyId], [t].[JobCode], [d].[DesignationName], [j].[JobTypeName], [e].[ExperienceName], [e0].[ExperienceName], [t].[HighestPay], [p].[PrimarySkillName], [t].[StartDate], [t].[EndDate], [s].[StatusName], [t].[AddInterviewProcess]
+FROM (
+    SELECT [c].[RequirementId], [c0].[AddInterviewProcess], [c0].[CompanyId], [c0].[DesignationId], [c0].[EndDate], [c0].[HighestPay], [c0].[JobCode], [c0].[JobTypeId], [c0].[MaxExperienceId], [c0].[MinExperienceId], [c0].[PrimarySkillId], [c0].[StartDate], [c0].[StatusId]
+    FROM [CompanyRequirementRecruiterDetail] AS [c]
+    INNER JOIN [CompanyRequirement] AS [c0] ON [c].[RequirementId] = [c0].[RequirementId]
+    WHERE [c].[RecruiterId] = @__inputParms_UserId_0 AND [c].[IsActive] = CAST(1 AS bit)
+    ORDER BY [c0].[JobCode]
+    OFFSET @__p_1 ROWS FETCH NEXT @__p_2 ROWS ONLY
+) AS [t]
+INNER JOIN [Designation] AS [d] ON [t].[DesignationId] = [d].[DesignationId]
+INNER JOIN [JobType] AS [j] ON [t].[JobTypeId] = [j].[JobTypeId]
+INNER JOIN [Experience] AS [e] ON [t].[MinExperienceId] = [e].[ExperienceId]
+INNER JOIN [Experience] AS [e0] ON [t].[MaxExperienceId] = [e0].[ExperienceId]
+INNER JOIN [PrimarySkill] AS [p] ON [t].[PrimarySkillId] = [p].[PrimarySkillId]
+INNER JOIN [Status] AS [s] ON [t].[StatusId] = [s].[StatusId]
+ORDER BY [t].[JobCode] ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:51:04.6381 - INFO: Executing OkObjectResult, writing value of type 'IAI.Models.Models.Responses.PagedListModel`1[[IAI.Models.Models.Company.Response.JobPostingModel, IAI.Models, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:51:04.6381 - INFO: Executed action IAI.WebAPI.Controllers.Company.JobPostingController.GetJobPostingsForRecruiter (IAI.WebAPI) in 523.956ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:51:04.6381 - INFO: Executed endpoint 'IAI.WebAPI.Controllers.Company.JobPostingController.GetJobPostingsForRecruiter (IAI.WebAPI)' ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-01-25 19:51:04.6381 - INFO: Request finished HTTP/2 POST https://localhost:7254/api/JobPosting/getJobPostings application/json 166 - 200 - application/json;+charset=utf-8 524.9521ms ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-02-25 22:34:25.6812 - INFO: User profile is available. Using 'C:\Users\lenovo\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-02-25 22:34:25.7276 - INFO: Creating key {3897cbfd-0b6f-47fa-af60-ed07ed45433b} with creation date 2024-02-26 06:34:25Z, activation date 2024-02-26 06:34:25Z, and expiration date 2024-05-26 06:34:25Z. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-02-25 22:34:25.8301 - INFO: Writing data to file 'C:\Users\lenovo\AppData\Local\ASP.NET\DataProtection-Keys\key-3897cbfd-0b6f-47fa-af60-ed07ed45433b.xml'. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-02-25 22:34:26.7138 - INFO: Now listening on: https://localhost:7254 ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-02-25 22:34:26.7138 - INFO: Now listening on: http://localhost:5254 ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-02-25 22:34:26.9322 - INFO: Application started. Press Ctrl+C to shut down. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-02-25 22:34:26.9322 - INFO: Hosting environment: Development ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-02-25 22:34:26.9322 - INFO: Content root path: C:\Users\lenovo\Documents\GitHub\IAI_Test\WebAPI\IAI.WebAPI\ ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-02-25 22:35:09.7267 - INFO: User profile is available. Using 'C:\Users\lenovo\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-02-25 22:35:10.1532 - INFO: Now listening on: https://localhost:7254 ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-02-25 22:35:10.1532 - INFO: Now listening on: http://localhost:5254 ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-02-25 22:35:10.3858 - INFO: Application started. Press Ctrl+C to shut down. ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-02-25 22:35:10.3858 - INFO: Hosting environment: Development ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}
+2024-02-25 22:35:10.3858 - INFO: Content root path: C:\Users\lenovo\Documents\GitHub\IAI_Test\WebAPI\IAI.WebAPI\ ${newline}EXCEPTION: ${exception: ToString:maxInnerExceptionLevel=3}

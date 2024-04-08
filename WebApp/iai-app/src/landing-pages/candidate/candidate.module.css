@@ -1,0 +1,14 @@
+.candidateDashboardHeader {
+    font-size: 13px;
+    color: #969696;
+}
+
+.ratingDonut {
+    height: 100px;
+    width: 100px;
+}
+
+.viewRatingLink {
+    color: #3e98c7;
+    font-weight: 500;
+}

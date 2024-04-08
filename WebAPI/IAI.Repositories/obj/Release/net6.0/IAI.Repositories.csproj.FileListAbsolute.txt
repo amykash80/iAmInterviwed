@@ -1,0 +1,17 @@
+D:\Antern\IAmInterviewed\IAmInterviewed\Code\IAI\WebAPI\IAI.Repositories\bin\Release\net6.0\IAI.Repositories.deps.json
+D:\Antern\IAmInterviewed\IAmInterviewed\Code\IAI\WebAPI\IAI.Repositories\bin\Release\net6.0\IAI.Repositories.runtimeconfig.json
+D:\Antern\IAmInterviewed\IAmInterviewed\Code\IAI\WebAPI\IAI.Repositories\bin\Release\net6.0\IAI.Repositories.dll
+D:\Antern\IAmInterviewed\IAmInterviewed\Code\IAI\WebAPI\IAI.Repositories\bin\Release\net6.0\IAI.Repositories.pdb
+D:\Antern\IAmInterviewed\IAmInterviewed\Code\IAI\WebAPI\IAI.Repositories\bin\Release\net6.0\IAI.Models.dll
+D:\Antern\IAmInterviewed\IAmInterviewed\Code\IAI\WebAPI\IAI.Repositories\bin\Release\net6.0\IAI.Models.pdb
+D:\Antern\IAmInterviewed\IAmInterviewed\Code\IAI\WebAPI\IAI.Repositories\obj\Release\net6.0\IAI.Repositories.csproj.AssemblyReference.cache
+D:\Antern\IAmInterviewed\IAmInterviewed\Code\IAI\WebAPI\IAI.Repositories\obj\Release\net6.0\IAI.Repositories.GeneratedMSBuildEditorConfig.editorconfig
+D:\Antern\IAmInterviewed\IAmInterviewed\Code\IAI\WebAPI\IAI.Repositories\obj\Release\net6.0\IAI.Repositories.AssemblyInfoInputs.cache
+D:\Antern\IAmInterviewed\IAmInterviewed\Code\IAI\WebAPI\IAI.Repositories\obj\Release\net6.0\IAI.Repositories.AssemblyInfo.cs
+D:\Antern\IAmInterviewed\IAmInterviewed\Code\IAI\WebAPI\IAI.Repositories\obj\Release\net6.0\IAI.Repositories.csproj.CoreCompileInputs.cache
+D:\Antern\IAmInterviewed\IAmInterviewed\Code\IAI\WebAPI\IAI.Repositories\obj\Release\net6.0\IAI.Repositories.csproj.CopyComplete
+D:\Antern\IAmInterviewed\IAmInterviewed\Code\IAI\WebAPI\IAI.Repositories\obj\Release\net6.0\IAI.Repositories.dll
+D:\Antern\IAmInterviewed\IAmInterviewed\Code\IAI\WebAPI\IAI.Repositories\obj\Release\net6.0\refint\IAI.Repositories.dll
+D:\Antern\IAmInterviewed\IAmInterviewed\Code\IAI\WebAPI\IAI.Repositories\obj\Release\net6.0\IAI.Repositories.pdb
+D:\Antern\IAmInterviewed\IAmInterviewed\Code\IAI\WebAPI\IAI.Repositories\obj\Release\net6.0\IAI.Repositories.genruntimeconfig.cache
+D:\Antern\IAmInterviewed\IAmInterviewed\Code\IAI\WebAPI\IAI.Repositories\obj\Release\net6.0\ref\IAI.Repositories.dll

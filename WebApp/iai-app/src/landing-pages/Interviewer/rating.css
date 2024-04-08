@@ -1,0 +1,42 @@
+.rating-value-lable {
+    color: #00950c;
+    font-size: 15px;
+    border-bottom: 1px dashed #00950c;
+}
+
+.rating-tip-header {
+    color: #00950c;
+    font-weight: 400;
+    padding: 20px 0 20px 0;
+}
+
+.rating-tips {
+    line-height: 15px !important;
+    font-size: 12px !important;
+    margin: 0 0 5px !important;
+}
+
+.accordion {
+    border: 1px solid rgba(0, 0, 0, .125);
+    padding: 0;
+    margin: 10px 0 10px 0 !important;
+}
+
+.accordion .card {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.card-border-bottom {
+    border-bottom: 1px solid rgba(0,0,0,.125) !important;
+}
+
+.accordion .card .card-header button {
+    width: 100%;
+    text-align: left;
+}
+
+.accordion .card .card-header button i {
+    float: right;
+}
